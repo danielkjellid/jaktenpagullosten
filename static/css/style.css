@@ -1,0 +1,72 @@
+
+
+
+
+
+
+
+
+
+.bluecheesecity-container {
+  
+}
+
+.bluecheesecity-background {
+  background-image: url(../img/bluecheesecity.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  
+}
+
+.bluecheesecity-nav ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #413746;
+}
+
+.bluecheesecity-nav li.left {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+.bluecheesecity-nav li.right {
+  float: right;
+}
+
+#bluecheesecity-border {
+  border-left:1px solid #bbb;
+}
+
+#bluecheesecity-cheeseWheel {
+  width: 40px;
+}
+
+.bluecheesecity-notFound {
+  opacity: 0.2;
+}
+
+.bluecheesecity-nav li img{
+  width: 55px;
+  margin: 0;
+  padding: 0;
+}
+
+.bluecheesecity-nav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 35px
+}
+
+.bluecheesecity-nav li a:hover {
+    /*something*/
+}
+
+.bluecheesecity-footer {
+
+}

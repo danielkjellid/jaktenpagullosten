@@ -1,0 +1,1877 @@
+-----------------------------------------------------------------------------------------------------------
+Place: SOGNSVANN [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: SOGNSVANN [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Union 864 | Address: Olav M. Troviks vei 72, Oslo | Rating: 3.9 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: SOGNSVANN [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Tufteparken Sognsvann | Address: Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SiO Athletica Kringsjå | Address: Olav M. Troviks vei 72, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: KRINGSJÅ [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: KRINGSJÅ [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Union 864 | Address: Olav M. Troviks vei 72, Oslo | Rating: 3.9 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Solvang avd. 3 sommersøndagskafé | Address: Solvang Kolonihager avdeling, 3, Oslo | Rating: 5 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: KRINGSJÅ [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: SiO Athletica Kringsjå | Address: Olav M. Troviks vei 72, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Tufteparken Sognsvann | Address: Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: HOLSTEIN [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: HOLSTEIN [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Union 864 | Address: Olav M. Troviks vei 72, Oslo | Rating: 3.9 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Solvang avd. 3 sommersøndagskafé | Address: Solvang Kolonihager avdeling, 3, Oslo | Rating: 5 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: HOLSTEIN [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: SiO Athletica Kringsjå | Address: Olav M. Troviks vei 72, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Tufteparken Sognsvann | Address: Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ØSTHORN [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: ØSTHORN [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: ØSTHORN [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Ullevål og Tåsen Fysioterapi og Trening | Address: Kaj Munks vei 41B, Oslo | Rating: 4.3 | Types: [ physiotherapist, gym, health, point_of_interest, establishment ]
+Name: acfebook@gmail.com | Address: Gjerdrums vei 19, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Neyan nursery | Address: Hauges vei 5, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: TÅSEN [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: TÅSEN [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Baker Hansen Nydalen | Address: Nydalsveien 33, Oslo | Rating: 3.9 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: Godt Brød Nydalen | Address: Nydalsveien 33, Oslo | Rating: 4.4 | Types: [ bakery, cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: JOE & THE JUICE | Address: Nydalsveien 33, Oslo | Rating: 3.7 | Types: [ cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: Godt Brød NY28 | Address: Nydalsveien 28, Oslo | Rating: 4.5 | Types: [ cafe, store, restaurant, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: TÅSEN [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+Name: Viproom Oslo | Address: Maridalsveien 256C, Oslo | Rating: 4 | Types: [ night_club, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: TÅSEN [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Nydalen Bryggeri & Spiseri | Address: Nydalsveien 30A, Oslo | Rating: 4 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: TÅSEN [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Ullevål og Tåsen Fysioterapi og Trening | Address: Kaj Munks vei 41B, Oslo | Rating: 4.3 | Types: [ physiotherapist, gym, health, point_of_interest, establishment ]
+Name: Crossfit Oslo | Address: Nydalsveien 17, Oslo | Rating: 4.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Medisinsk Yoga Øst AS | Address: Nils Lauritssønsvei 34, Oslo | Rating: 4.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: EVO Nydalen | Address: Nydalsveien 36, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fitnesspoint Nydalen treningssenter | Address: Nydalsveien 15, Oslo | Rating: 3.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Neyan nursery | Address: Hauges vei 5, Oslo | Rating: 3.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: acfebook@gmail.com | Address: Gjerdrums vei 19, Oslo | Rating: 3.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Medisinsk Yoga Øst AS | Address: Nils Lauritssøns vei 34, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: BERG [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: BERG [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Baker Hansen | Address: Sognsveien 75, Oslo | Rating: 3.8 | Types: [ cafe, bakery, store, point_of_interest, food, establishment ]
+Name: Solvang avd. 3 sommersøndagskafé | Address: Solvang Kolonihager avdeling, 3, Oslo | Rating: 5 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: BERG [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Amatøren | Address: Rolf E. Stenersens allé 24, Oslo | Rating: 3.9 | Types: [ bar, point_of_interest, establishment ]
+Name: Biljardklubben | Address: Carl Grøndahls vei 4, Oslo | Rating: 3.9 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: BERG [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Ullevål og Tåsen Fysioterapi og Trening | Address: Kaj Munks vei 41B, Oslo | Rating: 4.3 | Types: [ physiotherapist, gym, health, point_of_interest, establishment ]
+Name: ELIXIA Ullevaal Stadion | Address: Sognsveien 75 E–F, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Medisinsk Yoga Øst AS | Address: Nils Lauritssønsvei 34, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Nimi | Address: Sognsveien 75D, Ullevaal Stadion, Oslo | Rating: 4.5 | Types: [ doctor, gym, health, point_of_interest, establishment ]
+Name: Medisinsk Yoga Øst AS | Address: Nils Lauritssøns vei 34, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Neyan nursery | Address: Hauges vei 5, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ULLEVÅL STADION [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: ULLEVÅL STADION [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Baker Hansen | Address: Sognsveien 75, Oslo | Rating: 3.8 | Types: [ cafe, bakery, store, point_of_interest, food, establishment ]
+Name: Bicks Smart Environment | Address: Vestgrensa 4, Oslo | Rating: 4.5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Realistforeningen | Address: Moltke Moes vei 35, Oslo | Rating: 4.8 | Types: [ cafe, bar, point_of_interest, food, establishment ]
+Name: Escape | Address: Ole-Johan Dahls hus, Gaustadalléen 23 B, Oslo | Rating: 4.7 | Types: [ cafe, night_club, bar, point_of_interest, food, establishment ]
+Name: SiO Diggbar | Address: Problemveien 11, Oslo | Rating: 5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: U1 | Address: Moltke Moes vei 31, Oslo | Rating: 4.7 | Types: [ bar, cafe, point_of_interest, food, establishment ]
+Name: Uglebo | Address: Problemveien 13, Oslo | Rating: 4.3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Deiglig | Address: Problemveien 11, Oslo | Rating: 4.3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Espresso House | Address: Oslo | Rating: 3.9 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ULLEVÅL STADION [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+Name: Escape | Address: Ole-Johan Dahls hus, Gaustadalléen 23 B, Oslo | Rating: 4.7 | Types: [ cafe, night_club, bar, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ULLEVÅL STADION [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Amatøren | Address: Rolf E. Stenersens allé 24, Oslo | Rating: 3.9 | Types: [ bar, point_of_interest, establishment ]
+Name: RF-kjelleren | Address: Moltke Moes vei 35, Oslo | Rating: 4.7 | Types: [ bar, point_of_interest, establishment ]
+Name: Realistforeningen | Address: Moltke Moes vei 35, Oslo | Rating: 4.8 | Types: [ cafe, bar, point_of_interest, food, establishment ]
+Name: Partyhetta | Address: Ullevålsalléen 8A, Oslo | Rating: 5 | Types: [ bar, place_of_worship, point_of_interest, establishment ]
+Name: U1 | Address: Moltke Moes vei 31, Oslo | Rating: 4.7 | Types: [ bar, cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ULLEVÅL STADION [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Gaustad museum | Address: Sognsvannsveien 21, Oslo | Rating: 3 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ULLEVÅL STADION [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: ELIXIA Ullevaal Stadion | Address: Sognsveien 75 E–F, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SiO Athletica Domus | Address: Trimveien 4, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Nimi | Address: Sognsveien 75D, Ullevaal Stadion, Oslo | Rating: 4.5 | Types: [ doctor, gym, health, point_of_interest, establishment ]
+Name: Athletica Domus | Address: Trimveien 4, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Medisinsk Yoga Øst AS | Address: Nils Lauritssønsvei 34, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Ullevål Hageby Yoga - Eva Olssøn | Address: Jutulveien 11, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Medisinsk Yoga Øst AS | Address: Nils Lauritssøns vei 34, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SiO Athletica Blindern | Address: Problemveien 13, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: FORSKNINGSPARKEN [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: FORSKNINGSPARKEN [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Escape | Address: Ole-Johan Dahls hus, Gaustadalléen 23 B, Oslo | Rating: 4.7 | Types: [ cafe, night_club, bar, point_of_interest, food, establishment ]
+Name: Norð forskningsparken | Address: Gaustadalléen 21, Oslo | Rating: 4 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: SiO Diggbar | Address: Problemveien 11, Oslo | Rating: 5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Realistforeningen | Address: Moltke Moes vei 35, Oslo | Rating: 4.8 | Types: [ cafe, bar, point_of_interest, food, establishment ]
+Name: Bicks Smart Environment | Address: Vestgrensa 4, Oslo | Rating: 4.5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Baker Hansen Vinderen | Address: Slemdalsveien 70, Oslo | Rating: 4.3 | Types: [ cafe, bakery, store, restaurant, point_of_interest, food, establishment ]
+Name: Baker Hansen | Address: Sognsveien 75, Oslo | Rating: 3.8 | Types: [ cafe, bakery, store, point_of_interest, food, establishment ]
+Name: Uglebo | Address: Problemveien 13, Oslo | Rating: 4.3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Deiglig | Address: Problemveien 11, Oslo | Rating: 4.3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: U1 | Address: Moltke Moes vei 31, Oslo | Rating: 4.7 | Types: [ bar, cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: FORSKNINGSPARKEN [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+Name: Escape | Address: Ole-Johan Dahls hus, Gaustadalléen 23 B, Oslo | Rating: 4.7 | Types: [ cafe, night_club, bar, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: FORSKNINGSPARKEN [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: RF-kjelleren | Address: Moltke Moes vei 35, Oslo | Rating: 4.7 | Types: [ bar, point_of_interest, establishment ]
+Name: Realistforeningen | Address: Moltke Moes vei 35, Oslo | Rating: 4.8 | Types: [ cafe, bar, point_of_interest, food, establishment ]
+Name: U1 | Address: Moltke Moes vei 31, Oslo | Rating: 4.7 | Types: [ bar, cafe, point_of_interest, food, establishment ]
+Name: Kjellern | Address: Sem Sælands vei 7, Oslo | Rating: 4.7 | Types: [ bar, point_of_interest, establishment ]
+Name: Partyhetta | Address: Ullevålsalléen 8A, Oslo | Rating: 5 | Types: [ bar, place_of_worship, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: FORSKNINGSPARKEN [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Gaustad museum | Address: Sognsvannsveien 21, Oslo | Rating: 3 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: FORSKNINGSPARKEN [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Vinderen Dansestudio | Address: Slemdalsveien 72, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SiO Athletica Domus | Address: Trimveien 4, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Athletica Domus | Address: Trimveien 4, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fokusklinikken Vinderen | Address: Rasmus Winderens vei 51, Oslo | Rating: 4.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: CAMA YOGA | Address: Slemdalsveien 63B, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Vinderen | Address: Slemdalsveien 70, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SiO Athletica Blindern | Address: Problemveien 13, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Ullevål Hageby Yoga - Eva Olssøn | Address: Jutulveien 11, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Maria Fürst Yoga | Address: Holmenveien 1, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: BLINDERN [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: BLINDERN [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Norð forskningsparken | Address: Gaustadalléen 21, Oslo | Rating: 4 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: SiO Diggbar | Address: Problemveien 11, Oslo | Rating: 5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Escape | Address: Ole-Johan Dahls hus, Gaustadalléen 23 B, Oslo | Rating: 4.7 | Types: [ cafe, night_club, bar, point_of_interest, food, establishment ]
+Name: Baker Hansen Vinderen | Address: Slemdalsveien 70, Oslo | Rating: 4.3 | Types: [ cafe, bakery, store, restaurant, point_of_interest, food, establishment ]
+Name: Realistforeningen | Address: Moltke Moes vei 35, Oslo | Rating: 4.8 | Types: [ cafe, bar, point_of_interest, food, establishment ]
+Name: Bicks Smart Environment | Address: Vestgrensa 4, Oslo | Rating: 4.5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Deiglig | Address: Problemveien 11, Oslo | Rating: 4.3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Uglebo | Address: Problemveien 13, Oslo | Rating: 4.3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: U1 | Address: Moltke Moes vei 31, Oslo | Rating: 4.7 | Types: [ bar, cafe, point_of_interest, food, establishment ]
+Name: Grazie Mille | Address: Kirkeveien | Rating: 5 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: BLINDERN [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+Name: Escape | Address: Ole-Johan Dahls hus, Gaustadalléen 23 B, Oslo | Rating: 4.7 | Types: [ cafe, night_club, bar, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: BLINDERN [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Chateau Neuf – Det Norske Studentersamfund | Address: Slemdalsveien 15, Oslo | Rating: 4 | Types: [ bar, movie_theater, cafe, point_of_interest, food, establishment ]
+Name: RF-kjelleren | Address: Moltke Moes vei 35, Oslo | Rating: 4.7 | Types: [ bar, point_of_interest, establishment ]
+Name: Realistforeningen | Address: Moltke Moes vei 35, Oslo | Rating: 4.8 | Types: [ cafe, bar, point_of_interest, food, establishment ]
+Name: Kjellern | Address: Sem Sælands vei 7, Oslo | Rating: 4.7 | Types: [ bar, point_of_interest, establishment ]
+Name: U1 | Address: Moltke Moes vei 31, Oslo | Rating: 4.7 | Types: [ bar, cafe, point_of_interest, food, establishment ]
+Name: Partyhetta | Address: Ullevålsalléen 8A, Oslo | Rating: 5 | Types: [ bar, place_of_worship, point_of_interest, establishment ]
+Name: Café Marienlyst | Address: Kirkeveien 104A, Oslo | Rating: 4.2 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: BLINDERN [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Barnekunstmuseet | Address: Lille Frøens vei 4, Oslo | Rating: 3.9 | Types: [ museum, point_of_interest, establishment ]
+Name: Sporveismuseet Vognhall 5 | Address: Gardeveien 15, Oslo | Rating: 4.4 | Types: [ museum, point_of_interest, establishment ]
+Name: Villa Stenersen | Address: Tuengen allé 10C, Oslo | Rating: 4.3 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: BLINDERN [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Vinderen Dansestudio | Address: Slemdalsveien 72, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Vinderen | Address: Slemdalsveien 70, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fokusklinikken Vinderen | Address: Rasmus Winderens vei 51, Oslo | Rating: 4.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: CAMA YOGA | Address: Slemdalsveien 63B, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Athletica Domus | Address: Trimveien 4, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SiO Athletica Domus | Address: Trimveien 4, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SiO Athletica Blindern | Address: Problemveien 13, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Maria Fürst Yoga | Address: Holmenveien 1, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: MAJORSTUEN [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: MAJORSTUEN [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: W.B. Samson - Majorstua | Address: Valkyriegata 8, Oslo | Rating: 3.5 | Types: [ cafe, bakery, store, point_of_interest, food, establishment ]
+Name: Café Billabong | Address: Bogstadveien 53, Oslo | Rating: 3.8 | Types: [ restaurant, cafe, point_of_interest, food, establishment ]
+Name: Baker Hansen Majorstukrysset | Address: Valkyriegata 15, Oslo | Rating: 3.8 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: Majorstuen seniorsenter | Address: Slemdalsveien 3A, Oslo | Rating: 4.2 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Casa Del Maggiore | Address: Sørkedalsveien 3, Oslo | Rating: 4 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Espresso House | Address: Valkyriegata 9, Oslo | Rating: 4.1 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Starbucks Bogstadveien | Address: Bogstadveien 60A, Oslo | Rating: 3.9 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Lille Valkyrien Kaffe og Tehus | Address: Jacob Aalls gate 17, Oslo | Rating: 4.7 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Karabista | Address: Middelthuns gate 25A, Oslo | Rating: 3.2 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Espresso House | Address: Bogstadveien 36, Oslo | Rating: 4 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: OSLOK | Address: Jacob Aalls gate 54, Oslo | Rating: 4 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Joe & The Juice Bogstadveien 21 | Address: Bogstadveien 21, Oslo | Rating: 3 | Types: [ cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: Café Afrikaden | Address: Pilestredet 75C, Oslo | Rating: 4.7 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: JOE & THE JUICE | Address: Bogstadveien 1, Oslo | Rating: 3.8 | Types: [ cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: Kaffebrenneriet avd Theresesgate | Address: Thereses gate 35B, Oslo | Rating: 4.4 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Pust | Address: Slemdalsveien 1, Oslo | Rating: 4.5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Cafe Condio - Oslo Røde Kors | Address: 0369, Bogstadveien 76A, Oslo | Rating: 4.9 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Kaffebrenneriet avd. Colosseum | Address: Fridtjof Nansens vei 5, Oslo | Rating: 4.1 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: ELGRECO | Address: Kirkeveien 48, Oslo | Rating: 5 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: MAJORSTUEN [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+Name: Kundalini Yoga Skolen AS | Address: Professor Dahls gate 30, Oslo | Types: [ night_club, bar, gym, store, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: MAJORSTUEN [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Chateau Neuf – Det Norske Studentersamfund | Address: Slemdalsveien 15, Oslo | Rating: 4 | Types: [ bar, movie_theater, cafe, point_of_interest, food, establishment ]
+Name: Den Gamle Major | Address: Bogstadveien 66, Oslo | Rating: 4 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Oslo Mikrobryggeri | Address: Bogstadveien 6, Oslo | Rating: 4.3 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: The Broker | Address: Bogstadveien 27, Oslo | Rating: 3.9 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: The Highbury Pub | Address: Bogstadveien 50, Oslo | Rating: 4.1 | Types: [ bar, point_of_interest, establishment ]
+Name: Perrongen Sportspub | Address: Sørkedalsveien 1, Oslo | Rating: 4 | Types: [ bar, point_of_interest, establishment ]
+Name: The Pub | Address: Majorstuveien 34, Oslo | Rating: 4.1 | Types: [ bar, point_of_interest, establishment ]
+Name: Kundalini Yoga Skolen AS | Address: Professor Dahls gate 30, Oslo | Rating: 4.1 | Types: [ night_club, bar, gym, store, health, point_of_interest, establishment ]
+Name: Lille Chef | Address: Majorstuveien 34, Oslo | Rating: 4.1 | Types: [ bar, point_of_interest, establishment ]
+Name: Kverneriet Majorstuen | Address: Kirkeveien 64B, Oslo | Rating: 4.5 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: The Finest cut AS | Address: Bogstadveien 27, Oslo | Rating: 4.5 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Café Marienlyst | Address: Kirkeveien 104A, Oslo | Rating: 4.2 | Types: [ bar, point_of_interest, establishment ]
+Name: Abbaye des Bislett | Address: Sporveisgata 8B, Oslo | Rating: 5 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: U11 | Address: Underhaugsveien 11A, Oslo | Rating: 5 | Types: [ bar, point_of_interest, establishment ]
+Name: Pedro’s | Address: Hegdehaugsveien 36C, Oslo | Rating: 4.8 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Homan Bistro & Bar | Address: Bogstadveien 1, Oslo | Rating: 3.8 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Kjellern | Address: Sem Sælands vei 7, Oslo | Rating: 4.7 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: MAJORSTUEN [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Vigelandsparken | Address: Nobels gate 32, Oslo | Rating: 4.6 | Types: [ museum, park, point_of_interest, establishment ]
+Name: Barnekunstmuseet | Address: Lille Frøens vei 4, Oslo | Rating: 3.9 | Types: [ museum, point_of_interest, establishment ]
+Name: Sporveismuseet Vognhall 5 | Address: Gardeveien 15, Oslo | Rating: 4.4 | Types: [ museum, point_of_interest, establishment ]
+Name: Skøytemuseet | Address: Middelthuns gate 26, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Bymuseet | Address: Frognerveien 67, Oslo | Rating: 4.2 | Types: [ museum, point_of_interest, establishment ]
+Name: 怒りん坊の像 | Address: Oslo | Rating: 4.2 | Types: [ museum, point_of_interest, establishment ]
+Name: GALLERI ASUR | Address: Uranienborg Terrasse 15, Oslo | Rating: 4.2 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: MAJORSTUEN [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: OK klinikken AS | Address: Valkyriegata 8, Oslo | Rating: 4.7 | Types: [ gym, health, point_of_interest, school, establishment ]
+Name: BALANCE yoga & pilatesstudio | Address: Rosenborggata 9, Oslo | Rating: 4.1 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Colosseum | Address: Middelthuns gate 19, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Artesia Spa Majorstuen | Address: Majorstuveien 36, Oslo | Rating: 4.1 | Types: [ spa, gym, health, point_of_interest, establishment ]
+Name: PRESENCE yoga | Address: Rosenborggata 16, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: FitnessXpress avd Bislet | Address: Pilestredet 75C, Oslo | Rating: 4.6 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Norsk Yoga-skole | Address: Sporveisgata 37, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: EVO Majorstua | Address: Sørkedalsveien 9, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fresh Fitness Majorstuen | Address: Bogstadveien 9A, Oslo | Rating: 3.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Friskis&Svettis Majorstuen | Address: Colosseum Senter, Sørkedalsveien 10A, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, school, establishment ]
+Name: StudioDay Majorstua | Address: Sørkedalsveien 10, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: RpmGym AS | Address: Industrigata 36, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Oslo PT Studio | Address: Fridtjof Nansens vei 14, Oslo | Rating: 4.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Kundalini Yoga Skolen - Senter for Bevegelse, Helse & Bevissthet | Address: Professor Dahls gate 30, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Mandala Yoga AS | Address: 64 Kirkeveien | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Vitales | Address: Bogstadveien 51, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, school, establishment ]
+Name: Colosseum Kiropraktorklinikk/Bjargosenteret | Address: Middelthuns gate 19, Oslo | Rating: 3.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Synergytrening AS | Address: Valkyriegata 5, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Studioday | Address: Sørkedalsveien 10A, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: HiYoga - Oslo Vest | Address: Schultz' gate 1, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, school, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: NATIONALTHEATRET [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: NATIONALTHEATRET [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Elias mat & sånt | Address: Kristian Augusts gate 14, Oslo | Rating: 4.4 | Types: [ restaurant, cafe, point_of_interest, food, establishment ]
+Name: Hard Rock Cafe | Address: Karl Johans gate 45, Oslo | Rating: 4.1 | Types: [ restaurant, cafe, bar, point_of_interest, food, establishment ]
+Name: Stortorvets Gjæstgiveri | Address: Grensen 1, Oslo | Rating: 3.9 | Types: [ restaurant, cafe, bar, point_of_interest, food, establishment ]
+Name: Engebret Café | Address: 1, Bankplassen, Oslo | Rating: 4.4 | Types: [ cafe, bar, restaurant, point_of_interest, food, establishment ]
+Name: Kaffebrenneriet avd Akersgata 16 | Address: Akersgata 16, Oslo | Rating: 4 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Baker Hansen Vika | Address: Ruseløkkveien 3, Oslo | Rating: 4.1 | Types: [ cafe, bakery, store, restaurant, point_of_interest, food, establishment ]
+Name: Tullins Cafe | Address: Tullins gate 2, Oslo | Rating: 4.1 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Lorry | Address: Parkveien 12, Oslo | Rating: 4 | Types: [ cafe, bar, restaurant, point_of_interest, food, establishment ]
+Name: Baker Hansen - Hegdehaugsveien | Address: Oscars gate 19, Oslo | Rating: 3.8 | Types: [ bakery, cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: Gamle Raadhus Restaurant | Address: Nedre Slottsgate 1, Oslo | Rating: 4 | Types: [ cafe, restaurant, point_of_interest, food, establishment ]
+Name: Tekehtopa | Address: St. Olavs plass 2, Oslo | Rating: 3.8 | Types: [ restaurant, cafe, point_of_interest, food, establishment ]
+Name: Kaffebrenneriet avd Parkveien | Address: Parkveien 25, Oslo | Rating: 4.2 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Café Europa | Address: Sankt Olavs Gate 31, Oslo | Rating: 3.8 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Mocca Oslo | Address: Niels Juels gate 70, Oslo | Rating: 4.6 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Kaffistova | Address: Rosenkrantz' gate 8, Oslo | Rating: 4 | Types: [ restaurant, cafe, bakery, store, point_of_interest, food, establishment ]
+Name: Kafé Celsius | Address: Rådhusgata 19, Oslo | Rating: 3.8 | Types: [ restaurant, cafe, point_of_interest, food, establishment ]
+Name: Kaffebrenneriet avd Saga kino | Address: Stortingsgata 28, Oslo | Rating: 4.3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Cafe Håpløs | Address: Øvre Slottsgate 23, Oslo | Rating: 3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Stopp Pressen Scene & pub | Address: Munchs gate 1, Oslo | Rating: 4 | Types: [ bar, cafe, point_of_interest, food, establishment ]
+Name: Map arkitekter AS | Address: Sommerrogata 1, Oslo | Rating: 5 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: NATIONALTHEATRET [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+Name: Christiania | Address: Nedre Vollgate 19, Oslo | Rating: 3.9 | Types: [ restaurant, night_club, bar, point_of_interest, food, establishment ]
+Name: Horgan`s Bar og Nattklubb | Address: Hegdehaugsveien 24, Oslo | Rating: 3.4 | Types: [ bar, night_club, point_of_interest, establishment ]
+Name: MALECÓN | Address: Kristian IVs gate 12, Oslo | Rating: 2.4 | Types: [ night_club, point_of_interest, establishment ]
+Name: Ballroom Gruppen AS | Address: Nedre Vollgate 11, Oslo | Rating: 3.4 | Types: [ night_club, bar, restaurant, point_of_interest, food, establishment ]
+Name: Nasjonal Jazzscene | Address: Karl Johans gate 35, Oslo | Rating: 4.7 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Night Life Bar | Address: Inngang: Tordenskioldsgate 8, Fridtjof Nansens Plass 7, Oslo | Rating: 4.2 | Types: [ night_club, restaurant, point_of_interest, food, establishment ]
+Name: Louise Restaurant & Bar | Address: Stranden 3, Oslo | Rating: 4.1 | Types: [ restaurant, night_club, bar, point_of_interest, food, establishment ]
+Name: Sirkus (Gamle Baroque) | Address: Bygdøy allé 5, Oslo | Rating: 1.7 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Mesh | Address: Tordenskiolds gate, Oslo | Rating: 4.3 | Types: [ cafe, night_club, bar, restaurant, point_of_interest, food, establishment ]
+Name: Lawo | Address: Universitetsgata 26, Oslo | Rating: 2.3 | Types: [ night_club, point_of_interest, establishment ]
+Name: Klubb 9 | Address: Sehesteds gate 3, Oslo | Rating: 2.3 | Types: [ night_club, point_of_interest, establishment ]
+Name: Elsker Club - Oslo | Address: Kristian IVs gate 9, Oslo | Rating: 3.9 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Lekter'n | Address: Stranden 3, Oslo | Rating: 3.6 | Types: [ bar, night_club, restaurant, point_of_interest, food, establishment ]
+Name: The Star Oslo | Address: Arbeidergata 2, Oslo | Rating: 3.7 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Grensen festlokaler | Address: Grensen 8, Oslo | Rating: 5 | Types: [ restaurant, night_club, bar, point_of_interest, food, establishment ]
+Name: Nox / Sollihagen | Address: Henrik Ibsens gate 100, Oslo | Rating: 2.6 | Types: [ night_club, point_of_interest, establishment ]
+Name: Lutefisk Oslo restaurant | Address: Grensen 12, Oslo | Rating: 2.6 | Types: [ restaurant, night_club, bar, point_of_interest, food, establishment ]
+Name: G10 NATTKLUBB Selskapslokaler | Address: Grensen 8, Oslo | Rating: 2.6 | Types: [ night_club, restaurant, point_of_interest, food, establishment ]
+Name: Weekend Society | Address: Karl Johans gate 17, Oslo | Rating: 5 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: The Club - Oslo | Address: Karl Johans gate 17, Oslo | Rating: 4.1 | Types: [ night_club, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: NATIONALTHEATRET [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Hotel Continental | Address: Stortingsgata 24/26, Oslo | Rating: 4.4 | Types: [ bar, lodging, restaurant, point_of_interest, food, establishment ]
+Name: Scandic Edderkoppen | Address: St. Olavs plass 1, Oslo | Rating: 4 | Types: [ bar, lodging, restaurant, point_of_interest, food, establishment ]
+Name: First Hotel Grims Grenka | Address: Kongens gate 5, Oslo | Rating: 4 | Types: [ bar, lodging, restaurant, point_of_interest, food, establishment ]
+Name: THE THIEF | Address: Landgangen 1, Oslo | Rating: 4.5 | Types: [ spa, bar, lodging, restaurant, point_of_interest, food, establishment ]
+Name: Dinner Restaurant | Address: Stortingsgata 22, Oslo | Rating: 4.5 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Underbar | Address: Holmens gate 3, Oslo | Rating: 4.2 | Types: [ bar, point_of_interest, establishment ]
+Name: Herr Nilsen | Address: C. J. Hambros plass 5, Oslo | Rating: 4.3 | Types: [ bar, point_of_interest, establishment ]
+Name: Engebret Café | Address: 1, Bankplassen, Oslo | Rating: 4.4 | Types: [ cafe, bar, restaurant, point_of_interest, food, establishment ]
+Name: Restaurant Eik | Address: Universitetsgata 11, Oslo | Rating: 4.4 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: The Dubliner Oslo | Address: Rådhusgata 28, Oslo | Rating: 4.3 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Lorry | Address: Parkveien 12, Oslo | Rating: 4 | Types: [ cafe, bar, restaurant, point_of_interest, food, establishment ]
+Name: TGI Friday's | Address: Karl Johans gate 35, Oslo | Rating: 3.5 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Theatercaféen | Address: Stortingsgata 24-26, Oslo | Rating: 4.4 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: Champagneria - Frogner | Address: Frognerveien 2, Oslo | Rating: 3.9 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: Last Train | Address: Karl Johans gate 45, Oslo | Rating: 4.5 | Types: [ bar, point_of_interest, establishment ]
+Name: TGI Fridays Aker brygge | Address: Stranden 39, Oslo | Rating: 3.9 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: NATIONALTHEATRET [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Nobels Fredssenter | Address: Brynjulf Bulls plass 1, Oslo | Rating: 4.2 | Types: [ museum, point_of_interest, establishment ]
+Name: Nasjonalgalleriet | Address: Universitetsgata 13, Oslo | Rating: 4.5 | Types: [ art_gallery, museum, point_of_interest, establishment ]
+Name: Historisk museum | Address: Frederiks gate 2, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Ibsenmuseet | Address: Henrik Ibsens gate 26, Oslo | Rating: 4.3 | Types: [ museum, point_of_interest, establishment ]
+Name: Nasjonalmuseet – Arkitektur | Address: Bankplassen 3, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Norges Hjemmefrontmuseum | Address: Bygning 21, Oslo | Rating: 4.4 | Types: [ museum, point_of_interest, establishment ]
+Name: Museumsnytt | Address: Universitetsgata 14, Oslo | Rating: 4.4 | Types: [ museum, point_of_interest, establishment ]
+Name: Nytt Nasjonalmuseum | Address: Oslo | Rating: 3.5 | Types: [ museum, point_of_interest, establishment ]
+Name: Nasjonalmuseet | Address: Oslo, Sentrum | Rating: 4.2 | Types: [ museum, point_of_interest, establishment ]
+Name: Kunst- og designhall, HiOA | Address: Sankt Olavs Gate 32, Oslo | Rating: 5 | Types: [ museum, point_of_interest, establishment ]
+Name: Mellomstasjonen | Address: Brynjulf Bulls plass 2, Oslo | Rating: 3.5 | Types: [ museum, point_of_interest, establishment ]
+Name: Nasjonalmuseet for kunst, arkitektur og design | Address: Kristian Augusts gate 23, Oslo | Rating: 4.3 | Types: [ museum, point_of_interest, establishment ]
+Name: Dronning Sonja KunstStall | Address: Slottsplassen 1 - inngang Parkveien, Oslo | Rating: 4.2 | Types: [ art_gallery, museum, point_of_interest, establishment ]
+Name: Tjuvholmen Rettersted | Address: Oslo | Rating: 4.2 | Types: [ museum, point_of_interest, establishment ]
+Name: The Mini Bottle Gallery AS | Address: Kirkegata 10, Oslo | Rating: 4.4 | Types: [ museum, restaurant, point_of_interest, food, establishment ]
+Name: Kunstindustriemuseum | Address: Sankt Olavs Gate 1, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: 22. juli-senteret | Address: Akersgata 42, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: Galleri Ramfjord | Address: Schwensens gate 1, Oslo | Rating: 4.4 | Types: [ art_gallery, museum, point_of_interest, establishment ]
+Name: Norsk Speidermuseum | Address: Storgata 3, Oslo | Rating: 4.5 | Types: [ museum, point_of_interest, establishment ]
+Name: Oslo’s science centre | Address: NO, Kjelsåsveien | Rating: 4.5 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: NATIONALTHEATRET [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: AGNI Maria Andersen, www.healing-massasje.no | Address: Dronningens gate 23, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Yoganoor AS | Address: Ruseløkkveien 50, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Yoga Room | Address: Hansteens gate 1, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Norsk Yoga skole | Address: Huitfeldts gate 49, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, school, establishment ]
+Name: Centrum Yoga | Address: Nordahl Bruns gate 22, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Solli plass | Address: Henrik Ibsens gate 100, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Bikram Yoga Oslo AS | Address: Grønnegata 10, Oslo | Rating: 4.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: EVO Oscarsgate | Address: Oscars gate 20, Oslo | Rating: 3.7 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Nationalteateret | Address: Ruseløkkveien 6, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: MamaYoga Tullinløkka | Address: Kristian August gate 11b, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Kurbadet fysikalske institutt | Address: Akersgata 74, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Oslo Turn | Address: Sankt Olavs Gate 25, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Pilates Room | Address: Hansteens gate 1, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Studio Soma | Address: Dronning Mauds gate 1, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: 24Fitness AS | Address: Karl Johans gate 17, Oslo | Rating: 4.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: EVO Vika | Address: Munkedamsveien 20, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Raw Yoga Oslo | Address: Parkveien 62, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Treningshuset | Address: Sankt Olavs Gate 25, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Studio Jobbsprek | Address: Fond-bygget, Støperigata 2, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Improving Lives AS | Address: Nedre Vollgate 5, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: STORTINGET [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: STORTINGET [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Elias mat & sånt | Address: Kristian Augusts gate 14, Oslo | Rating: 4.4 | Types: [ restaurant, cafe, point_of_interest, food, establishment ]
+Name: Hard Rock Cafe | Address: Karl Johans gate 45, Oslo | Rating: 4.1 | Types: [ restaurant, cafe, bar, point_of_interest, food, establishment ]
+Name: Engebret Café | Address: 1, Bankplassen, Oslo | Rating: 4.4 | Types: [ cafe, bar, restaurant, point_of_interest, food, establishment ]
+Name: Stortorvets Gjæstgiveri | Address: Grensen 1, Oslo | Rating: 3.9 | Types: [ restaurant, cafe, bar, point_of_interest, food, establishment ]
+Name: W.B. Samson - Folketeaterpassasjen | Address: Youngstorget 2, Oslo | Rating: 3.6 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: Kaffebrenneriet avd Akersgata 16 | Address: Akersgata 16, Oslo | Rating: 4 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Cafe Sør | Address: Torggata 11, Oslo | Rating: 4.1 | Types: [ cafe, night_club, bar, point_of_interest, food, establishment ]
+Name: Stockfleths | Address: Prinsens gate 6, Oslo | Rating: 4.3 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Baker Hansen Vika | Address: Ruseløkkveien 3, Oslo | Rating: 4.1 | Types: [ cafe, bakery, store, restaurant, point_of_interest, food, establishment ]
+Name: Gamle Raadhus Restaurant | Address: Nedre Slottsgate 1, Oslo | Rating: 4 | Types: [ cafe, restaurant, point_of_interest, food, establishment ]
+Name: Tullins Cafe | Address: Tullins gate 2, Oslo | Rating: 4.1 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Tekehtopa | Address: St. Olavs plass 2, Oslo | Rating: 3.8 | Types: [ restaurant, cafe, point_of_interest, food, establishment ]
+Name: Kafé Celsius | Address: Rådhusgata 19, Oslo | Rating: 3.8 | Types: [ restaurant, cafe, point_of_interest, food, establishment ]
+Name: La Baguette Oslo S | Address: Oslo Sentral Stasjon, Jernbanetorget 1, Oslo | Rating: 3.4 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Kaffistova | Address: Rosenkrantz' gate 8, Oslo | Rating: 4 | Types: [ restaurant, cafe, bakery, store, point_of_interest, food, establishment ]
+Name: Café Europa | Address: Sankt Olavs Gate 31, Oslo | Rating: 3.8 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Cafe Håpløs | Address: Øvre Slottsgate 23, Oslo | Rating: 3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Stopp Pressen Scene & pub | Address: Munchs gate 1, Oslo | Rating: 4 | Types: [ bar, cafe, point_of_interest, food, establishment ]
+Name: Kaffebrenneriet avd Saga kino | Address: Stortingsgata 28, Oslo | Rating: 4.3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Fuglen | Address: Universitetsgata 2, Oslo | Rating: 4.5 | Types: [ cafe, furniture_store, bar, home_goods_store, store, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: STORTINGET [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+Name: Christiania | Address: Nedre Vollgate 19, Oslo | Rating: 3.9 | Types: [ restaurant, night_club, bar, point_of_interest, food, establishment ]
+Name: Cafe Sør | Address: Torggata 11, Oslo | Rating: 4.1 | Types: [ cafe, night_club, bar, point_of_interest, food, establishment ]
+Name: Blå | Address: Brenneriveien 9C, Oslo | Rating: 4.2 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: MALECÓN | Address: Kristian IVs gate 12, Oslo | Rating: 2.4 | Types: [ night_club, point_of_interest, establishment ]
+Name: Ballroom Gruppen AS | Address: Nedre Vollgate 11, Oslo | Rating: 3.4 | Types: [ night_club, bar, restaurant, point_of_interest, food, establishment ]
+Name: Nasjonal Jazzscene | Address: Karl Johans gate 35, Oslo | Rating: 4.7 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Night Life Bar | Address: Inngang: Tordenskioldsgate 8, Fridtjof Nansens Plass 7, Oslo | Rating: 4.2 | Types: [ night_club, restaurant, point_of_interest, food, establishment ]
+Name: The Villa Oslo Dancing AS | Address: Møllergata 23-25, Oslo | Rating: 3.9 | Types: [ night_club, point_of_interest, establishment ]
+Name: Grensen festlokaler | Address: Grensen 8, Oslo | Rating: 5 | Types: [ restaurant, night_club, bar, point_of_interest, food, establishment ]
+Name: Mesh | Address: Tordenskiolds gate, Oslo | Rating: 4.3 | Types: [ cafe, night_club, bar, restaurant, point_of_interest, food, establishment ]
+Name: Lutefisk Oslo restaurant | Address: Grensen 12, Oslo | Rating: 4.3 | Types: [ restaurant, night_club, bar, point_of_interest, food, establishment ]
+Name: The Star Oslo | Address: Arbeidergata 2, Oslo | Rating: 3.7 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: G10 NATTKLUBB Selskapslokaler | Address: Grensen 8, Oslo | Rating: 3.7 | Types: [ night_club, restaurant, point_of_interest, food, establishment ]
+Name: Weekend Society | Address: Karl Johans gate 17, Oslo | Rating: 5 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: The Club - Oslo | Address: Karl Johans gate 17, Oslo | Rating: 4.1 | Types: [ night_club, point_of_interest, establishment ]
+Name: Elsker Club - Oslo | Address: Kristian IVs gate 9, Oslo | Rating: 3.9 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Klubb 9 | Address: Sehesteds gate 3, Oslo | Rating: 3.9 | Types: [ night_club, point_of_interest, establishment ]
+Name: Lawo | Address: Universitetsgata 26, Oslo | Rating: 2.3 | Types: [ night_club, point_of_interest, establishment ]
+Name: Hvelvet Studentpub | Address: Kirkegata 24, Oslo | Rating: 3.9 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Lotus showbar | Address: Dronningens gate 17, Oslo | Rating: 3.9 | Types: [ night_club, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: STORTINGET [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Hotel Continental | Address: Stortingsgata 24/26, Oslo | Rating: 4.4 | Types: [ bar, lodging, restaurant, point_of_interest, food, establishment ]
+Name: First Hotel Grims Grenka | Address: Kongens gate 5, Oslo | Rating: 4 | Types: [ bar, lodging, restaurant, point_of_interest, food, establishment ]
+Name: Scandic Edderkoppen | Address: St. Olavs plass 1, Oslo | Rating: 4 | Types: [ bar, lodging, restaurant, point_of_interest, food, establishment ]
+Name: Grilleriet | Address: Storgata 21, Oslo | Rating: 4.1 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Engebret Café | Address: 1, Bankplassen, Oslo | Rating: 4.4 | Types: [ cafe, bar, restaurant, point_of_interest, food, establishment ]
+Name: Dinner Restaurant | Address: Stortingsgata 22, Oslo | Rating: 4.5 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Herr Nilsen | Address: C. J. Hambros plass 5, Oslo | Rating: 4.3 | Types: [ bar, point_of_interest, establishment ]
+Name: Café Mono | Address: Pløens Gate 4, Oslo | Rating: 4 | Types: [ bar, point_of_interest, establishment ]
+Name: Arakataka | Address: Mariboes gate 7B, Oslo | Rating: 4.6 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: The Dubliner Oslo | Address: Rådhusgata 28, Oslo | Rating: 4.3 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Tukthuset Mat&Drikke | Address: Hammersborggata 2, Oslo | Rating: 3.8 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Restaurant Eik | Address: Universitetsgata 11, Oslo | Rating: 4.4 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: Posthallen Restaurant | Address: Prinsens gate 8, Oslo | Rating: 3.8 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: TGI Friday's | Address: Karl Johans gate 35, Oslo | Rating: 3.5 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Theatercaféen | Address: Stortingsgata 24-26, Oslo | Rating: 4.4 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: Justisen restaurant, bar og bakgård | Address: Møllergata 15, Oslo | Rating: 3.9 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: STORTINGET [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Nobels Fredssenter | Address: Brynjulf Bulls plass 1, Oslo | Rating: 4.2 | Types: [ museum, point_of_interest, establishment ]
+Name: Nasjonalgalleriet | Address: Universitetsgata 13, Oslo | Rating: 4.5 | Types: [ art_gallery, museum, point_of_interest, establishment ]
+Name: Nasjonalmuseet – Arkitektur | Address: Bankplassen 3, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Historisk museum | Address: Frederiks gate 2, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Norges Hjemmefrontmuseum | Address: Bygning 21, Oslo | Rating: 4.4 | Types: [ museum, point_of_interest, establishment ]
+Name: The Mini Bottle Gallery AS | Address: Kirkegata 10, Oslo | Rating: 4.4 | Types: [ museum, restaurant, point_of_interest, food, establishment ]
+Name: Ibsenmuseet | Address: Henrik Ibsens gate 26, Oslo | Rating: 4.3 | Types: [ museum, point_of_interest, establishment ]
+Name: Museumsnytt | Address: Universitetsgata 14, Oslo | Rating: 4.3 | Types: [ museum, point_of_interest, establishment ]
+Name: Jødisk Museum i Oslo | Address: Calmeyers gate 15B, Oslo | Rating: 4.1 | Types: [ museum, point_of_interest, establishment ]
+Name: Norsk Speidermuseum | Address: Storgata 3, Oslo | Rating: 4.5 | Types: [ museum, point_of_interest, establishment ]
+Name: 22. juli-senteret | Address: Akersgata 42, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: Nasjonalmuseet for kunst, arkitektur og design | Address: Kristian Augusts gate 23, Oslo | Rating: 4.3 | Types: [ museum, point_of_interest, establishment ]
+Name: Kunstindustriemuseum | Address: Sankt Olavs Gate 1, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: Byens andre Rådhus | Address: Rådhusgata 7, Oslo | Rating: 4.5 | Types: [ museum, point_of_interest, establishment ]
+Name: Kunst- og designhall, HiOA | Address: Sankt Olavs Gate 32, Oslo | Rating: 5 | Types: [ museum, point_of_interest, establishment ]
+Name: Mellomstasjonen | Address: Brynjulf Bulls plass 2, Oslo | Rating: 3.5 | Types: [ museum, point_of_interest, establishment ]
+Name: Nasjonalmuseet | Address: Oslo, Sentrum | Rating: 4.2 | Types: [ museum, point_of_interest, establishment ]
+Name: Nytt Nasjonalmuseum | Address: Oslo | Rating: 3.5 | Types: [ museum, point_of_interest, establishment ]
+Name: The City Fountain | Address: Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Gyldendalhuset | Address: Sehesteds gate 4, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: STORTINGET [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: AGNI Maria Andersen, www.healing-massasje.no | Address: Dronningens gate 23, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Torggata Bad Treningssenter | Address: Badstugata 2, Oslo | Rating: 3.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Actic Storgata | Address: Storgata 38, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Spektrum | Address: Sonja Henies plass 4, Oslo | Rating: 3.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Centrum Yoga | Address: Nordahl Bruns gate 22, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Kurbadet fysikalske institutt | Address: Akersgata 74, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Nationalteateret | Address: Ruseløkkveien 6, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Harald's Gym | Address: Hausmanns gate 6, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: MamaYoga Tullinløkka | Address: Kristian August gate 11b, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Yoganoor AS | Address: Ruseløkkveien 50, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SQF - Sentrum Squash & Fitness | Address: Thor Olsens gate 5B, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Oslo Turn | Address: Sankt Olavs Gate 25, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: 24Fitness AS | Address: Karl Johans gate 17, Oslo | Rating: 4.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Studio Soma | Address: Dronning Mauds gate 1, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Pilatespilotene AS | Address: Teatergata 1, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Transcendental Meditasjon (TM) Oslo | Address: Teatergata 1, (inngang fra Akersgata), Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATSELIXIA | Address: Akersgata 51, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fitness24Seven Stortorvet | Address: 0179, Grubbegata 6, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Mammaklinikken | Address: Pilestredet 15, Oslo | Rating: 4 | Types: [ doctor, gym, health, point_of_interest, establishment ]
+Name: Improving Lives AS | Address: Nedre Vollgate 5, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: JERNBANETORGET [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: JERNBANETORGET [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Engebret Café | Address: 1, Bankplassen, Oslo | Rating: 4.4 | Types: [ cafe, bar, restaurant, point_of_interest, food, establishment ]
+Name: Elias mat & sånt | Address: Kristian Augusts gate 14, Oslo | Rating: 4.4 | Types: [ restaurant, cafe, point_of_interest, food, establishment ]
+Name: Hard Rock Cafe | Address: Karl Johans gate 45, Oslo | Rating: 4.1 | Types: [ restaurant, cafe, bar, point_of_interest, food, establishment ]
+Name: Stortorvets Gjæstgiveri | Address: Grensen 1, Oslo | Rating: 3.9 | Types: [ restaurant, cafe, bar, point_of_interest, food, establishment ]
+Name: W.B. Samson - Folketeaterpassasjen | Address: Youngstorget 2, Oslo | Rating: 3.6 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: Kaffebrenneriet avd Akersgata 16 | Address: Akersgata 16, Oslo | Rating: 4 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Cafe Sør | Address: Torggata 11, Oslo | Rating: 4.1 | Types: [ cafe, night_club, bar, point_of_interest, food, establishment ]
+Name: Stockfleths | Address: Prinsens gate 6, Oslo | Rating: 4.3 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Gamle Raadhus Restaurant | Address: Nedre Slottsgate 1, Oslo | Rating: 4 | Types: [ cafe, restaurant, point_of_interest, food, establishment ]
+Name: Dattera til Hagen | Address: Grønland 10, Oslo | Rating: 4.1 | Types: [ bar, cafe, point_of_interest, food, establishment ]
+Name: La Baguette Oslo S | Address: Oslo Sentral Stasjon, Jernbanetorget 1, Oslo | Rating: 3.4 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Kafé Celsius | Address: Rådhusgata 19, Oslo | Rating: 3.8 | Types: [ restaurant, cafe, point_of_interest, food, establishment ]
+Name: Cafe Håpløs | Address: Øvre Slottsgate 23, Oslo | Rating: 3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Kaffistova | Address: Rosenkrantz' gate 8, Oslo | Rating: 4 | Types: [ restaurant, cafe, bakery, store, point_of_interest, food, establishment ]
+Name: Stopp Pressen Scene & pub | Address: Munchs gate 1, Oslo | Rating: 4 | Types: [ bar, cafe, point_of_interest, food, establishment ]
+Name: Evita Espressobar | Address: Smalgangen 14, Oslo | Rating: 4.3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Stockfleths | Address: Karl Johans gate 25 (inngang, Lille Grensen, Oslo | Rating: 4.4 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Fuglen | Address: Universitetsgata 2, Oslo | Rating: 4.5 | Types: [ cafe, furniture_store, bar, home_goods_store, store, point_of_interest, food, establishment ]
+Name: Eger Restaurant & Bar | Address: Øvre Slottsgate 29, Oslo | Rating: 3.8 | Types: [ cafe, bar, store, restaurant, point_of_interest, food, establishment ]
+Name: People & Coffee | Address: Rådhusgata 21, Oslo | Rating: 3.9 | Types: [ cafe, store, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: JERNBANETORGET [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+Name: Christiania | Address: Nedre Vollgate 19, Oslo | Rating: 3.9 | Types: [ restaurant, night_club, bar, point_of_interest, food, establishment ]
+Name: Cafe Sør | Address: Torggata 11, Oslo | Rating: 4.1 | Types: [ cafe, night_club, bar, point_of_interest, food, establishment ]
+Name: Blå | Address: Brenneriveien 9C, Oslo | Rating: 4.2 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: SYNG | Address: Nedre gate 7, Oslo | Rating: 4 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Ballroom Gruppen AS | Address: Nedre Vollgate 11, Oslo | Rating: 3.4 | Types: [ night_club, bar, restaurant, point_of_interest, food, establishment ]
+Name: MALECÓN | Address: Kristian IVs gate 12, Oslo | Rating: 2.4 | Types: [ night_club, point_of_interest, establishment ]
+Name: Nasjonal Jazzscene | Address: Karl Johans gate 35, Oslo | Rating: 4.7 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: The Villa Oslo Dancing AS | Address: Møllergata 23-25, Oslo | Rating: 3.9 | Types: [ night_club, point_of_interest, establishment ]
+Name: Night Life Bar | Address: Inngang: Tordenskioldsgate 8, Fridtjof Nansens Plass 7, Oslo | Rating: 4.2 | Types: [ night_club, restaurant, point_of_interest, food, establishment ]
+Name: Grensen festlokaler | Address: Grensen 8, Oslo | Rating: 5 | Types: [ restaurant, night_club, bar, point_of_interest, food, establishment ]
+Name: SuperZuza | Address: Storgata 28A, Oslo | Rating: 5 | Types: [ night_club, point_of_interest, establishment ]
+Name: Lotus showbar | Address: Dronningens gate 17, Oslo | Rating: 3.9 | Types: [ night_club, point_of_interest, establishment ]
+Name: Hvelvet Studentpub | Address: Kirkegata 24, Oslo | Rating: 3.9 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: The Club - Oslo | Address: Karl Johans gate 17, Oslo | Rating: 4.1 | Types: [ night_club, point_of_interest, establishment ]
+Name: Weekend Society | Address: Karl Johans gate 17, Oslo | Rating: 5 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: G10 NATTKLUBB Selskapslokaler | Address: Grensen 8, Oslo | Rating: 5 | Types: [ night_club, restaurant, point_of_interest, food, establishment ]
+Name: SYNG MER | Address: Arbeidersamfunnets plass 1, Oslo | Rating: 4.2 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Paradise Showbar - Strip club and showbar in central Oslo | Address: Rådhusgata 4, Oslo | Rating: 3.9 | Types: [ night_club, point_of_interest, establishment ]
+Name: Lutefisk Oslo restaurant | Address: Grensen 12, Oslo | Rating: 3.9 | Types: [ restaurant, night_club, bar, point_of_interest, food, establishment ]
+Name: Sensibel - Cafe & Sosial club | Address: Storgata 53A, Oslo | Rating: 4.3 | Types: [ liquor_store, night_club, bar, store, restaurant, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: JERNBANETORGET [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: First Hotel Grims Grenka | Address: Kongens gate 5, Oslo | Rating: 4 | Types: [ bar, lodging, restaurant, point_of_interest, food, establishment ]
+Name: Anker Hotel | Address: Storgata 55, Oslo | Rating: 3.8 | Types: [ bar, lodging, point_of_interest, establishment ]
+Name: Scandic Edderkoppen | Address: St. Olavs plass 1, Oslo | Rating: 4 | Types: [ bar, lodging, restaurant, point_of_interest, food, establishment ]
+Name: Hotel Continental | Address: Stortingsgata 24/26, Oslo | Rating: 4.4 | Types: [ bar, lodging, restaurant, point_of_interest, food, establishment ]
+Name: Grilleriet | Address: Storgata 21, Oslo | Rating: 4.1 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Le Benjamin bar & bistro | Address: Søndre gate 6, Oslo | Rating: 4.7 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Engebret Café | Address: 1, Bankplassen, Oslo | Rating: 4.4 | Types: [ cafe, bar, restaurant, point_of_interest, food, establishment ]
+Name: Delicatessen Grünerløkka | Address: Søndre gate 8, Oslo | Rating: 4.4 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Herr Nilsen | Address: C. J. Hambros plass 5, Oslo | Rating: 4.3 | Types: [ bar, point_of_interest, establishment ]
+Name: Café Mono | Address: Pløens Gate 4, Oslo | Rating: 4 | Types: [ bar, point_of_interest, establishment ]
+Name: Arakataka | Address: Mariboes gate 7B, Oslo | Rating: 4.6 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: Tukthuset Mat&Drikke | Address: Hammersborggata 2, Oslo | Rating: 3.8 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: The Dubliner Oslo | Address: Rådhusgata 28, Oslo | Rating: 4.3 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Dinner Restaurant | Address: Stortingsgata 22, Oslo | Rating: 4.5 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Posthallen Restaurant | Address: Prinsens gate 8, Oslo | Rating: 3.8 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Olympen | Address: Grønlandsleiret 15, Oslo | Rating: 4.2 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: JERNBANETORGET [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Nasjonalgalleriet | Address: Universitetsgata 13, Oslo | Rating: 4.5 | Types: [ art_gallery, museum, point_of_interest, establishment ]
+Name: Nasjonalmuseet – Arkitektur | Address: Bankplassen 3, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Interkulturelt Museum | Address: Tøyenbekken 5, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: The Mini Bottle Gallery AS | Address: Kirkegata 10, Oslo | Rating: 4.4 | Types: [ museum, restaurant, point_of_interest, food, establishment ]
+Name: Jødisk Museum i Oslo | Address: Calmeyers gate 15B, Oslo | Rating: 4.1 | Types: [ museum, point_of_interest, establishment ]
+Name: Museumsnytt | Address: Universitetsgata 14, Oslo | Rating: 4.1 | Types: [ museum, point_of_interest, establishment ]
+Name: Norsk Speidermuseum | Address: Storgata 3, Oslo | Rating: 4.5 | Types: [ museum, point_of_interest, establishment ]
+Name: Byens andre Rådhus | Address: Rådhusgata 7, Oslo | Rating: 4.5 | Types: [ museum, point_of_interest, establishment ]
+Name: 22. juli-senteret | Address: Akersgata 42, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: Munch Museum | Address: Tomtekaia 32, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Lambda | Address: Oslo | Rating: 5 | Types: [ museum, point_of_interest, establishment ]
+Name: Norges Hjemmefrontmuseum | Address: Bygning 21, Oslo | Rating: 4.4 | Types: [ museum, point_of_interest, establishment ]
+Name: Kunstindustriemuseum | Address: Sankt Olavs Gate 1, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: Brannmuseet | Address: Grønlandsleiret 32, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: Forsvarsmuseet | Address: Akershus festning, Bygning 62, Oslo | Rating: 4.5 | Types: [ museum, point_of_interest, establishment ]
+Name: Low Standards | Address: Pløens Gate 1, Oslo | Rating: 5 | Types: [ museum, point_of_interest, establishment ]
+Name: latino | Address: Torggata 11, Oslo | Rating: 5 | Types: [ museum, point_of_interest, establishment ]
+Name: Havnepromenade | Address: Langkaia 1, Oslo | Rating: 4.6 | Types: [ museum, point_of_interest, establishment ]
+Name: Akerselva Trebåtforening | Address: Vaterlands bru, Oslo | Rating: 4.6 | Types: [ museum, point_of_interest, establishment ]
+Name: Nordisk Bibelmuseum | Address: Nedre Slottsgate 4C, Oslo | Rating: 4.6 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: JERNBANETORGET [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: AGNI Maria Andersen, www.healing-massasje.no | Address: Dronningens gate 23, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Torggata Bad Treningssenter | Address: Badstugata 2, Oslo | Rating: 3.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Actic Storgata | Address: Storgata 38, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Harald's Gym | Address: Hausmanns gate 6, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Spektrum | Address: Sonja Henies plass 4, Oslo | Rating: 3.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Ashtanga Yoga Oslo | Address: Schweigaards gate 30, Oslo | Rating: 3.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS | Address: Dronning Eufemias gate 18, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Sentrum Kickboxingklubb | Address: Schweigaards gate 34, Oslo | Rating: 4.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Kurbadet fysikalske institutt | Address: Akersgata 74, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Yggdrasil Yogaskole | Address: Motzfeldts gate 26, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Bjørvika Fysioterapi og Kiropraktor | Address: Schweigaards gate 30, Oslo | Rating: 4.9 | Types: [ physiotherapist, gym, health, point_of_interest, establishment ]
+Name: SQF - Sentrum Squash & Fitness | Address: Thor Olsens gate 5B, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: 24Fitness AS | Address: Karl Johans gate 17, Oslo | Rating: 4.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Pilatespilotene AS | Address: Teatergata 1, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Transcendental Meditasjon (TM) Oslo | Address: Teatergata 1, (inngang fra Akersgata), Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Muskelklinikken | Address: Dronningens gate 15, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Genuin Trening | Address: Tollbugata 4, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fitness24Seven Stortorvet | Address: 0179, Grubbegata 6, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATSELIXIA | Address: Akersgata 51, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: One Sip of Yoga | Address: Rådhusgata 28, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: GRØNLAND [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: GRØNLAND [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: W.B. Samson - Folketeaterpassasjen | Address: Youngstorget 2, Oslo | Rating: 3.6 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: Stortorvets Gjæstgiveri | Address: Grensen 1, Oslo | Rating: 3.9 | Types: [ restaurant, cafe, bar, point_of_interest, food, establishment ]
+Name: Cafe Sør | Address: Torggata 11, Oslo | Rating: 4.1 | Types: [ cafe, night_club, bar, point_of_interest, food, establishment ]
+Name: Stockfleths | Address: Prinsens gate 6, Oslo | Rating: 4.3 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Dattera til Hagen | Address: Grønland 10, Oslo | Rating: 4.1 | Types: [ bar, cafe, point_of_interest, food, establishment ]
+Name: Chillout Grünerløkka | Address: Markveien 55, Oslo | Rating: 4.7 | Types: [ cafe, book_store, store, point_of_interest, food, establishment ]
+Name: La Baguette Oslo S | Address: Oslo Sentral Stasjon, Jernbanetorget 1, Oslo | Rating: 3.4 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Evita Espressobar | Address: Smalgangen 14, Oslo | Rating: 4.3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Kaffebrenneriet AS | Address: Grønlandsleiret 32, Oslo | Rating: 4.3 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Evita Espressobar | Address: Brugata 17, Oslo | Rating: 4.3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Cafékontoret - Restaurant & Bar | Address: Grønlandsleiret 46, Oslo | Rating: 4.3 | Types: [ cafe, bar, restaurant, point_of_interest, food, establishment ]
+Name: Narvesen | Address: Storgata 32, Oslo | Rating: 3.7 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Kaffebrenneriet avd Karl Johans gate 7, Arkaden | Address: Karl Johans gate 7, Oslo | Rating: 3.8 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Thai Orchid Restaurant | Address: Calmeyers gate 11, Oslo | Rating: 4.2 | Types: [ cafe, restaurant, point_of_interest, food, establishment ]
+Name: Stockfleths | Address: Stenersgata 1, Oslo | Rating: 4.2 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Cafe Opus | Address: Jernbanetorget 1, Oslo | Rating: 3 | Types: [ cafe, restaurant, point_of_interest, food, establishment ]
+Name: Kaffebrenneriet avd Storgaten | Address: Storgata 2, Oslo | Rating: 4 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Evita Espressobar | Address: Mandalls gate 10, Oslo | Rating: 4.2 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: SmoothieXchange - Byporten | Address: Jernbanetorget 6, Oslo | Rating: 4.6 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Enerhaugen Cafe | Address: Grønlandsleiret 39, Oslo | Rating: 3.5 | Types: [ cafe, store, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: GRØNLAND [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+Name: Cafe Sør | Address: Torggata 11, Oslo | Rating: 4.1 | Types: [ cafe, night_club, bar, point_of_interest, food, establishment ]
+Name: Blå | Address: Brenneriveien 9C, Oslo | Rating: 4.2 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: SYNG | Address: Nedre gate 7, Oslo | Rating: 4 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: The Villa Oslo Dancing AS | Address: Møllergata 23-25, Oslo | Rating: 3.9 | Types: [ night_club, point_of_interest, establishment ]
+Name: Jarl Aanestad | Address: Heimdalsgata 5, Oslo | Rating: 4 | Types: [ night_club, electronics_store, home_goods_store, store, point_of_interest, establishment ]
+Name: SuperZuza | Address: Storgata 28A, Oslo | Rating: 4 | Types: [ night_club, point_of_interest, establishment ]
+Name: Sensibel - Cafe & Sosial club | Address: Storgata 53A, Oslo | Rating: 4.3 | Types: [ liquor_store, night_club, bar, store, restaurant, point_of_interest, food, establishment ]
+Name: SYNG MER | Address: Arbeidersamfunnets plass 1, Oslo | Rating: 4.2 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Lotus showbar | Address: Dronningens gate 17, Oslo | Rating: 3.9 | Types: [ night_club, point_of_interest, establishment ]
+Name: Qadis | Address: Thorvald Meyers gate 81, Oslo | Rating: 3.7 | Types: [ bar, night_club, point_of_interest, establishment ]
+Name: Hvelvet Studentpub | Address: Kirkegata 24, Oslo | Rating: 3.9 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Grensen festlokaler | Address: Grensen 8, Oslo | Rating: 5 | Types: [ restaurant, night_club, bar, point_of_interest, food, establishment ]
+Name: The Club - Oslo | Address: Karl Johans gate 17, Oslo | Rating: 4.1 | Types: [ night_club, point_of_interest, establishment ]
+Name: Weekend Society | Address: Karl Johans gate 17, Oslo | Rating: 5 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: G10 NATTKLUBB Selskapslokaler | Address: Grensen 8, Oslo | Rating: 5 | Types: [ night_club, restaurant, point_of_interest, food, establishment ]
+Name: Paradise Showbar - Strip club and showbar in central Oslo | Address: Rådhusgata 4, Oslo | Rating: 3.9 | Types: [ night_club, point_of_interest, establishment ]
+Name: Lutefisk Oslo restaurant | Address: Grensen 12, Oslo | Rating: 3.9 | Types: [ restaurant, night_club, bar, point_of_interest, food, establishment ]
+Name: Levels | Address: Grønland 14, Oslo | Rating: 3.8 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Club Albertine | Address: Christian Krohgs gate 2, Oslo | Rating: 2.3 | Types: [ night_club, point_of_interest, establishment ]
+Name: QOMO Oslo | Address: Torggata 35, Oslo | Rating: 4.8 | Types: [ clothing_store, night_club, bar, home_goods_store, store, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: GRØNLAND [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Anker Hotel | Address: Storgata 55, Oslo | Rating: 3.8 | Types: [ bar, lodging, point_of_interest, establishment ]
+Name: Grilleriet | Address: Storgata 21, Oslo | Rating: 4.1 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Le Benjamin bar & bistro | Address: Søndre gate 6, Oslo | Rating: 4.7 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Delicatessen Grünerløkka | Address: Søndre gate 8, Oslo | Rating: 4.4 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Café Mono | Address: Pløens Gate 4, Oslo | Rating: 4 | Types: [ bar, point_of_interest, establishment ]
+Name: Tukthuset Mat&Drikke | Address: Hammersborggata 2, Oslo | Rating: 3.8 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Arakataka | Address: Mariboes gate 7B, Oslo | Rating: 4.6 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: Olympen | Address: Grønlandsleiret 15, Oslo | Rating: 4.2 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Dattera til Hagen | Address: Grønland 10, Oslo | Rating: 4.1 | Types: [ bar, cafe, point_of_interest, food, establishment ]
+Name: Posthallen Restaurant | Address: Prinsens gate 8, Oslo | Rating: 3.8 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Justisen restaurant, bar og bakgård | Address: Møllergata 15, Oslo | Rating: 3.9 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: Internasjonalen | Address: Youngstorget 2A, Oslo | Rating: 3.8 | Types: [ bar, point_of_interest, establishment ]
+Name: Blå | Address: Brenneriveien 9C, Oslo | Rating: 4.2 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Café Sara | Address: Hausmanns gate 29, Oslo | Rating: 4.2 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Hells Kitchen Oslo | Address: Møllergata 23, Oslo | Rating: 4.3 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: SYNG | Address: Nedre gate 7, Oslo | Rating: 4 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Dovrehallen | Address: Storgata 22, Oslo | Rating: 3.8 | Types: [ liquor_store, bar, store, restaurant, point_of_interest, food, establishment ]
+Name: Oslo Mekaniske Verksted | Address: Tøyenbekken 34, Oslo | Rating: 4.4 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: GRØNLAND [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Munchmuseet | Address: Tøyengata 53, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Interkulturelt Museum | Address: Tøyenbekken 5, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Neseblod records | Address: Schweigaards gate 56, Oslo | Rating: 4.8 | Types: [ museum, clothing_store, electronics_store, home_goods_store, store, point_of_interest, establishment ]
+Name: Popsenteret | Address: Trondheimsveien 2 (Bygg T), Oslo | Rating: 4.3 | Types: [ museum, point_of_interest, establishment ]
+Name: Jødisk Museum i Oslo | Address: Calmeyers gate 15B, Oslo | Rating: 4.1 | Types: [ museum, point_of_interest, establishment ]
+Name: Brannmuseet | Address: Grønlandsleiret 32, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: Norsk Speidermuseum | Address: Storgata 3, Oslo | Rating: 4.5 | Types: [ museum, point_of_interest, establishment ]
+Name: Munch Museum | Address: Tomtekaia 32, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Lambda | Address: Oslo | Rating: 5 | Types: [ museum, point_of_interest, establishment ]
+Name: 22. juli-senteret | Address: Akersgata 42, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: Naturhistorisk museum | Address: Sars' gate 1, Oslo | Rating: 4.4 | Types: [ museum, point_of_interest, establishment ]
+Name: The Mini Bottle Gallery AS | Address: Kirkegata 10, Oslo | Rating: 4.4 | Types: [ museum, restaurant, point_of_interest, food, establishment ]
+Name: Byens andre Rådhus | Address: Rådhusgata 7, Oslo | Rating: 4.5 | Types: [ museum, point_of_interest, establishment ]
+Name: Akerselva Trebåtforening | Address: Vaterlands bru, Oslo | Rating: 4.5 | Types: [ museum, point_of_interest, establishment ]
+Name: Low Standards | Address: Pløens Gate 1, Oslo | Rating: 5 | Types: [ museum, point_of_interest, establishment ]
+Name: The Vikings Gardens | Address: Jens Bjelkes gate 18B, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: latino | Address: Torggata 11, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: Bane NOR infosenter Follobanen | Address: Bispegata 13, Oslo | Rating: 3.5 | Types: [ museum, point_of_interest, establishment ]
+Name: Botanisk Hage | Address: Unnamed Road, Oslo | Rating: 4.6 | Types: [ museum, point_of_interest, establishment ]
+Name: Neseblod records | Address: Schweigaards gate 56, Oslo | Rating: 5 | Types: [ museum, electronics_store, home_goods_store, store, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: GRØNLAND [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: AGNI Maria Andersen, www.healing-massasje.no | Address: Dronningens gate 23, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Torggata Bad Treningssenter | Address: Badstugata 2, Oslo | Rating: 3.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Actic Storgata | Address: Storgata 38, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Yggdrasil Yogaskole | Address: Motzfeldts gate 26, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Harald's Gym | Address: Hausmanns gate 6, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Sentrum Kickboxingklubb | Address: Schweigaards gate 34, Oslo | Rating: 4.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Spektrum | Address: Sonja Henies plass 4, Oslo | Rating: 3.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Ashtanga Yoga Oslo | Address: Schweigaards gate 30, Oslo | Rating: 3.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS | Address: Dronning Eufemias gate 18, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Schous plass | Address: Trondheimsveien 2D, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Bjørvika Fysioterapi og Kiropraktor | Address: Schweigaards gate 30, Oslo | Rating: 4.9 | Types: [ physiotherapist, gym, health, point_of_interest, establishment ]
+Name: EVO Grünerløkka | Address: Thorvald Meyers gate 72, Oslo | Rating: 3.7 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Qigongsenteret | Address: Grønlandsleiret 14, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fresh Fitness Grønland | Address: Grønlandsleiret 25, Oslo | Rating: 3.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Leela Yoga | Address: Heimdalsgata 10, Oslo | Rating: 4.6 | Types: [ gym, store, health, point_of_interest, establishment ]
+Name: Genuin Trening | Address: Tollbugata 4, Oslo | Rating: 4.6 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Muskelklinikken | Address: Dronningens gate 15, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fitness24Seven Stortorvet | Address: 0179, Grubbegata 6, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: 24Fitness AS | Address: Karl Johans gate 17, Oslo | Rating: 4.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SQF - Sentrum Squash & Fitness | Address: Thor Olsens gate 5B, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: TØYEN [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: TØYEN [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Dattera til Hagen | Address: Grønland 10, Oslo | Rating: 4.1 | Types: [ bar, cafe, point_of_interest, food, establishment ]
+Name: Evita Espressobar | Address: Smalgangen 14, Oslo | Rating: 4.3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Kaffebrenneriet AS | Address: Grønlandsleiret 32, Oslo | Rating: 4.3 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Javelin Coffee & Tea | Address: Bøgata 10, Oslo | Rating: 4.5 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Carinas | Address: Monrads gate 1A, Oslo | Rating: 4.4 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Cafékontoret - Restaurant & Bar | Address: Grønlandsleiret 46, Oslo | Rating: 4.3 | Types: [ cafe, bar, restaurant, point_of_interest, food, establishment ]
+Name: Enerhaugen Cafe | Address: Grønlandsleiret 39, Oslo | Rating: 3.5 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: The Times Bar | Address: Galgeberg 3A, Oslo | Rating: 3.9 | Types: [ cafe, bar, store, point_of_interest, food, establishment ]
+Name: Museumskafeen | Address: Sars gate 1, Sars' gate, Oslo | Rating: 3.8 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Stockfleths | Address: Tøyengata 53, Oslo | Rating: 3.9 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Lille Kampen | Address: Bøgata 25C, Oslo | Rating: 4.5 | Types: [ cafe, bakery, bar, store, restaurant, point_of_interest, food, establishment ]
+Name: Evita Espressobar | Address: Mandalls gate 10, Oslo | Rating: 4.2 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Stockfleths | Address: Munkegata 2, Oslo | Rating: 4.2 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Boulangerie M | Address: Sigurd Hoels vei 45, Oslo | Rating: 4.5 | Types: [ bakery, cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: Galgen | Address: Strømsveien 1, Oslo | Rating: 4.5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Enga Pub | Address: Vålerenggata 5, Oslo | Rating: 4.3 | Types: [ cafe, bar, point_of_interest, food, establishment ]
+Name: Skatten Oslo | Address: Hagegata 22-24, Oslo | Rating: 4.4 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Nicmo Kafé | Address: Heimdalsgata 29, Oslo | Rating: 4.4 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Creamy | Address: Tøyengata 13, Oslo | Rating: 4.2 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: TØYEN [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+Name: Jarl Aanestad | Address: Heimdalsgata 5, Oslo | Rating: 4 | Types: [ night_club, electronics_store, home_goods_store, store, point_of_interest, establishment ]
+Name: Ståles Takterrasse | Address: Eiriks gate 18, Oslo | Rating: 4 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Einr Camp | Address: Finnmarkgata 27, Oslo | Rating: 4 | Types: [ night_club, point_of_interest, establishment ]
+Name: Levels | Address: Grønland 14, Oslo | Rating: 3.8 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: Bjaaland og Erlandsen AS | Address: Ensjøveien 23, Oslo | Rating: 3.8 | Types: [ night_club, point_of_interest, establishment ]
+Name: Club Albertine | Address: Christian Krohgs gate 2, Oslo | Rating: 2.3 | Types: [ night_club, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: TØYEN [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Olympen | Address: Grønlandsleiret 15, Oslo | Rating: 4.2 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Kampen Bistro | Address: Bøgata 21, Oslo | Rating: 4.4 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: Pigalle | Address: Grønlandsleiret 15, Oslo | Rating: 4.1 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Dattera til Hagen | Address: Grønland 10, Oslo | Rating: 4.1 | Types: [ bar, cafe, point_of_interest, food, establishment ]
+Name: Oslo Mekaniske Verksted | Address: Tøyenbekken 34, Oslo | Rating: 4.4 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Venner Restaurant & Bar | Address: Smalgangen 31, Oslo | Rating: 3.5 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: Rock In | Address: Grønland 14, Oslo | Rating: 4.3 | Types: [ bar, point_of_interest, establishment ]
+Name: Cafékontoret - Restaurant & Bar | Address: Grønlandsleiret 46, Oslo | Rating: 4.3 | Types: [ cafe, bar, restaurant, point_of_interest, food, establishment ]
+Name: The Times Bar | Address: Galgeberg 3A, Oslo | Rating: 3.9 | Types: [ cafe, bar, store, point_of_interest, food, establishment ]
+Name: Dileks Kafe & Catering - Catering i Oslo | Address: Hedmarksgata 29, Oslo | Rating: 4.3 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Human Mote | Address: Økernveien 9, Oslo | Rating: 4.3 | Types: [ bar, point_of_interest, establishment ]
+Name: Gurken Gurken Gurken Gurken | Address: Eiriks gate 2 c, Oslo | Rating: 4.6 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Ocean Cafe & Bar AS | Address: Trondheimsveien 20A, Oslo | Rating: 4.1 | Types: [ bar, point_of_interest, establishment ]
+Name: Grønland Gym | Address: Rubina Ranas gate 3, Oslo | Rating: 4.2 | Types: [ bar, point_of_interest, establishment ]
+Name: Klosterenga Cafè | Address: Schweigaards gate 60B, Oslo | Rating: 4.1 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Skjenkestua Studentbar | Address: Christian Krohgs gate 32, Oslo | Rating: 4.6 | Types: [ bar, point_of_interest, establishment ]
+Name: Bob's Pub | Address: Grønland 1, Oslo | Rating: 3.8 | Types: [ bar, point_of_interest, establishment ]
+Name: Oslo Sportsbar | Address: Schweigaards gate 50, Oslo | Rating: 4.1 | Types: [ bar, point_of_interest, establishment ]
+Name: Schouskjelleren Mikrobryggeri | Address: Trondheimsveien 2, Oslo | Rating: 4.7 | Types: [ bar, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: TØYEN [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Munchmuseet | Address: Tøyengata 53, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Naturhistorisk museum | Address: Sars' gate 1, Oslo | Rating: 4.4 | Types: [ museum, point_of_interest, establishment ]
+Name: Interkulturelt Museum | Address: Tøyenbekken 5, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Neseblod records | Address: Schweigaards gate 56, Oslo | Rating: 4.8 | Types: [ museum, clothing_store, electronics_store, home_goods_store, store, point_of_interest, establishment ]
+Name: Brannmuseet | Address: Grønlandsleiret 32, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: Zoologisk museum (Robert Colletts hus) – Naturhistorisk museum | Address: Sars' gate 1, Oslo | Rating: 4.4 | Types: [ museum, point_of_interest, establishment ]
+Name: Popsenteret | Address: Trondheimsveien 2 (Bygg T), Oslo | Rating: 4.3 | Types: [ museum, point_of_interest, establishment ]
+Name: Botanisk Hage | Address: Unnamed Road, Oslo | Rating: 4.6 | Types: [ museum, point_of_interest, establishment ]
+Name: Botanisk museum | Address: Monrads gate 13A, Oslo | Rating: 4.6 | Types: [ museum, point_of_interest, establishment ]
+Name: Botanisk Hage | Address: Unnamed Road, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: The Vikings Gardens | Address: Jens Bjelkes gate 18B, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: Neseblod records | Address: Schweigaards gate 56, Oslo | Rating: 5 | Types: [ museum, electronics_store, home_goods_store, store, point_of_interest, establishment ]
+Name: Akerselva Trebåtforening | Address: Vaterlands bru, Oslo | Rating: 5 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: TØYEN [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Yggdrasil Yogaskole | Address: Motzfeldts gate 26, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Sentrum Kickboxingklubb | Address: Schweigaards gate 34, Oslo | Rating: 4.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Harald's Gym | Address: Hausmanns gate 6, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Kampen | Address: Hedmarksgata 13, Oslo | Rating: 3.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Ashtanga Yoga Oslo | Address: Schweigaards gate 30, Oslo | Rating: 3.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Actic Tøyenbadet | Address: Helgesens gate 90, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Bjørvika Fysioterapi og Kiropraktor | Address: Schweigaards gate 30, Oslo | Rating: 4.9 | Types: [ physiotherapist, gym, health, point_of_interest, establishment ]
+Name: Oslo Bokseklubb | Address: Jordalgata 12, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fresh Fitness Grønland | Address: Grønlandsleiret 25, Oslo | Rating: 3.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Qigongsenteret | Address: Grønlandsleiret 14, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fresh Fitness Ensjø | Address: Gladengveien 1, Oslo | Rating: 3.6 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Schous plass | Address: Trondheimsveien 2D, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Leela Yoga | Address: Heimdalsgata 10, Oslo | Rating: 4.6 | Types: [ gym, store, health, point_of_interest, establishment ]
+Name: Utegym Tøyen | Address:  | Rating: 4.6 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Andrew Edwards Yoga | Address: Hertug Skules gate 8, Oslo | Rating: 4.6 | Types: [ gym, health, point_of_interest, establishment ]
+Name: The Shoebox | Address: Eiriks gate 12, Oslo | Rating: 4.6 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Tøyen Fitness og treningssenter | Address: Sørligata 11, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Football ground ( Free To Play) | Address: Jens Bjelkes gate 0561, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Kristina Yoga | Address: Hedmarksgata 13, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: ELIXIA | Address: Trondheimsveien 2 D | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ENSJØ [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: ENSJØ [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Javelin Coffee & Tea | Address: Bøgata 10, Oslo | Rating: 4.5 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: The Times Bar | Address: Galgeberg 3A, Oslo | Rating: 3.9 | Types: [ cafe, bar, store, point_of_interest, food, establishment ]
+Name: Lille Kampen | Address: Bøgata 25C, Oslo | Rating: 4.5 | Types: [ cafe, bakery, bar, store, restaurant, point_of_interest, food, establishment ]
+Name: Boulangerie M | Address: Sigurd Hoels vei 45, Oslo | Rating: 4.5 | Types: [ bakery, cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: Brick Lane Café | Address: 7 Grensesvingen Gamle Oslo Oslo | Rating: 4.2 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Norð Helsfyr | Address: Strømsveien 96, Oslo | Rating: 4.2 | Types: [ cafe, bakery, store, point_of_interest, food, establishment ]
+Name: Galgen | Address: Strømsveien 1, Oslo | Rating: 4.5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Marienfryd Pizza & Grill | Address: Hovinveien 39, Oslo | Rating: 4.3 | Types: [ cafe, meal_takeaway, restaurant, point_of_interest, food, establishment ]
+Name: Enga Pub | Address: Vålerenggata 5, Oslo | Rating: 4.3 | Types: [ cafe, bar, point_of_interest, food, establishment ]
+Name: Carinas | Address: Monrads gate 1A, Oslo | Rating: 4.4 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Stockfleths | Address: Tøyengata 53, Oslo | Rating: 3.9 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Ensjø Musikkscene | Address: Rolf Hofmos gate 24, Oslo | Rating: 4.7 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Nabo Bakeriet AS | Address: 39, Hovinveien, Oslo | Rating: 4.8 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Skatten Oslo | Address: Hagegata 22-24, Oslo | Rating: 4.4 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Tøyen Grønne Kjøkken | Address: Åkebergveien 50 A, Oslo | Rating: 4.6 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Cafe Cito | Address: Jordalgata 2, Oslo | Rating: 4.6 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Valle Aktivitetssenter | Address: Grenseveien 66, Oslo | Rating: 4.6 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ENSJØ [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+Name: Bjaaland og Erlandsen AS | Address: Ensjøveien 23, Oslo | Types: [ night_club, point_of_interest, establishment ]
+Name: Einr Camp | Address: Finnmarkgata 27, Oslo | Types: [ night_club, point_of_interest, establishment ]
+Name: Ståles Takterrasse | Address: Eiriks gate 18, Oslo | Types: [ night_club, bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ENSJØ [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Kampen Bistro | Address: Bøgata 21, Oslo | Rating: 4.4 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: The Times Bar | Address: Galgeberg 3A, Oslo | Rating: 3.9 | Types: [ cafe, bar, store, point_of_interest, food, establishment ]
+Name: Dileks Kafe & Catering - Catering i Oslo | Address: Hedmarksgata 29, Oslo | Rating: 4.3 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Human Mote | Address: Økernveien 9, Oslo | Rating: 4.3 | Types: [ bar, point_of_interest, establishment ]
+Name: Enga Pub | Address: Vålerenggata 5, Oslo | Rating: 4.3 | Types: [ cafe, bar, point_of_interest, food, establishment ]
+Name: Karoline Spiseri og Pub | Address: Karoline Kristiansens vei 9, Oslo | Rating: 3.8 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: Gurken Gurken Gurken Gurken | Address: Eiriks gate 2 c, Oslo | Rating: 4.6 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Safe as milk | Address: Gladengveien 4, Oslo | Rating: 4.2 | Types: [ bar, point_of_interest, establishment ]
+Name: Gladengveien 6b | Address: Gladengveien | Rating: 5 | Types: [ bar, point_of_interest, establishment ]
+Name: Hagestuen Cafe | Address: Hagegata 34, Oslo | Rating: 4 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Glasnost | Address: Økernveien 9, Oslo | Rating: 4.6 | Types: [ bar, point_of_interest, establishment ]
+Name: Freds mat og vinhus/curryxpress | Address: Normannsgata 5A, Oslo | Rating: 4.4 | Types: [ bar, meal_takeaway, restaurant, point_of_interest, food, establishment ]
+Name: Vålerenga Bar | Address: Åkebergveien 56, Oslo | Rating: 2.8 | Types: [ bar, point_of_interest, establishment ]
+Name: Galgeberg Corner | Address: 65B, Gamle Oslo, Sankt Halvards gate, Oslo | Rating: 3.7 | Types: [ bar, point_of_interest, establishment ]
+Name: Ståles Takterrasse | Address: Eiriks gate 18, Oslo | Rating: 3.7 | Types: [ night_club, bar, point_of_interest, establishment ]
+Name: T-Lounge | Address: Eiriks gate 12, Oslo | Rating: 3.7 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ENSJØ [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Munchmuseet | Address: Tøyengata 53, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Botanisk museum | Address: Monrads gate 13A, Oslo | Rating: 4.6 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ENSJØ [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: SATS Kampen | Address: Hedmarksgata 13, Oslo | Rating: 3.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Actic Tøyenbadet | Address: Helgesens gate 90, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Oslo Bokseklubb | Address: Jordalgata 12, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fresh Fitness Ensjø | Address: Gladengveien 1, Oslo | Rating: 3.6 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Kristina Yoga | Address: Hedmarksgata 13, Oslo | Rating: 3.6 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Andrew Edwards Yoga | Address: Hertug Skules gate 8, Oslo | Rating: 3.6 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fitnessmafia Gym (Treningssenter) | Address: Gladengveien 18 (2 etg. trapp midt på bygget) 0661 | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Utegym Tøyen | Address:  | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: The Shoebox | Address: Eiriks gate 12, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: CARL BERNERS PLASS [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: CARL BERNERS PLASS [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: W.B. Samson - Carl Berner | Address: Trondheimsveien 110, Oslo | Rating: 4 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: Café Lyon | Address: Sannergata 38, Oslo | Rating: 4.5 | Types: [ cafe, restaurant, point_of_interest, food, establishment ]
+Name: Baker Hansen Hasle torg | Address: Grenseveien 50, Oslo | Rating: 3.7 | Types: [ bakery, cafe, clothing_store, store, restaurant, point_of_interest, food, establishment ]
+Name: Flyttegutta og Carl Berner Minilager AS | Address: Sinsenveien 11, Oslo | Rating: 2.2 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: kaffe lykke | Address: Københavngata 20, Oslo | Rating: 4.6 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Cocoa | Address: Toftes Gate 48A, Oslo | Rating: 4.3 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Oslovelo | Address: Seilduksgata 23A, Oslo | Rating: 4.4 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Museumskafeen | Address: Sars gate 1, Sars' gate, Oslo | Rating: 3.8 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Stockfleths | Address: Tøyengata 53, Oslo | Rating: 3.9 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: KaffeKompaniet | Address: Christian Michelsens gate 1B, Oslo | Rating: 3.5 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Kaffegruppen AS | Address: Frydenbergveien 48, Oslo | Rating: 3.5 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Torshovdalen aktivitetshus | Address: Fagerheimgata 31, Oslo | Rating: 4.6 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Lio's Café Bar | Address: Schleppegrells gate 30, Oslo | Rating: 4.8 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Egget | Address: 12, Rathkes gate 10, Oslo | Rating: 4 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Nabo Bakeriet AS | Address: 39, Hovinveien, Oslo | Rating: 4.8 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: CARL BERNERS PLASS [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+Name: Welle og jay sin crib | Address: Christian Michelsens gate 37, Oslo | Types: [ night_club, point_of_interest, establishment ]
+Name: Einr Camp | Address: Finnmarkgata 27, Oslo | Types: [ night_club, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: CARL BERNERS PLASS [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Elmers | Address: Hammerfestgata 2, Oslo | Rating: 3.7 | Types: [ bar, point_of_interest, establishment ]
+Name: The Shamrock Pub | Address: Schleppegrells gate 32, Oslo | Rating: 3.5 | Types: [ bar, point_of_interest, establishment ]
+Name: Kafé Tamara | Address: Oslo | Rating: 4.5 | Types: [ bar, point_of_interest, establishment ]
+Name: Fariba's Cafébar | Address: Trondheimsveien 99, Oslo | Rating: 4.6 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Eik & Tid | Address: Hasleveien 28 A, Oslo | Rating: 5 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Bryggerigården | Address: Københavngata 4, Oslo | Rating: 4.5 | Types: [ bar, point_of_interest, establishment ]
+Name: Ocean Cafe & Bar AS | Address: Trondheimsveien 20A, Oslo | Rating: 4.1 | Types: [ bar, point_of_interest, establishment ]
+Name: House of Nerds | Address: Lørenveien 38, Oslo | Rating: 4.5 | Types: [ bar, point_of_interest, establishment ]
+Name: Yeh Chun You Sverres kafe | Address: Carl Berners Plass 2, Oslo | Rating: 4.5 | Types: [ bar, point_of_interest, establishment ]
+Name: Wings Bar AS | Address: Olaf Schous vei 2, Oslo | Rating: 4.4 | Types: [ bar, point_of_interest, establishment ]
+Name: WingsBar Rema | Address: Olaf Schous vei 1-3, Oslo | Rating: 3 | Types: [ bar, point_of_interest, establishment ]
+Name: Art | Address: Oslo | Rating: 5 | Types: [ bar, point_of_interest, establishment ]
+Name: ART bar | Address: Københavngata 18, Oslo | Rating: 5 | Types: [ bar, point_of_interest, establishment ]
+Name: Perla | Address: Helgesens gate 66, Oslo | Rating: 4.6 | Types: [ bar, point_of_interest, establishment ]
+Name: Wembley Pub | Address: Schouterrassen 25, Oslo | Rating: 3.7 | Types: [ bar, point_of_interest, establishment ]
+Name: Grynerløkkas Hus Sharmrock | Address: Schleppegrells gate 32, Oslo | Rating: 5 | Types: [ bar, point_of_interest, establishment ]
+Name: Grünerløkka Brygghus Bryggeri | Address: Københavngata 4, Oslo | Rating: 4.4 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Tamara cafe | Address: Toftes Gate 50A, Oslo | Rating: 4.3 | Types: [ bar, point_of_interest, establishment ]
+Name: Naboens Pub | Address: Toftes Gate 33, Oslo | Rating: 3 | Types: [ bar, point_of_interest, establishment ]
+Name: LY | Address: Toftes Gate 41A, Oslo | Rating: 4.4 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: CARL BERNERS PLASS [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Munchmuseet | Address: Tøyengata 53, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Naturhistorisk museum | Address: Sars' gate 1, Oslo | Rating: 4.4 | Types: [ museum, point_of_interest, establishment ]
+Name: Zoologisk museum (Robert Colletts hus) – Naturhistorisk museum | Address: Sars' gate 1, Oslo | Rating: 4.4 | Types: [ museum, point_of_interest, establishment ]
+Name: Oslo Nord telefonsentral | Address: Hesselbergs gate, Oslo | Rating: 3 | Types: [ museum, point_of_interest, establishment ]
+Name: Kneip art studio | Address: Hasleveien 28B, Oslo | Rating: 3 | Types: [ museum, point_of_interest, establishment ]
+Name: Botanisk Hage | Address: Unnamed Road, Oslo | Rating: 4.7 | Types: [ museum, point_of_interest, establishment ]
+Name: Botanisk museum | Address: Monrads gate 13A, Oslo | Rating: 4.6 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: CARL BERNERS PLASS [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Fresh Fitness Carl Berner | Address: Dælenenggata 4, Oslo | Rating: 3.6 | Types: [ gym, health, point_of_interest, establishment ]
+Name: ELIXIA Carl Berner | Address: Trondheimsveien 135, Oslo | Rating: 4.1 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Bare trening | Address: Trondheimsveien 137, Oslo | Rating: 3.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Actic Tøyenbadet | Address: Helgesens gate 90, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: FitnessXpress avd. Hasle Torg | Address: Grenseveien 50, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Joy Yoga | Address: Gøteborggata 23, Oslo | Rating: 4.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: CrossFit Yggdrasil | Address: Hasleveien 28A, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Oslo Kettlebell Gym | Address: Toftes Gate 60B, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Sterkhelse As | Address: Peter Møllers vei 5B, Oslo | Rating: 4.5 | Types: [ gym, physiotherapist, health, point_of_interest, establishment ]
+Name: Fighters Lab | Address: Trondheimsveien 135, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Rung Spa Spa | Address: Christian Michelsens gate 0568, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Tawian Massasje | Address: Christian Michelsens gate 19, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Aikikan Oslo | Address: Konghellegata 3, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Tuftepark | Address: Fagerheimgata 31, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: YOSHI THAIMASSAGE | Address: Olaf Schous vei 25, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fighter Kickboxing Klubb | Address: Oslo, Grünerløkka Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Sportsklubben av 1909 Boksing/Bryting | Address: Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Sinsen Tennisklubb | Address: Norge, Sinsenveien 34, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: HASLE [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: HASLE [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Baker Hansen Hasle torg | Address: Grenseveien 50, Oslo | Rating: 3.7 | Types: [ bakery, cafe, clothing_store, store, restaurant, point_of_interest, food, establishment ]
+Name: Marienfryd Pizza & Grill | Address: Hovinveien 39, Oslo | Rating: 4.3 | Types: [ cafe, meal_takeaway, restaurant, point_of_interest, food, establishment ]
+Name: Boulangerie M | Address: Sigurd Hoels vei 45, Oslo | Rating: 4.5 | Types: [ bakery, cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: Flyttegutta og Carl Berner Minilager AS | Address: Sinsenveien 11, Oslo | Rating: 2.2 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Kaffegruppen AS | Address: Frydenbergveien 48, Oslo | Rating: 2.2 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Nabo Bakeriet AS | Address: 39, Hovinveien, Oslo | Rating: 4.8 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Valle Aktivitetssenter | Address: Grenseveien 66, Oslo | Rating: 4.8 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: HASLE [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: House of Nerds | Address: Lørenveien 38, Oslo | Rating: 4.5 | Types: [ bar, point_of_interest, establishment ]
+Name: Eik & Tid | Address: Hasleveien 28 A, Oslo | Rating: 5 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: WingsBar Rema | Address: Olaf Schous vei 1-3, Oslo | Rating: 3 | Types: [ bar, point_of_interest, establishment ]
+Name: Wings Bar AS | Address: Olaf Schous vei 2, Oslo | Rating: 4.4 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: HASLE [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Kneip art studio | Address: Hasleveien 28B, Oslo | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: HASLE [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Frontline Muay Thai | Address: Dronning Margretes Vei 11, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: FitnessXpress avd. Hasle Torg | Address: Grenseveien 50, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fokusklinikken Økern | Address: Østre Aker vei 19, Oslo | Rating: 4.9 | Types: [ physiotherapist, gym, health, point_of_interest, establishment ]
+Name: Condis Økern - Trening, Squash & vektreduksjonskurs | Address: Økernveien 148, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: ELIXIA Carl Berner | Address: Trondheimsveien 135, Oslo | Rating: 4.1 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Sterkhelse As | Address: Peter Møllers vei 5B, Oslo | Rating: 4.5 | Types: [ gym, physiotherapist, health, point_of_interest, establishment ]
+Name: Core Fitness Lab | Address: Selma Ellefsens Vei 6, Oslo | Rating: 4.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: CrossFit Yggdrasil | Address: Hasleveien 28A, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Actic Tøyenbadet | Address: Helgesens gate 90, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fitnessmafia Gym (Treningssenter) | Address: Gladengveien 18 (2 etg. trapp midt på bygget) 0661 | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Oslo Aikido Klubb | Address: 17, Eikenga, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fighters Lab | Address: Trondheimsveien 135, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ØKERN [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: ØKERN [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Baker Hansen Hasle torg | Address: Grenseveien 50, Oslo | Rating: 3.7 | Types: [ bakery, cafe, clothing_store, store, restaurant, point_of_interest, food, establishment ]
+Name: Kaffegruppen AS | Address: Frydenbergveien 48, Oslo | Rating: 3.7 | Types: [ cafe, store, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ØKERN [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Quality Hotel 33 | Address: Østre Aker vei 33, Oslo | Rating: 3.8 | Types: [ bar, lodging, restaurant, point_of_interest, food, establishment ]
+Name: House of Nerds | Address: Lørenveien 38, Oslo | Rating: 4.5 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ØKERN [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Universitetet i Oslo, Kulturhistorisk museum avd. Økern | Address: Kabelgata 34, Oslo | Rating: 5 | Types: [ museum, point_of_interest, establishment ]
+Name: Universitetet i Oslo, Naturhistorisk museum avd. Økern | Address: Kabelgata 40, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ØKERN [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Condis Økern - Trening, Squash & vektreduksjonskurs | Address: Økernveien 148, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Frontline Muay Thai | Address: Dronning Margretes Vei 11, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fokusklinikken Økern | Address: Østre Aker vei 19, Oslo | Rating: 4.9 | Types: [ physiotherapist, gym, health, point_of_interest, establishment ]
+Name: FitnessXpress avd. Hasle Torg | Address: Grenseveien 50, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Core Fitness Lab | Address: Selma Ellefsens Vei 6, Oslo | Rating: 4.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Sterkhelse As | Address: Peter Møllers vei 5B, Oslo | Rating: 4.5 | Types: [ gym, physiotherapist, health, point_of_interest, establishment ]
+Name: Vertigo Studios AS | Address: Oxertårnet, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Oslo Aikido Klubb | Address: 17, Eikenga, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: SINSEN [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: SINSEN [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: W.B. Samson – Sandaker | Address: Sandakerveien 59, Oslo | Rating: 3.3 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: Cafe Ferro Montanus | Address: Hans Nielsen Hauges gate 37, Oslo | Rating: 4.9 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Baker Hansen Vogtsgate | Address: Vogts gate 68, Oslo | Rating: 4.1 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: Flyttegutta og Carl Berner Minilager AS | Address: Sinsenveien 11, Oslo | Rating: 2.2 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Den Andre Caféen / Salong AS | Address: Ivan Bjørndals gate 9, Oslo | Rating: 3.5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Sandaker cafe Omar Usman Ali | Address: Sandakerveien 59, Oslo | Rating: 3.4 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Torshovdalen aktivitetshus | Address: Fagerheimgata 31, Oslo | Rating: 4.6 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Kafe Tandem | Address: Grefsenveien 26, Oslo | Rating: 4.7 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Louis XVIII | Address: Lettvintveien 29, Oslo | Rating: 4.9 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Kaffe & Brød | Address: Disenveien 31, Oslo | Rating: 4.7 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Backstube | Address: Vogts gate 50, Oslo | Rating: 4.8 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: SINSEN [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: House of Nerds | Address: Lørenveien 38, Oslo | Rating: 4.5 | Types: [ bar, point_of_interest, establishment ]
+Name: Bar Polar | Address: Sandakerveien 72 C, Oslo | Rating: 4.7 | Types: [ bar, point_of_interest, establishment ]
+Name: Magneten Pub | Address: Vogts gate 64, Vogts gate, Oslo | Rating: 3.9 | Types: [ bar, point_of_interest, establishment ]
+Name: Bruun-Larsen | Address: Torshovgata 15, Oslo | Rating: 4.4 | Types: [ bar, point_of_interest, establishment ]
+Name: Eik & Tid | Address: Hasleveien 28 A, Oslo | Rating: 5 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Wembley Pub | Address: Schouterrassen 25, Oslo | Rating: 3.7 | Types: [ bar, point_of_interest, establishment ]
+Name: WingsBar Rema | Address: Olaf Schous vei 1-3, Oslo | Rating: 3 | Types: [ bar, point_of_interest, establishment ]
+Name: Wings Bar AS | Address: Olaf Schous vei 2, Oslo | Rating: 4.4 | Types: [ bar, point_of_interest, establishment ]
+Name: HVASKJER | Address: Soria Moria, Vogts gate 64, Oslo | Rating: 4 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: SINSEN [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Kneip art studio | Address: Hasleveien 28B, Oslo | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: SINSEN [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Imperia Gym | Address: Grefsenveien 9B, Oslo | Rating: 4.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Bare trening | Address: Trondheimsveien 137, Oslo | Rating: 3.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: ELIXIA Carl Berner | Address: Trondheimsveien 135, Oslo | Rating: 4.1 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fitness24Seven | Address: Grefsenveien 49, Oslo | Rating: 3.6 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Yogeriet | Address: Birch-reichenwalds gate 25, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: FitnessXpress avd. Storo | Address: Sandakerveien 78, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: CrossFit Yggdrasil | Address: Hasleveien 28A, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Sterkhelse As | Address: Peter Møllers vei 5B, Oslo | Rating: 4.5 | Types: [ gym, physiotherapist, health, point_of_interest, establishment ]
+Name: Torden bokseklubb | Address: Åsensvingen 7C, Oslo | Rating: 4.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Sinsen Tennisklubb | Address: Norge, Sinsenveien 34, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: YOSHI THAIMASSAGE | Address: Olaf Schous vei 25, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Treningslab Studio 99, Sunnaas sykehus HF | Address: Trondheimsveien 235, bygg 99, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Tuftepark | Address: Fagerheimgata 31, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Aikikan Oslo | Address: Konghellegata 3, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fighters Lab | Address: Trondheimsveien 135, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: STORO [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: STORO [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Kaffebrenneriet avd Vitaminveien Storo | Address: Vitaminveien 7, Oslo | Rating: 3.7 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Baker Hansen Nydalen | Address: Nydalsveien 33, Oslo | Rating: 3.9 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: SmoothieXchange Storo | Address: Vitaminveien 9, Oslo | Rating: 2.7 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Baker Hansen Storo | Address: Vitaminveien 7, Oslo | Rating: 3.8 | Types: [ bakery, cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: Nespresso Storo Storsenter | Address: Storo Shopping,, Vitaminveien 7-9, Oslo | Rating: 5 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Cafe Ferro Montanus | Address: Hans Nielsen Hauges gate 37, Oslo | Rating: 4.9 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Starbucks BI Nydalen | Address: Nydalsveien 37, Oslo | Rating: 3.6 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Godt Brød Nydalen | Address: Nydalsveien 33, Oslo | Rating: 4.4 | Types: [ bakery, cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: JOE & THE JUICE | Address: Nydalsveien 33, Oslo | Rating: 3.7 | Types: [ cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: W.B. Samson – Sandaker | Address: Sandakerveien 59, Oslo | Rating: 3.3 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: Den Andre Caféen / Salong AS | Address: Ivan Bjørndals gate 9, Oslo | Rating: 3.5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Kafe Tandem | Address: Grefsenveien 26, Oslo | Rating: 4.7 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Louis XVIII | Address: Lettvintveien 29, Oslo | Rating: 4.9 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Sandaker cafe Omar Usman Ali | Address: Sandakerveien 59, Oslo | Rating: 3.4 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: STORO [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Bar Polar | Address: Sandakerveien 72 C, Oslo | Rating: 4.7 | Types: [ bar, point_of_interest, establishment ]
+Name: Nydalen Bryggeri & Spiseri | Address: Nydalsveien 30A, Oslo | Rating: 4 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: SBIO Kroa As | Address: Sandakerveien 116, Oslo | Rating: 4.3 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: STORO [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Kapellkrysset | Address: Kapellveien 32, Oslo | Rating: 5 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: STORO [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Imperia Gym | Address: Grefsenveien 9B, Oslo | Rating: 4.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Storo | Address: Vitaminveien 5-7, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Nydalen | Address: Sandakerveien 109, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: FitnessXpress avd. Storo | Address: Sandakerveien 78, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Crossfit Oslo | Address: Nydalsveien 17, Oslo | Rating: 4.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fitness24Seven | Address: Grefsenveien 49, Oslo | Rating: 3.6 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SiO Athletica Nydalen | Address: Sandakerveien 116, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: EVO Nydalen | Address: Nydalsveien 36, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Yogeriet | Address: Birch-reichenwalds gate 25, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fitnesspoint Nydalen treningssenter | Address: Nydalsveien 15, Oslo | Rating: 3.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fighter Kickboxingklubb | Address: Moldegata 7, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Torden bokseklubb | Address: Åsensvingen 7C, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Oslo Kali Sikaran | Address: Moldegata 7, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Disenbanen | Address: Kjelsåsveien 49, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: NYDALEN [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: NYDALEN [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Baker Hansen Nydalen | Address: Nydalsveien 33, Oslo | Rating: 3.9 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: Kaffebrenneriet avd Vitaminveien Storo | Address: Vitaminveien 7, Oslo | Rating: 3.7 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Godt Brød Nydalen | Address: Nydalsveien 33, Oslo | Rating: 4.4 | Types: [ bakery, cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: SmoothieXchange Storo | Address: Vitaminveien 9, Oslo | Rating: 2.7 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Baker Hansen Storo | Address: Vitaminveien 7, Oslo | Rating: 3.8 | Types: [ bakery, cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: Starbucks BI Nydalen | Address: Nydalsveien 37, Oslo | Rating: 3.6 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: JOE & THE JUICE | Address: Nydalsveien 33, Oslo | Rating: 3.7 | Types: [ cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: Nespresso Storo Storsenter | Address: Storo Shopping,, Vitaminveien 7-9, Oslo | Rating: 5 | Types: [ cafe, store, point_of_interest, food, establishment ]
+Name: Norð Bjølsen | Address: 12, Bergensgata, Oslo | Rating: 4.3 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: Grefsen-Kjelsås Frivillighetssentralen | Address: Glads vei 47, Oslo | Rating: 4.5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Godt Brød NY28 | Address: Nydalsveien 28, Oslo | Rating: 4.5 | Types: [ cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: Kafe Tandem | Address: Grefsenveien 26, Oslo | Rating: 4.7 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: NYDALEN [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+Name: Viproom Oslo | Address: Maridalsveien 256C, Oslo | Rating: 4 | Types: [ night_club, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: NYDALEN [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Nydalen Bryggeri & Spiseri | Address: Nydalsveien 30A, Oslo | Rating: 4 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+Name: Bar Polar | Address: Sandakerveien 72 C, Oslo | Rating: 4.7 | Types: [ bar, point_of_interest, establishment ]
+Name: SBIO Kroa As | Address: Sandakerveien 116, Oslo | Rating: 4.3 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: NYDALEN [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Kapellkrysset | Address: Kapellveien 32, Oslo | Rating: 5 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: NYDALEN [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Imperia Gym | Address: Grefsenveien 9B, Oslo | Rating: 4.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Storo | Address: Vitaminveien 5-7, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SATS Nydalen | Address: Sandakerveien 109, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Crossfit Oslo | Address: Nydalsveien 17, Oslo | Rating: 4.9 | Types: [ gym, health, point_of_interest, establishment ]
+Name: FitnessXpress avd. Storo | Address: Sandakerveien 78, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fighter Kickboxingklubb | Address: Moldegata 7, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: EVO Nydalen | Address: Nydalsveien 36, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: SiO Athletica Nydalen | Address: Sandakerveien 116, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fitness24Seven | Address: Grefsenveien 49, Oslo | Rating: 3.6 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Ullevål og Tåsen Fysioterapi og Trening | Address: Kaj Munks vei 41B, Oslo | Rating: 4.3 | Types: [ physiotherapist, gym, health, point_of_interest, establishment ]
+Name: Fitnesspoint Nydalen treningssenter | Address: Nydalsveien 15, Oslo | Rating: 3.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Yogeriet | Address: Birch-reichenwalds gate 25, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Neyan nursery | Address: Hauges vei 5, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Oslo Kali Sikaran | Address: Moldegata 7, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: acfebook@gmail.com | Address: Gjerdrums vei 19, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: RISLØKKA [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: RISLØKKA [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Kafé Paviljongen | Address: Refstadveien 35, Oslo | Rating: 4.2 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: RISLØKKA [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Quality Hotel 33 | Address: Østre Aker vei 33, Oslo | Rating: 3.8 | Types: [ bar, lodging, restaurant, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: RISLØKKA [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Universitetet i Oslo, Naturhistorisk museum avd. Økern | Address: Kabelgata 40, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+Name: Universitetet i Oslo, Kulturhistorisk museum avd. Økern | Address: Kabelgata 34, Oslo | Rating: 5 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: RISLØKKA [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Condis Økern - Trening, Squash & vektreduksjonskurs | Address: Økernveien 148, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Vertigo Studios AS | Address: Oxertårnet, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Feelgood Vollebekk AS | Address: Brobekkveien 53, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: VOLLEBEKK [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: VOLLEBEKK [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Kafé Paviljongen | Address: Refstadveien 35, Oslo | Rating: 4.2 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: W.B. Samson - Linderud | Address: Erich Mogensøns vei 38, Oslo | Rating: 3.8 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: Sazan Pizza - Linderud | Address: linderud senter | Rating: 5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Tre Kinesere Cafe og restaurant | Address: Erich Mogensøns vei 38, Oslo | Rating: 2 | Types: [ cafe, restaurant, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: VOLLEBEKK [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Linderud gård | Address: Trondheimsveien 319, Oslo | Rating: 4.4 | Types: [ museum, park, point_of_interest, establishment ]
+Name: Universitetet i Oslo, Naturhistorisk museum avd. Økern | Address: Kabelgata 40, Oslo | Rating: 4 | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: VOLLEBEKK [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: SATS Linderud | Address: Erich Mogensøns vei 38, Oslo | Rating: 3.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Feelgood Vollebekk AS | Address: Brobekkveien 53, Oslo | Rating: 3.8 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: LINDERUD [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: LINDERUD [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: W.B. Samson - Linderud | Address: Erich Mogensøns vei 38, Oslo | Rating: 3.8 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: Sazan Pizza - Linderud | Address: linderud senter | Rating: 5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Kafé Paviljongen | Address: Refstadveien 35, Oslo | Rating: 4.2 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Tre Kinesere Cafe og restaurant | Address: Erich Mogensøns vei 38, Oslo | Rating: 2 | Types: [ cafe, restaurant, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: LINDERUD [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Villa Veitvet | Address: Veitvetveien 8, Oslo | Rating: 3.8 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: LINDERUD [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Linderud gård | Address: Trondheimsveien 319, Oslo | Rating: 4.4 | Types: [ museum, park, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: LINDERUD [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: SATS Linderud | Address: Erich Mogensøns vei 38, Oslo | Rating: 3.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Galaxy Treningssenter | Address: Veitvetveien 8, Oslo | Rating: 1 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Langer Yoga | Address: Kontoradresse, Anna Rogstads vei 8, Oslo | Rating: 1 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fitness24Seven | Address: Veitvetveien 8, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Feelgood Vollebekk AS | Address: Brobekkveien 53, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: VEITVET [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: VEITVET [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: W.B. Samson - Linderud | Address: Erich Mogensøns vei 38, Oslo | Rating: 3.8 | Types: [ bakery, cafe, store, point_of_interest, food, establishment ]
+Name: Sazan Pizza - Linderud | Address: linderud senter | Rating: 5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Tre Kinesere Cafe og restaurant | Address: Erich Mogensøns vei 38, Oslo | Rating: 2 | Types: [ cafe, restaurant, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: VEITVET [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Villa Veitvet | Address: Veitvetveien 8, Oslo | Rating: 3.8 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: VEITVET [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Linderud gård | Address: Trondheimsveien 319, Oslo | Rating: 4.4 | Types: [ museum, park, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: VEITVET [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: SATS Linderud | Address: Erich Mogensøns vei 38, Oslo | Rating: 3.8 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Galaxy Treningssenter | Address: Veitvetveien 8, Oslo | Rating: 1 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Citare Remedium AS | Address: Sletteløkka 35A, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fitness24Seven | Address: Veitvetveien 8, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: RØDTVET [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: RØDTVET [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Deli De Luca | Address: Kalbakkveien 16, Oslo | Rating: 3.5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Rødtvet Senior- og aktivitetssenter | Address: Martin Strandlis vei 9, Oslo | Rating: 4.8 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: RØDTVET [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Villa Veitvet | Address: Veitvetveien 8, Oslo | Rating: 3.8 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: RØDTVET [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Graffiti - Street Art | Address: Rødtvetveien, Oslo | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: RØDTVET [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: SATS Kalbakken | Address: Kalbakkveien 6, Oslo | Rating: 3.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Actic Nordtvet Bad | Address: Gårdsveien 4, Oslo | Rating: 4.7 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Citare Remedium AS | Address: Sletteløkka 35A, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Bare Trening | Address: Trondheimsveien 391, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Galaxy Treningssenter | Address: Veitvetveien 8, Oslo | Rating: 1 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fitness24Seven | Address: Veitvetveien 8, Oslo | Rating: 5 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: KALBAKKEN [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: KALBAKKEN [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Rødtvet Senior- og aktivitetssenter | Address: Martin Strandlis vei 9, Oslo | Rating: 4.8 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Deli De Luca | Address: Kalbakkveien 16, Oslo | Rating: 3.5 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: KALBAKKEN [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Cafe Hyggelig | Address: Ammerudveien 21, Oslo | Rating: 3.3 | Types: [ bar, point_of_interest, establishment ]
+Name: Kafe Steinbra | Address: Grorudveien 5, Oslo | Rating: 4.3 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: KALBAKKEN [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Graffiti - Street Art | Address: Rødtvetveien, Oslo | Types: [ museum, point_of_interest, establishment ]
+Name: Grorud Steinhoggermuseum | Address: Grorudveien 3, Oslo | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: KALBAKKEN [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: SATS Kalbakken | Address: Kalbakkveien 6, Oslo | Rating: 3.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Actic Nordtvet Bad | Address: Gårdsveien 4, Oslo | Rating: 4.7 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Bare Trening | Address: Trondheimsveien 391, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: AMMERUD [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: AMMERUD [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Rødtvet Senior- og aktivitetssenter | Address: Martin Strandlis vei 9, Oslo | Rating: 4.8 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Deli De Luca | Address: Kalbakkveien 16, Oslo | Rating: 3.5 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: AMMERUD [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Cafe Hyggelig | Address: Ammerudveien 21, Oslo | Rating: 3.3 | Types: [ bar, point_of_interest, establishment ]
+Name: Kafe Steinbra | Address: Grorudveien 5, Oslo | Rating: 4.3 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: AMMERUD [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Graffiti - Street Art | Address: Rødtvetveien, Oslo | Types: [ museum, point_of_interest, establishment ]
+Name: Grorud Steinhoggermuseum | Address: Grorudveien 3, Oslo | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: AMMERUD [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: SATS Kalbakken | Address: Kalbakkveien 6, Oslo | Rating: 3.5 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Actic Nordtvet Bad | Address: Gårdsveien 4, Oslo | Rating: 4.7 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Bare Trening | Address: Trondheimsveien 391, Oslo | Rating: 4.4 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: GRORUD [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: GRORUD [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Rødtvet Senior- og aktivitetssenter | Address: Martin Strandlis vei 9, Oslo | Rating: 4.8 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: GRORUD [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Kafe Steinbra | Address: Grorudveien 5, Oslo | Rating: 4.3 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+Name: Cafe Hyggelig | Address: Ammerudveien 21, Oslo | Rating: 3.3 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: GRORUD [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Grorud Steinhoggermuseum | Address: Grorudveien 3, Oslo | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: GRORUD [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: Bare trening Romsås | Address: Romsås Senter 1, Oslo | Rating: 3 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ROMSÅS [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: ROMSÅS [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Kafe Steinbra | Address: Grorudveien 5, Oslo | Rating: 4.3 | Types: [ bar, restaurant, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ROMSÅS [T-BANE] (museum)
+-----------------------------------------------------------------------------------------------------------
+Name: Grorud Steinhoggermuseum | Address: Grorudveien 3, Oslo | Types: [ museum, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ROMSÅS [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: STOLT Rommen | Address: Nedre Rommen 5K, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Bare trening Romsås | Address: Romsås Senter 1, Oslo | Rating: 3 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ROMMEN [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: ROMMEN [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Espresso House | Address: Stovner Senter 3, Oslo | Rating: 3 | Types: [ cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: Terrrassen kafe Stovner AS | Address: Stovner Senter 3, Oslo | Rating: 3.5 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Mix | Address: Stovner Senter 5, Oslo | Rating: 3.5 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ROMMEN [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: ROMMEN [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: O'Learys Stovner | Address: Stovner Senter 3, Oslo | Rating: 3.8 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: ROMMEN [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: STOLT Rommen | Address: Nedre Rommen 5K, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: STOLT Stovner | Address: Stovner Senter, 3, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Pretenders Baseball | Address: Haavard Martinsens vei 15, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Bare trening Romsås | Address: Romsås Senter 1, Oslo | Rating: 3 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Fitness24Seven | Address: Garver Ytteborgs vei 98 0977 Oslo, Oslo | Rating: 4.3 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: STOVNER [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: STOVNER [T-BANE] (cafe)
+-----------------------------------------------------------------------------------------------------------
+Name: Espresso House | Address: Stovner Senter 3, Oslo | Rating: 3 | Types: [ cafe, store, restaurant, point_of_interest, food, establishment ]
+Name: Mix | Address: Stovner Senter 5, Oslo | Rating: 3 | Types: [ cafe, point_of_interest, food, establishment ]
+Name: Terrrassen kafe Stovner AS | Address: Stovner Senter 3, Oslo | Rating: 3.5 | Types: [ cafe, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: STOVNER [T-BANE] (night_club)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: STOVNER [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: O'Learys Stovner | Address: Stovner Senter 3, Oslo | Rating: 3.8 | Types: [ bar, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: STOVNER [T-BANE] (gym)
+-----------------------------------------------------------------------------------------------------------
+Name: STOLT Rommen | Address: Nedre Rommen 5K, Oslo | Rating: 4 | Types: [ gym, health, point_of_interest, establishment ]
+Name: STOLT Stovner | Address: Stovner Senter, 3, Oslo | Rating: 4.2 | Types: [ gym, health, point_of_interest, establishment ]
+Name: Stovnerhallen | Address: Karl Fossums vei 30, Oslo | Rating: 3.4 | Types: [ gym, health, point_of_interest, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------
+Place: VESTLI [T-BANE] (resturant)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Place: VESTLI [T-BANE] (bar)
+-----------------------------------------------------------------------------------------------------------
+Name: Rudolf Pub & Restaurant | Address: Vestlisvingen 188, Oslo | Rating: 4 | Types: [ restaurant, bar, point_of_interest, food, establishment ]
+-----------------------------------------------------------------------------------------------------------
+
+

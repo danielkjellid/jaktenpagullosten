@@ -10,7 +10,7 @@
 
 
 # variables / constants
-KEY=AIzaSyAPGWz50dpdXlR3D-HQKMApVZXa-ojqlr0
+KEY=
 SEARCH="nearbysearch"
 RADIUS=1000
 BASE_URL="https://maps.googleapis.com/maps/api/place" 

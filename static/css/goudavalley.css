@@ -4,15 +4,19 @@
 #goudavalley-body {
     margin: 0;
 }
+
 #goudavalley-container {
     margin: auto;
     width: 1280px;
     height: 720px;
     position: relative;
+    overflow: hidden;
 }
+
 #goudavalley-container * {
     position: absolute;
 }
+
 #goudavalley-background {
     width: 1280px;
     height: 720px;
@@ -24,12 +28,14 @@
     left: 1500px;
     position: relative;
 }
+
 #goudavalley-sheep {
     height: 10%;
     top: 400px;
     left: 100px;
     position: relative;
 }
+
 #goudavalley-tractor {
     height: 25%;
     top: 480px;

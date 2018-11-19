@@ -2,12 +2,11 @@
 /* PARMAVILLE */
 
 #parmaville-body {
-    margin: auto;
+    margin: 0;
 }
 
 #parmaville-container {
     margin: auto;
-    background-color: red;
     width: 1280px;
     height: 720px;
     position: relative;

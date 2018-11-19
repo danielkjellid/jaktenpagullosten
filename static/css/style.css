@@ -832,6 +832,7 @@ p, span, button {
   height: 8%;
   background-color: #413746;
   color: #fff;
+  border-bottom: 1px solid #bbb;
 }
 
 .bluecheesecity-nav-buttons {

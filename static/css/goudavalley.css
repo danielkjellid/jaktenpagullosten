@@ -1,45 +1,130 @@
-
-/* GOUDAVALLEY */
-
-#goudavalley-body {
-    margin: 0;
+body {
+	margin: auto;
 }
 
-#goudavalley-container {
-    margin: auto;
-    width: 1280px;
-    height: 720px;
-    position: relative;
-    overflow: hidden;
+p, span, button {
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-#goudavalley-container * {
-    position: absolute;
+.bluecheesecity-container {
+  margin: auto;
+  width: 1280px;
+  height: 720px;
+  position: relative;
+  overflow: hidden;
 }
 
-#goudavalley-background {
-    width: 1280px;
-    height: 720px;
+.bluecheesecity-container *{
+  position: absolute;
 }
 
-#goudavalley-rock {
-    height: 15%;
-    top: 600px;
-    left: 1500px;
-    position: relative;
+#bluecheesecity-background {
+  width: 1280px;
+  height: 720px;
 }
 
-#goudavalley-sheep {
-    height: 10%;
-    top: 400px;
-    left: 100px;
-    position: relative;
+.bluecheesecity-nav-container {
+  width: 100%;
+  height: 8%;
+  background-color: #413746;
+  color: #fff;
+  border-bottom: 1px solid #bbb;
 }
 
-#goudavalley-tractor {
-    height: 25%;
-    top: 480px;
-    left: 200px;
-    position: relative;
-    transform: rotate(350deg);
+.bluecheesecity-nav-buttons {
+  width: 17%;
+  height: 98%;
+  margin-top: 0;
+  border-right: 1px solid #bbb;
+  padding: 1px;
 }
+
+.bluecheesecity-nav-buttons button{
+  background-color: #1bb776;
+  border: 1px solid #138254; 
+  color: #fff; 
+  height: 40px;
+  width: 100px;
+  margin-top: 7px;
+  margin-left: 10px;
+  font-size: 14px;
+  padding: 0;
+}
+
+.bluecheesecity-nav-buttons button span{
+  position: relative;
+}
+
+.bluecheesecity-nav-buttons #forward {
+  top: 0;
+  left: 100px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.bluecheesecity-nav-buttons #backward {
+  top: 0;
+  left: 0;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.bluecheesecity-nav-buttons button:not(:last-child){
+  border-right: 0;
+}
+
+.bluecheesecity-nav-buttons button:hover {
+  background-color: #148b59;
+  border-color: #138254;
+}
+
+.bluecheesecity-nav-progress {
+  width: auto;
+  height: 112%;
+  margin-left: 77%;
+  margin-top: 0;
+  border-left:1px solid #bbb;
+  padding-left: 8px;
+  margin-top: -7px;
+}
+
+.bluecheesecity-nav-progress img {
+  width: 45px;
+  margin: 12px;
+  padding: 0;
+  position: relative;
+}
+
+.bluecheesecity-nav-progress #cheeseWheel {
+  width: 40px;
+}
+
+.bluecheesecity-nav-progress-notFound {
+  opacity: 0.2;
+}
+
+.bluecheesecity-nav-progress span {
+  font-size: 30px;
+  margin-top: 11px;
+  margin-left: -8px;
+  padding: 0; 
+}
+
+.bluecheesecity-nav-info {
+  width: 57%;
+  height: 65%;
+  background-color: #FFA51E;
+  border: 3px solid #2D2832;
+  border-radius: 2px;
+  margin-left: 18%;
+  margin-top: 0;
+  padding: 3px;
+  margin-top: 4px;
+}
+
+.bluecheesecity-nav-info p {
+  font-size: 12px;
+  color: #2D2832;
+  margin: 0;
+}
+

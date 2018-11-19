@@ -27,14 +27,9 @@ body {
 	}
 }
 
-.btn-start:active .shrink-metro {
-   transform: scale(2);
-}
-
 .btn-start:active .fill-btn-start {
    transform: translateY(0px);
 }
-
 
 /* text bubble start */
 
@@ -46,22 +41,25 @@ body {
 #textbubble {
   min-width: 16px;
   min-height: 8px;
+  max-height: 100px;
   transform: scale(0);
-  transition: 1s ease-in;
+  transition: 1s linear;
   position:absolute;
-  opacity: 1;
+  opacity: 0;
   margin: 0;
   padding: 15px;
+  padding-bottom: 40px;
   bottom: 25px;
-  left: -200px;
+  left: -240px;
   background-color: rgb(255, 203, 7);
-  border-radius: 8px;
+  border-radius: 15px;
   color: #FFF;
   font-weight: bold;
-  font-size: 20px;
-  line-height:22px;
+  font-size: 22px;
+  line-height:24px;
   text-shadow: 2px 2px #000000;
   word-wrap: break-word;
+  text-align: center;
 }
 
 
@@ -72,7 +70,7 @@ body {
   bottom:-17px;
   position:absolute;
   right:15px;
-  margin-right:-1px;
+  margin-right:130px;
   border:solid 20px rgba(255,255,255, 0);
   border-left-color: rgb(255,203,7);
 }

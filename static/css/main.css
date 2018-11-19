@@ -11,7 +11,7 @@ body {
   position:absolute;
   margin:0;
   padding:10px;
-  background-color: rgba(255, 225, 112, 100);
+  background-color: rgb(255, 203, 7);
   border-radius:8px;
   color:#FFF;
   font-weight:bold;
@@ -27,8 +27,8 @@ body {
   bottom:-10px;
   right:15px;
   margin-right:-8px;
-  border:solid 12px rgba(255,255,255,0);
-  border-left-color: rgba(255, 225, 112, 100);
+  border:solid 12px rgb(255,255,254);
+  border-left-color: rgb(255, 203, 7);
 }
 /* text bubble end */
 

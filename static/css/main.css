@@ -3,6 +3,30 @@ body {
 	margin: 0;
 }
 
+#textbubble {
+  position:absolute;
+  margin:0;
+  padding:10px;
+  background:#EEAA00;
+  border-radius:8px;
+  color:#FFF;
+  font-weight:bold;
+  font-size:14px;
+  text-shadow:;
+}
+
+#textbubble .r {
+  transform: scaleX(-1);
+  width:0;
+  height:0;
+  position:absolute;
+  bottom:-10px;
+  right:15px;
+  margin-right:-8px;
+  border:solid 12px rgba(255,255,255,0);
+  border-left-color:#EEAA00;
+}
+
 #main-container * {
 	position: relative;
 }
@@ -59,6 +83,10 @@ body {
 	width: 120px;
 	z-index: 10;
 	position: fixed;	
+}
+
+#img-mouse:hover {
+
 }
 
 
@@ -118,3 +146,4 @@ body {
     padding-right: 10px;
 }
 /* main header end */
+

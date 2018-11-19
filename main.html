@@ -8,30 +8,23 @@
 </head>
 <body>
 
-          <header id="main-header">
-            <ul>
-                <li class="right-li"><img class="cheese" id="golden-cheese" src="static/img/cheesewheel.png"></li>
-                <li class="right-li"><span>=</span></li>
-                <li class="right-li"><img class="cheese" id="cheeseThree" src="static/img/ost.png"></li>
-                <li class="right-li"><span>+</span></li>
-                <li class="right-li"><img class="cheese" id="cheeseTwo" src="static/img/ost.png"></li>
-                <li class="right-li"><span>+</span></li>
-                <li class="right-li"><img class="cheese" id="cheeseOne" src="static/img/ost.png"></li>
-                <li id="cheese-border"></li>
-            </ul>
-        </header>
-
    <div id="main-container">
 
-       <div id="img-metro">
-           <img src="static/img/metro.png"/>
-           <div id="img-mouse">
-               <img src="static/img/mouse3.gif"/>
+      <div class="btn-start">
+        <div class="fill-btn-start"></div>
+      </div>
+
+       <div id="metro" class="shrink-metro">
+           <iframe id="iframe" src="" style="display: none;" onclick="this.play();"></iframe> 
+           <img id="img-metro" src="static/img/metro.png">
+           <div id="mouse">
+               <img id="img-mouse" src="static/img/mouse3.gif">
+
                <div id="textbubble">
-                  <div class="r"></div>
-                  <div class="textbubble-content">Hello fucker! I'm Ralphy the mouse!</div>
+                  <div class="round"></div>
+                  <div class="textbubble-content">Hello fucker! I'm Ralphy the mouse! <br>Please entertain me. Or else i will be <br>super super bored</div>
                </div>
-          </div> 
+           </div> 
        </div>
 
    </div>

@@ -4,31 +4,36 @@
 #goudavalley-body {
     margin: 0;
 }
-
 #goudavalley-container {
-    background-image: url(../img/goudavalley.jpg);
-    background-size: cover;
-    margin: 0;
+    margin: auto;
+    width: 1280px;
+    height: 720px;
     position: relative;
-    width: 100vw;
-    height: 100vh;
 }
+#goudavalley-container * {
+    position: absolute;
+}
+#goudavalley-background {
+    width: 1280px;
+    height: 720px;
+}
+
 #goudavalley-rock {
-    height:15%;
-    top:600px;
-    left:1500px;
-    position:relative;
+    height: 15%;
+    top: 600px;
+    left: 1500px;
+    position: relative;
 }
 #goudavalley-sheep {
-    height:10%;
-    top:400px;
-    left:100px;
-    position:relative;
+    height: 10%;
+    top: 400px;
+    left: 100px;
+    position: relative;
 }
 #goudavalley-tractor {
-    height:25%;
-    top:480px;
-    left:200px;
-    position:relative;
+    height: 25%;
+    top: 480px;
+    left: 200px;
+    position: relative;
     transform: rotate(350deg);
 }

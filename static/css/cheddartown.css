@@ -2,16 +2,19 @@
 /* CHEDDAR TOWN */
 
 #cheddartown-body {
-    margin: 0;
+    margin: auto;
 }
 
 #cheddartown-container {
-    background-image: url(../img/cheddartown.jpg);
+   
     background-size: cover;
-    margin: 0;
+    margin: auto;
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 1280px;
+    height: 720px;
+   
+
+
 }
 
 #cheddartown-container * {
@@ -19,3 +22,31 @@
 }
 
 
+#snow-mobile {
+
+height: 100px;
+
+weight:100px;
+left: 0px;
+bottom:230px;
+
+
+
+}
+#sledge {
+
+ height:100px;
+ weight:0px;
+ right: 0px;
+bottom:230px;
+
+transform: rotate(-20deg);
+}
+
+#snow-man {
+
+height: 100px;
+weight: 100px;
+right: 0px; 
+
+}

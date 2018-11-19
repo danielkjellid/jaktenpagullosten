@@ -7,13 +7,26 @@
 
 #cheddartown-container {
    
-    background-size: cover;
     margin: auto;
     position: relative;
     width: 1280px;
     height: 720px;
+  
    
 
+
+}
+
+#cheddartown-background{
+
+    width: 1280px;
+    height: 720px;
+    
+}
+
+#cheddartown-controlpanel{
+    width: 1280px;
+    bottom: -850px;
 
 }
 
@@ -26,17 +39,29 @@
 
 height: 100px;
 
-weight:100px;
-left: 0px;
-bottom:230px;
+width:100px;
+left:0;
+bottom:-635px;
 
+animation-name: move;
+animation-duration: 3s;
+animation-delay: 1s;
+
+
+}
+
+@keyframes move {
+0% {left:0;}
+
+25% {left:200px;}
+50% {transform:rotate(20deg); left:250px;}
 
 
 }
 #sledge {
 
  height:100px;
- weight:0px;
+ width:100px;
  right: 0px;
 bottom:230px;
 

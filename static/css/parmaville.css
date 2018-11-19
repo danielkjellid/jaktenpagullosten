@@ -1,6 +1,141 @@
 
 /* PARMAVILLE */
 
+/* GylfIcon */
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot'); 
+  src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.glyphicon-arrow-left:before {
+  content: "\e091";
+} /*Brukt*/
+
+.glyphicon-arrow-right:before {
+  content: "\e092";
+} /*Brukt*/
+
+/* Header ------------------------------------------------ */
+
+.nav-container {
+    width: 100%;
+    height: 8%;
+    background-color: #413746;
+    color: #fff;
+    z-index: 1;
+}
+
+.nav-buttons {
+    width: 17%;
+    height: 98%;
+    margin-top: 0;
+    border-right: 1px solid #bbb;
+    padding: 1px;
+}
+
+.nav-buttons button{
+    background-color: #1bb776;
+    border: 1px solid #138254; 
+    color: #fff; 
+    height: 40px;
+    width: 100px;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 0;
+}
+
+.nav-buttons button span{
+    position: relative;
+}
+
+.nav-buttons #forward {
+    top: 0;
+    left: 100px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.nav-buttons #backward {
+    top: 0;
+    left: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.nav-buttons button:not(:last-child){
+    border-right: 0;
+}
+
+.nav-buttons button:hover {
+    background-color: #148b59;
+    border-color: #138254;
+}
+
+.nav-progress {
+    width: auto;
+    height: 112%;
+    margin-left: 77%;
+    margin-top: 0;
+    border-left:1px solid #bbb;
+    padding-left: 8px;
+    margin-top: -7px;
+}
+
+.nav-progress img {
+    width: 45px;
+    margin: 12px;
+    padding: 0;
+    position: relative;
+}
+
+.nav-progress #cheeseWheel {
+    width: 40px;
+}
+
+.nav-progress-notFound {
+    opacity: 0.2;
+}
+
+.nav-progress span {
+    font-size: 30px;
+    margin-top: 11px;
+    margin-left: -8px;
+    padding: 0; 
+}
+
+.nav-info {
+    width: 57%;
+    height: 65%;
+    background-color: #FFA51E;
+    border: 3px solid #2D2832;
+    border-radius: 2px;
+    margin-left: 18%;
+    margin-top: 0;
+    padding: 3px;
+    margin-top: 4px;
+}
+
+.nav-info p {
+    font-size: 12px;
+    color: #2D2832;
+    margin: 0;
+}
+
+/* Main-container ---------------------------------------------- */
+
 #parmaville-body {
     margin: 0;
 }
@@ -24,8 +159,9 @@
 
 #parmaville-controlpanel {
     width: 1280px;
-    bottom: -100px;
-    
+    top: 100px;
+    left: 0;
+    z-index: 10;
 }
 
 #parmaville-sheriff {
@@ -37,8 +173,9 @@
 }
 
 #parmaville-cactus {
-    width: 100px;
+    width: 50px;
+    top: 500px;
+    left: 200px;
 }
-
 
 

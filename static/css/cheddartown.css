@@ -11,8 +11,7 @@
     position: relative;
     width: 1280px;
     height: 720px;
-  
-   
+
 
 
 }
@@ -40,38 +39,58 @@
 height: 100px;
 
 width:100px;
-left:0;
+left:-100px;
 bottom:-635px;
 
 animation-name: move;
-animation-duration: 3s;
+animation-duration: 10s;
 animation-delay: 1s;
+animation-iteration-count: infinite;
 
 
 }
 
 @keyframes move {
+/*0% {left:0;}
+50% {transform:rotate(20deg); left:900px; top:550px; opacity:0;}
+100% {left:1500px;top:550px; transform:rotate(-30deg); opacity:1;}
+*/
+
 0% {left:0;}
+10% {left:100px;}
 
-25% {left:200px;}
-50% {transform:rotate(20deg); left:250px;}
+50%{transform:rotate(20deg); left:1000px; top:550px; opacity:0.0;}
+60% {left:1010px;}
 
+100% {left:1200px;top:550px; transform:rotate(-30deg); opacity:1;}
 
 }
 #sledge {
 
  height:100px;
  width:100px;
- right: 0px;
-bottom:230px;
+ right: -1280px;
+bottom:-640px;
 
-transform: rotate(-20deg);
+/*transform: rotate(10deg);*/
+
+animation-name: moving-sledge;
+animation-duration: 10s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes moving-sledge {
+0%{right:  -0px;}
+50%{right:-1000px;}
+100%{right: -5000px;}
 }
 
 #snow-man {
 
 height: 100px;
-weight: 100px;
+width: 100px;
 right: 0px; 
 
 }

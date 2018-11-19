@@ -1,11 +1,11 @@
 
 /* PARMAVILLE */
 
-body {
+#parmaville-body {
     margin: 0;
 }
 
-#parmaville-background {
+#parmaville-container {
     background-image: url(../img/parmaville.jpg);
     background-size: cover;
     margin: 0;
@@ -79,5 +79,4 @@ body {
     background-color: #413746;
     color: antiquewhite;
     text-align: center;
-    
 }

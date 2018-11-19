@@ -13,12 +13,22 @@
     width: 100vw;
     height: 100vh;
 }
-goudavalley-background {
-  background-image: url(../img/goudavalley.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin: 0;
-
+#goudavalley-rock {
+    height:15%;
+    top:600px;
+    left:1500px;
+    position:relative;
+}
+#goudavalley-sheep {
+    height:10%;
+    top:400px;
+    left:100px;
+    position:relative;
+}
+#goudavalley-tractor {
+    height:25%;
+    top:480px;
+    left:200px;
+    position:relative;
+    transform: rotate(350deg);
 }

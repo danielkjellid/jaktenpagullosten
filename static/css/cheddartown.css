@@ -1,11 +1,11 @@
 
 /* CHEDDAR TOWN */
 
-#parmaville-body {
+#cheddartown-body {
     margin: 0;
 }
 
-#parmaville-container {
+#cheddartown-container {
     background-image: url(../img/cheddartown.jpg);
     background-size: cover;
     margin: 0;
@@ -14,7 +14,7 @@
     height: 100vh;
 }
 
-#parmaville-container * {
+#cheddartown-container * {
     position: absolute;
 }
 

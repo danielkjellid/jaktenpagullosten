@@ -802,6 +802,13 @@
   content: "\e260";
 }
 
+/* ===============================================================
+Static
+===============================================================
+*/
+
+/* Static: Natives
+-------------------------------*/
 body {
 	margin: auto;
 }
@@ -810,6 +817,8 @@ p, span, button {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+/* Static: Container
+-------------------------------*/
 .bluecheesecity-container {
   margin: auto;
   width: 1280px;
@@ -822,11 +831,20 @@ p, span, button {
   position: absolute;
 }
 
+/* Static: background
+-------------------------------*/
 #bluecheesecity-background {
   width: 1280px;
   height: 720px;
 }
 
+/* ===============================================================
+NAVIGATION
+===============================================================
+*/
+
+/* Navigation: Container
+-------------------------------*/
 .bluecheesecity-nav-container {
   width: 100%;
   height: 8%;
@@ -834,6 +852,9 @@ p, span, button {
   color: #fff;
   border-bottom: 1px solid #bbb;
 }
+
+/* Navigation: Buttons
+-------------------------------*/
 
 .bluecheesecity-nav-buttons {
   width: 17%;
@@ -849,7 +870,7 @@ p, span, button {
   color: #fff; 
   height: 40px;
   width: 100px;
-  margin-top: 7px;
+  margin-top: 8px;
   margin-left: 10px;
   font-size: 14px;
   padding: 0;
@@ -881,6 +902,9 @@ p, span, button {
   background-color: #148b59;
   border-color: #138254;
 }
+
+/* Navigation: Progress
+-------------------------------*/
 
 .bluecheesecity-nav-progress {
   width: auto;
@@ -914,6 +938,9 @@ p, span, button {
   padding: 0; 
 }
 
+/* Navigation: Info block
+-------------------------------*/
+
 .bluecheesecity-nav-info {
   width: 57%;
   height: 65%;
@@ -932,3 +959,222 @@ p, span, button {
   margin: 0;
 }
 
+/* ===============================================================
+ELEMENTS
+===============================================================
+*/
+
+/* Element: Pigeon
+-------------------------------*/
+#bluecheesecity-element-pigeon {
+  width: 50px;
+  left: 190px;
+  top: 165px;
+}
+
+#bluecheesecity-element-pigeon:hover {
+  animation-name: bluecheesecity-animation-pigeon;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+}
+
+#bluecheesecity-element-pigeon:hover + #bluecheesecity-speech-pigeon-mouse{
+  display: block;
+}
+
+#bluecheesecity-speech-pigeon-mouse {
+  width: 120px;
+  height: 45px;
+  top: 380px;
+  left: 700px;
+  display: none;
+}
+
+#bluecheesecity-speech-pigeon-mouse p{
+  font-size: 12px;
+  margin: 6px;
+  color: #2D2832;
+}
+
+/* Element: Car
+-------------------------------*/
+#bluecheesecity-element-car {
+  width: 250px;
+  left: 150px;
+  top: 405px
+}
+
+#bluecheesecity-element-car:hover{
+  animation-name: bluecheesecity-animation-car;
+  animation-duration: 10s;
+  animation-timing-function:ease-in-out;
+}
+
+#bluecheesecity-element-car:hover + .bluecheesecity-speech-car{
+  display: block;
+}
+
+.bluecheesecity-speech-car {
+  display: none;
+}
+
+#bluecheesecity-speech-car-car {
+  width: 161px;
+  height: 63px;
+  left: 100px;
+  top: 340px;
+}
+
+#bluecheesecity-speech-car-car p{
+  font-size: 16px;
+  margin: 6px;
+  color: #2D2832;
+}
+
+#bluecheesecity-speech-car-mouse {
+  width: 120px;
+  height: 45px;
+  top: 380px;
+  left: 700px;
+}
+
+#bluecheesecity-speech-car-mouse p{
+  font-size: 12px;
+  margin: 6px;
+  color: #2D2832;
+}
+
+/* Element: Garbage
+-------------------------------*/
+#bluecheesecity-element-garbageBin {
+  width: 75px;
+  left: 970px;
+  top: 440px
+}
+
+#bluecheesecity-element-garbageBin:hover + .bluecheesecity-speech-cat {
+  display: block;
+}
+
+/* Element: Cat
+-------------------------------*/
+#bluecheesecity-element-cat {
+  width: 70px;
+  left: 930px;
+  top: 430px;
+}
+
+.bluecheesecity-speech-cat {
+  display: none;
+}
+
+#bluecheesecity-speech-cat-cat {
+  width: 161px;
+  height: 63px;
+  left: 810px;
+  top: 370px;
+}
+
+#bluecheesecity-speech-cat-cat p{
+  font-size: 16px;
+  margin: 6px;
+  color: #2D2832;
+}
+
+#bluecheesecity-speech-cat-mouse {
+  width: 161px;
+  height: 45px;
+  top: 380px;
+  left: 350px;
+}
+
+#bluecheesecity-speech-cat-mouse p{
+  font-size: 12px;
+  margin: 6px;
+  color: #2D2832;
+}
+
+/* Element: Rat Poison
+-------------------------------*/
+#bluecheesecity-element-ratPoison {
+  width: 30px;
+  left: 200px;;
+  top: 465px;
+  transform: rotate(20deg)
+}
+
+/* Element: Arrow
+-------------------------------*/
+#bluecheesecity-element-arrow {
+  width: 40px;
+  top: 60px;
+  left: 130px;
+  animation-name: bluechessecity-animation-upAndDown;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+/* ===============================================================
+Animations
+===============================================================
+*/
+
+/* Animation: Pigeon
+-------------------------------*/
+@keyframes bluecheesecity-animation-pigeon {
+  0% {
+    top: 165px;
+  }
+  50% {
+    top: 100px;
+  }
+  100% {
+    top: 165px;
+  }
+}
+
+/* Animation: car
+-------------------------------*/
+@keyframes bluecheesecity-animation-car {
+  0% {
+    left: 150px;
+  }
+  25% {
+    left: 250px;
+  }
+  75% {
+    left: 200px;
+  }
+  100% {
+    left: 150px;
+  }
+}
+
+/* Animation: cat
+-------------------------------*/
+@keyframes bluecheesecity-animation-cat {
+  0% {
+    left: 970px;
+  }
+  75% {
+    left: 950px;
+  }
+  100% {
+    left: 970px;
+  }
+}
+
+/* Animation: Up and down
+-------------------------------*/
+@keyframes bluechessecity-animation-upAndDown {
+  0% {
+    top: 60px;
+  }
+  50% {
+    top: 80px;
+  }
+  100% {
+    top: 60px;
+  }
+}

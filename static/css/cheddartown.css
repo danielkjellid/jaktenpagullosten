@@ -1,0 +1,21 @@
+
+/* CHEDDAR TOWN */
+
+#parmaville-body {
+    margin: 0;
+}
+
+#parmaville-container {
+    background-image: url(../img/cheddartown.jpg);
+    background-size: cover;
+    margin: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#parmaville-container * {
+    position: absolute;
+}
+
+

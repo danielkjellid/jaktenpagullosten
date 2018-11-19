@@ -802,22 +802,29 @@
   content: "\e260";
 }
 
+body {
+	margin: auto;
+}
+
 p, span, button {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .bluecheesecity-container {
-  
+  margin: auto;
+  width: 1280px;
+  height: 720px;
+  position: relative;
+  overflow: hidden;
 }
 
-.bluecheesecity-background {
-  background-image: url(../img/bluecheesecity.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin: 0;
-  
+.bluecheesecity-container *{
+  position: absolute;
+}
+
+#bluecheesecity-background {
+  width: 1280px;
+  height: 720px;
 }
 
 .bluecheesecity-nav-container {
@@ -828,12 +835,11 @@ p, span, button {
 }
 
 .bluecheesecity-nav-buttons {
-  width: 15%;
-  height: 54px;
+  width: 17%;
+  height: 98%;
   margin-top: 0;
-  position: absolute;
   border-right: 1px solid #bbb;
-  padding: 2px;
+  padding: 1px;
 }
 
 .bluecheesecity-nav-buttons button{
@@ -842,10 +848,14 @@ p, span, button {
   color: #fff; 
   height: 40px;
   width: 100px;
-  position: absolute;
   margin-top: 7px;
   margin-left: 10px;
-  font-size: 15px;
+  font-size: 14px;
+  padding: 0;
+}
+
+.bluecheesecity-nav-buttons button span{
+  position: relative;
 }
 
 .bluecheesecity-nav-buttons #forward {
@@ -873,17 +883,19 @@ p, span, button {
 
 .bluecheesecity-nav-progress {
   width: auto;
+  height: 112%;
   margin-left: 77%;
   margin-top: 0;
-  position: absolute;
   border-left:1px solid #bbb;
   padding-left: 8px;
+  margin-top: -7px;
 }
 
 .bluecheesecity-nav-progress img {
-  width: 55px;
-  margin: 0;
+  width: 45px;
+  margin: 12px;
   padding: 0;
+  position: relative;
 }
 
 .bluecheesecity-nav-progress #cheeseWheel {
@@ -895,20 +907,20 @@ p, span, button {
 }
 
 .bluecheesecity-nav-progress span {
-  font-size: 40px;
-  margin: 3px;
+  font-size: 30px;
+  margin-top: 11px;
+  margin-left: -8px;
   padding: 0; 
 }
 
 .bluecheesecity-nav-info {
-  width: 59%;
-  height: 5%;
+  width: 57%;
+  height: 65%;
   background-color: #FFA51E;
   border: 3px solid #2D2832;
   border-radius: 2px;
-  margin-left: 16%;
+  margin-left: 18%;
   margin-top: 0;
-  position: absolute;
   padding: 3px;
   margin-top: 4px;
 }
@@ -918,3 +930,4 @@ p, span, button {
   color: #2D2832;
   margin: 0;
 }
+

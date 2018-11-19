@@ -2,20 +2,44 @@
 /* PARMAVILLE */
 
 #parmaville-body {
-    margin: 0;
+    margin: auto;
 }
 
 #parmaville-container {
-    background-image: url(../img/parmaville.jpg);
-    background-size: cover;
-    margin: 0;
+    margin: auto;
+    background-color: red;
+    width: 1280px;
+    height: 720px;
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    overflow: hidden;
 }
 
 #parmaville-container * {
     position: absolute;
 }
+
+#parmaville-background {
+    width: 1280px;
+    height: 720px;
+}
+
+#parmaville-controlpanel {
+    width: 1280px;
+    bottom: -100px;
+    
+}
+
+#parmaville-sheriff {
+    width: 100px;
+}
+
+#parmaville-stoneWell {
+    width: 100px;
+}
+
+#parmaville-cactus {
+    width: 100px;
+}
+
 
 

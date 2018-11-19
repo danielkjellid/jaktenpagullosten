@@ -13,70 +13,12 @@
     width: 100vw;
     height: 100vh;
 }
+goudavalley-background {
+  background-image: url(../img/goudavalley.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
 
-#goudavalley-header a {
-    color: inherit;
-    text-decoration: none;
-}
-
-#goudavalley-header ul {
-    padding: 0;
-    list-style-type: none;
-    background-color: #413746;
-    margin: 0;
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    z-index: 1;
-}
-
-.left-li {
-    float: left;
-    color: antiquewhite;
-    font-size: 42px;
-    padding: 0px 10px 0px 10px;
-    border-right: 1px solid antiquewhite;
-}
-
-.right-li {
-    float: right;
-    margin-top: 5px;
-}
-
-.right-li span {
-    color: antiquewhite;
-    text-align: center;
-    font-size: 30px;
-    padding: 0px 10px 0px 10px;
-}
-
-.cheese {
-    width: 50px;
-    opacity: 0.3;
-}
-
-#cheese-border {
-    background-color: antiquewhite;
-    width: 1px;
-    height: 50px;
-    margin-right: 10px;
-    float: right
-}
-
-#golden-cheese {
-    width: 40px;
-    padding-right: 10px;
-}
-
-#goudavalley-footer ul {
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
-    z-index: 1;
-    margin: 0;
-    padding: 5px;
-    list-style-type: none;
-    background-color: #413746;
-    color: antiquewhite;
-    text-align: center;
 }

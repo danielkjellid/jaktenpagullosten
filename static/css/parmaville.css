@@ -58,7 +58,7 @@
 }
 
 .nav-buttons button span{
-    position: relative;
+    position: relative !important;
 }
 
 .nav-buttons #forward {
@@ -98,7 +98,7 @@
     width: 45px;
     margin: 12px;
     padding: 0;
-    position: relative;
+    position: relative !important;
 }
 
 .nav-progress #cheeseWheel {
@@ -129,12 +129,16 @@
 }
 
 .nav-info p {
-    font-size: 12px;
+    font-size: 15px;
     color: #2D2832;
     margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
-/* Main-container ---------------------------------------------- */
+/* ============================================================ 
+                         Main-container  
+=============================================================== */
 
 #parmaville-body {
     margin: 0;
@@ -152,6 +156,7 @@
     position: absolute;
 }
 
+/* Static images ----------------------------------------------- */
 #parmaville-background {
     width: 1280px;
     height: 720px;
@@ -161,21 +166,76 @@
     width: 1280px;
     top: 100px;
     left: 0;
-    z-index: 10;
-}
-
-#parmaville-sheriff {
-    width: 100px;
 }
 
 #parmaville-stoneWell {
+    width: 80px;
+    bottom: 122px;
+    left: 220px;
+}
+
+/* Speechbubble design ----------------------------------- */
+.parmaville-speechbubble {
     width: 100px;
+    height: 50px;
+    background-color: lemonchiffon;
+    border: 2px solid black;
+    border-radius: 10px 10px 0px 10px;
 }
 
-#parmaville-cactus {
-    width: 50px;
-    top: 500px;
-    left: 200px;
+
+/* Sheriff1 -------------------------------------------- */
+#parmaville-sheriff1 {
+    width: 150px;
+    bottom: 100px;
+    right: 200px;
+    transform: scaleX(-1);
 }
 
+#parmaville-speechbubble-sheriff1 {
+    bottom: 200px;
+    right: 310px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+    display: block;
+}
+
+#parmaville-sheriff1:hover {
+    animation: sheriff1Moves 2s linear 0s infinite;
+}
+
+#parmaville-sheriff1:hover + parmaville-speechbubble-sheriff1 {
+    display: none !important;
+}
+
+@keyframes sheriff1Moves {
+    0% {
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(20deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-20deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+/* Sherriff2 -------------------------------------------- */
+#parmaville-sheriff2 {
+    width: 150px;
+    bottom: 100px;
+    left: 300px;
+}
+
+
+/* ============================================================ 
+                        END Main-container  
+=============================================================== */
 

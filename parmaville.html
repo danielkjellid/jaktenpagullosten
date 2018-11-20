@@ -8,15 +8,17 @@
     
     <body id="parmaville-body">
         
-        <article id="parmaville-container">
+        <!-- MAIN CONTAINER -->
+        <div id="parmaville-container">
             
+            <!-- HEADER - NAVBAR -->
             <header class="nav-container">
 			  <div class="nav-buttons">
 				  <button id="backward"><span class="glyphicon glyphicon-arrow-left"></span> Go back</button>
 				  <button id="forward">Proceed <span class="glyphicon glyphicon-arrow-right"></span></button>
 			  </div>
 			  <div class="nav-progress">
-				  <img src="static/img/ost.png">
+				  <img class="nav-progress-found" src="static/img/ost.png">
 				  <span>+</span>
 				  <img class="nav-progress-notFound" src="static/img/ost.png">
 				  <span>+</span>
@@ -25,17 +27,28 @@
 				  <img class="nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png">
 				</div>
 				<div class="nav-info">
-				  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat orci lectus, in maximus lorem tincidunt sit amet. Donec ornare sem non vehicula accumsan. Sed id libero accumsan magna rhoncus convallis. Duis cursus consequat aliquet.</p>
+				  <p>Click or hover over various items to see if you can find one of the cheese bits. When you have found it, click proceed.</p>
 				</div>
             </header>
+            <!-- HEADER - NAVBAR -->
             
-            <main>
-                <img id="parmaville-background" src="static/img/parmaville-uten-mus.jpg">
-                <img id="parmaville-controlpanel" src="static/img/mus-i-cockpit.png">
-                <img id="parmaville-sheriff" src="static/img/Parmaville/sheriff_ned_featured.png">
-                <img id="parmaville-stoneWell" src="static/img/Parmaville/stone-well-clipart-5.png">
-                <img id="parmaville-cactus" src="static/img/Parmaville/cactus-transparent-cartoon.png">
-            </main>
-        </article>
+            <!-- STATIC IMAGES -->
+            <img id="parmaville-background" src="static/img/parmaville-uten-mus.jpg">
+            <img id="parmaville-controlpanel" src="static/img/mus-i-cockpit.png">
+            <img id="parmaville-stoneWell" src="static/img/Parmaville/stone-well-clipart-5.png">
+            <!-- END STATIC IMAGES -->
+            
+            <!-- Sheriff sequense -->
+            <img id="parmaville-sheriff1" src="static/img/Parmaville/sheriff_ned_featured.png">
+            <div class="parmaville-speechbubble" id="parmaville-speechbubble-sheriff1">Det kan bare finnes én av oss! Gjør deg klar for duell!</div>
+            <img id="parmaville-sheriff2" src="static/img/Parmaville/sheriff_ned_featured.png">
+            <!-- END IMAGES -->
+            
+            <!-- DIVS -->
+            
+            <!-- END DIVS -->
+            
+        </div>
+        <!-- END MAIN CONTAINER -->
     </body>  
 </html>

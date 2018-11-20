@@ -207,7 +207,7 @@
     right: 390px;
     font-size: 12px;
     text-align: center;
-    padding: 5px 5px 20px 5px;
+    padding: 5px 5px 10px 5px;
     border-radius: 10px 10px 10px 0px;
     opacity: 0; 
 }
@@ -223,7 +223,7 @@
 
 #parmaville-sheriff1:hover ~ #parmaville-speechbubble-mouse1 {
     opacity: 1;
-    transition: all 0.5s linear 3s;
+    transition: all 0.5s linear 2s;
 }
 
 @keyframes sheriff1Moves {
@@ -335,15 +335,29 @@
     width: 30px;
     bottom: -68px;
     left: 35px;
+    opacity: 1;
+}
+
+#parmaville-speechbubble-hidden-cheese {
+    height: 40px;
+    bottom: -50px;
+    left: 110px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    padding: 5px 5px 0px 5px;
+    border-radius: 10px 10px 10px 0px;
+    opacity: 0;
+}
+
+#parmaville-hidden-cheese:hover ~ #parmaville-speechbubble-hidden-cheese {
+    opacity: 1;
 }
 
 #cheese1:target {
     opacity: 1;
 }
 
-#cheese1:target #parmaville-hidden-cheese {
-    opacity: 0;
-}
 
 
 
@@ -354,8 +368,4 @@
 /* ============================================================ 
                         END Main-container  
 =============================================================== */
-
-
-
-
 

@@ -14,10 +14,12 @@
 overflow: hidden;
 
 
+
 }
 
 #cheddartown-background{
-
+ 
+    
     width: 1280px;
     height: 720px;
     
@@ -67,7 +69,7 @@ animation-timing-function: linear;
 bottom:90px;
 
 
-/*transform: rotate(10deg);*/
+
 
 animation-name: moving-sledge;
 animation-duration: 10s;
@@ -79,10 +81,10 @@ animation-timing-function: linear;
 
 @keyframes moving-sledge {
 0%{right:0px;bottom:100px;}
-25%{bottom:50px;}
-50%{right:1000px; bottom:0px;}
-75%{bottom:50px}
-100%{right: 5000px; bottom:100px; }
+25%{bottom:20px;}
+50%{right:1000px; bottom:0px; transform:}
+75%{bottom:20px; transform: rotate(50deg); }
+100%{right: 1280px; bottom:100px; }
 
 }
 
@@ -105,3 +107,236 @@ transform: rotate(90deg);
 
 
 }
+ 
+
+#chesse {
+height: 50px;;
+width: 50px;
+top: 500px;
+}
+/*
+ .snowz {
+    background:url("/static/img/cheddar_town/blue-snow-falling-md.png");
+   background-repeat:repeat; 
+    width: 1000px;
+    height: 1000px; 
+    position: absolute;
+  
+    }
+*/
+
+
+.snow-fall{
+    z-index: 10;
+    border-radius: 50%;
+    background-color:red;
+    animation: snow-falling 5s linear 0s infinite;
+    
+    height:15px; 
+width: 15px; 
+
+}   
+
+@keyframes snow-falling {
+ 0%{top:0;}
+ 100%{top:1280px;}
+
+}
+
+#snow1{
+left:200px;
+top:20px;
+
+}
+
+#snow2{
+top:20px;
+
+left:100px;
+}
+
+#snow3{
+
+    top:20px;
+left:400px
+
+}
+
+#snow4{
+    top:20px;
+
+left:800px
+
+}
+
+#snow5{
+    top:20px;
+
+left:1000px;
+
+}
+
+#snow6{
+    top:20px;
+
+
+lefT:750px;
+}
+
+#snow7{
+    top:20px;
+
+left:650px;
+}
+
+#snow8{
+    top:20px;
+
+left:950px
+
+}
+
+#snow9{
+    top:20px;
+left:850px;
+
+}
+
+#snow10{
+    top:20px;
+
+left:1200px;
+
+}
+#snow11{
+    left:150px;
+    
+    
+    }
+    
+    #snow12{
+    
+    
+    left:250px;
+    }
+    
+    #snow13{
+    
+    
+    left:450px
+    
+    }
+    
+    #snow14{
+    
+    
+    left:850px
+    
+    }
+    
+    #snow15{
+    
+    
+    left:950px;
+    
+    }
+    
+    #snow16{
+    
+    
+    
+    lefT:750px;
+    }
+    
+    #snow17{
+    
+    
+    left:650px;
+    }
+    
+    #snow18{
+    
+    
+    left:970px
+    
+    }
+    
+    #snow19{
+    
+    left:880px;
+    
+    }
+    
+    #snow20{
+    
+    
+    left:1200px;
+    
+    }
+    #snow21{
+        left:6540px;
+        
+        
+        }
+        
+        #snow22{
+        
+        
+        left:3420px;
+        }
+        
+        #snow23{
+        
+        
+        left:412px
+        
+        }
+        
+        #snow24{
+        
+        
+        left:999px
+        
+        }
+        
+        #snow25{
+        
+        
+        left:345px;
+        
+        }
+        
+        #snow26{
+        
+        
+        
+        lefT:125px;
+        }
+        
+        #snow27{
+        
+        
+        left:765px;
+        }
+        
+        #snow28{
+        
+        
+        left:988px
+        
+        }
+        
+        #snow29{
+        
+        left:0px;
+        
+        }
+        
+        #snow30{
+        
+        
+        left:1200px;
+        
+        }
+
+        

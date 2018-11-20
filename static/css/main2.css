@@ -963,6 +963,12 @@ NAVIGATION
   margin: 0;
 }
 
+.bigger-font { 
+  font-size:20px;
+  text-decoration: underline !important;
+  margin-left: -30px !important;
+}
+
 /* ===============================================================
 ELEMENTS
 ===============================================================
@@ -980,10 +986,10 @@ ELEMENTS
   transform: scale(0);
   opacity: 0;
   width: 370px;
-  height: 250px;
+  height: 220px;
   padding: 10px;
   position:absolute;
-  bottom: 85px;
+  bottom: 70px;
   left: -90px;
   
   background-color: #FFA51E;
@@ -1038,6 +1044,11 @@ ELEMENTS
   anim-metro-first   6s     ease-in      5s  1 forwards;
 }
 
+#btnStart:checked ~ label .goudavalley-sign {
+     opacity: 1;
+}
+
+ 
 
 #btnStart:checked ~ label .goudavalley-sign {
      opacity: 1;
@@ -1140,3 +1151,39 @@ ANIMATIONS
    display: none;
   }
 }
+
+/* ===============================================================
+STUPID AUDIO HACK
+===============================================================
+*/
+
+audio {
+  background-color: #FFA51E;
+  color: #FFA51E;
+  width: 88px;
+  height: 40px;
+  opacity: 0.01;
+  z-index: 3;
+  position: absolute;
+}
+
+audio#hidden1 {
+  left: 120px;
+  bottom: -3px;
+}
+
+audio#hidden2 {
+  left: 140px;
+  bottom: -3px;
+}
+
+audio#hidden3 {
+  left: 160px;
+  bottom: -3px;
+}
+
+audio#hidden4 {
+  left: 185px;
+  bottom: -3px;
+}
+

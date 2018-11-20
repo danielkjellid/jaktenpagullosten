@@ -180,7 +180,6 @@
     height: 50px;
     background-color: lemonchiffon;
     border: 2px solid black;
-    border-radius: 10px 10px 0px 10px;
 }
 
 
@@ -197,16 +196,34 @@
     right: 310px;
     font-size: 12px;
     text-align: center;
-    padding-top: 5px;
-    display: block;
+    padding: 5px 5px 0px 5px;
+    border-radius: 10px 10px 0px 10px;
+    opacity: 0;
+}
+
+#parmaville-speechbubble-mouse1 {
+    bottom: 70px;
+    right: 390px;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 5px 20px 5px;
+    border-radius: 10px 10px 10px 0px;
+    opacity: 0;
+    
 }
 
 #parmaville-sheriff1:hover {
     animation: sheriff1Moves 2s linear 0s infinite;
 }
 
-#parmaville-sheriff1:hover + parmaville-speechbubble-sheriff1 {
-    display: none !important;
+#parmaville-sheriff1:hover ~ #parmaville-speechbubble-sheriff1 {
+    opacity: 1;
+    transition: all 0.5s linear 0s;
+}
+
+#parmaville-sheriff1:hover ~ #parmaville-speechbubble-mouse1 {
+    opacity: 1;
+    transition: all 0.5s linear 3s;
 }
 
 @keyframes sheriff1Moves {
@@ -214,13 +231,13 @@
         transform: rotate(0deg);
     }
     25%{
-        transform: rotate(20deg);
+        transform: rotate(10deg);
     }
     50%{
         transform: rotate(0deg);
     }
     75%{
-        transform: rotate(-20deg);
+        transform: rotate(-10deg);
     }
     100%{
         transform: rotate(0deg);
@@ -234,8 +251,47 @@
     left: 300px;
 }
 
+#parmaville-speechbubble-sheriff2 {
+    bottom: 200px;
+    left: 420px;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 5px 10px 5px;
+    border-radius: 10px 10px 10px 0px;
+    opacity: 0;
+}
+
+#parmaville-sheriff2:hover {
+    animation: sheriff2Moves 2s linear 0s infinite;
+}
+
+#parmaville-sheriff2:hover ~ #parmaville-speechbubble-sheriff2 {
+    opacity: 1;
+    transition: all 0.5s linear 0s;
+}
+
+@keyframes sheriff2Moves {
+    0% {
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
 
 /* ============================================================ 
                         END Main-container  
 =============================================================== */
+
+
 

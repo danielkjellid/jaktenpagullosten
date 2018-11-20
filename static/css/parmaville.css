@@ -1,7 +1,8 @@
+/* ===============================================================
+                            PARMAVILLE 
+================================================================ */
 
-/* PARMAVILLE */
-
-/* GylfIcon */
+/* GylfIcon ---------------------------------------------------- */
 
 @font-face {
   font-family: 'Glyphicons Halflings';
@@ -27,7 +28,7 @@
   content: "\e092";
 } /*Brukt*/
 
-/* Header ------------------------------------------------ */
+/* Header ------------------------------------------------------ */
 
 .nav-container {
     width: 100%;
@@ -174,16 +175,17 @@
     left: 220px;
 }
 
-/* Speechbubble design ----------------------------------- */
+/* Speechbubble design ----------------------------------------- */
 .parmaville-speechbubble {
     width: 100px;
     height: 50px;
     background-color: lemonchiffon;
     border: 2px solid black;
+    z-index: 10;
 }
 
 
-/* Sheriff1 -------------------------------------------- */
+/* Sheriff1 ---------------------------------------------------- */
 #parmaville-sheriff1 {
     width: 150px;
     bottom: 100px;
@@ -207,8 +209,7 @@
     text-align: center;
     padding: 5px 5px 20px 5px;
     border-radius: 10px 10px 10px 0px;
-    opacity: 0;
-    
+    opacity: 0; 
 }
 
 #parmaville-sheriff1:hover {
@@ -243,7 +244,7 @@
     }
 }
 
-/* Sherriff2 -------------------------------------------- */
+/* Sherriff2 --------------------------------------------------- */
 #parmaville-sheriff2 {
     width: 150px;
     bottom: 100px;
@@ -287,10 +288,74 @@
     }
 }
 
+/* Horse ------------------------------------------------------ */
+#parmaville-horse {
+    width: 150px;
+    bottom: 160px;
+    left: 500px;
+}
+
+/* Vulture ---------------------------------------------------- */
+#parmaville-standing-vulture {
+    width: 100px;
+    top: 100px;
+    right: 450px;
+}
+
+#parmaville-flying-vulture {
+    width: 100px;
+    top: 100px;
+    right: 550px;
+}
+
+/* Tresure chest ----------------------------------------------- */
+#parmaville-chest {
+    width: 100px;
+    height: 100px;
+    bottom: 212px;
+    right: 400px;
+}
+
+#parmaville-chest-top {
+    width: 100px;
+    bottom: 30px;
+    transition: bottom 1s linear 0s;
+}
+
+#parmaville-chest-bottom {
+    width: 100px;
+    bottom: 0px;
+}
+
+#parmaville-chest:hover #parmaville-chest-top {
+    bottom: 55px;
+}
+
+#parmaville-hidden-cheese {
+    width: 30px;
+    bottom: -68px;
+    left: 35px;
+}
+
+#cheese1:target {
+    opacity: 1;
+}
+
+#cheese1:target #parmaville-hidden-cheese {
+    opacity: 0;
+}
+
+
+
+
+
+
 
 /* ============================================================ 
                         END Main-container  
 =============================================================== */
+
+
 
 
 

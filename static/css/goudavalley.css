@@ -163,16 +163,19 @@ GOUDAVALLEY ELEMENTS
     width: 45px;
     top: 420px;
     left: 1050px;
-    animation-name: goudavalley-golden-cheese-anim;
 }
 
 #cheese-btnStart:checked ~ label .goudavalley-golden-cheese {
-  animation-name: goudavalley-rock-cheese;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
+  animation-name: goudavalley-golden-cheese-anim;
+  animation-duration: 5s;
+  animation-timing-function: none;
   animation-delay: 0s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+}
+
+#cheese-btnStart {
+    opacity: 0;
 }
 /* Element: Goudavalley-tractor
 -------------------------------*/
@@ -184,7 +187,7 @@ GOUDAVALLEY ELEMENTS
     animation-name: goudavalley-tractor-crash;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    animation-timing-function:none;
+    animation-timing-function: none;
 }
 
 /* Element: goudavalley-rock
@@ -221,11 +224,10 @@ GOUDAVALLEY ELEMENTS
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-
 #btnStart:checked ~ label .goudavalley-speech-rock {
   display: block;
-
 }
+
 
 /* Element: goudavalley-sheep
 -------------------------------*/
@@ -283,19 +285,17 @@ GOUDAVALLEY ELEMENTS
     transform: rotate(140deg);
     }
 }
-/* Animation: cheese
--------------------------------*/
-@keyframes anim-pulsating-cheese {
-  0%   { box-shadow:0 0 4px  #FFFF00, inset 0 0 4px  #FFFF00; }
-  50%  { box-shadow:0 0px 80px #FFFF00, inset 0 0 80px #FFFF00; }
-  100% { box-shadow:0 0 4px  #FFFF00, inset 0 0 2px  #FFFF00; }
-}
 
 /* Animation: cheese-nav-bar
 -------------------------------*/
 
 @keyframes goudavalley-golden-cheese-anim{
-    100% {
+    50% {
         opacity: 0;
+    }
+    100% {
+        top: 12px;
+        left: 1080px;
+        opacity: 1;
     }
 }

@@ -1,74 +1,76 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Bluecheese City</title>
-        <link rel="stylesheet" type="text/css" href="static/css/style.css">
-    </head>
-	
-    <body>
-        <article class="bluecheesecity-container">
-          <img id="bluecheesecity-background" src="static/img/bluecheesecity/bluecheesecity.jpg">
-          
-          <header class="bluecheesecity-nav-container">
-			  <div class="bluecheesecity-nav-buttons">
-				  <button id="backward"><span class="glyphicon">&#xe091;</span> Go back</button>
-				  <button id="forward">Proceed <span class="glyphicon">&#xe092;</span></button>
-			  </div>
-			  <div class="bluecheesecity-nav-progress">
-				  <img src="static/img/ost.png">
-				  <span>+</span>
-				  <img class="bluecheesecity-nav-progress-notFound" src="static/img/ost.png">
-				  <span>+</span>
-				  <img class="bluecheesecity-nav-progress-notFound" src="static/img/ost.png">
-				  <span>=</span>
-				  <img class="bluecheesecity-nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png">
-				</div>
-				<div class="bluecheesecity-nav-info">
-				  <p>The cheese bits might be hidden under the different elements. Hover over them to search for the missing cheese bits, but watch out for hidden dangers in the big scary city!</p>
-				</div>
-            </header>
-            
-          <main>
-              <!-- Pigeon sequence -->
-              <img id="bluecheesecity-element-pigeon" src="static/img/bluecheesecity/pigeon.png">
-              <div class="bluecheesecity-speech-pigeon-mouse" id="bluecheesecity-speech-pigeon-mouse">
+
+<head>
+    <title>Bluecheese City</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+
+<body>
+    <article class="bluecheesecity-container">
+        <img id="bluecheesecity-background" src="static/img/bluecheesecity/bluecheesecity.jpg">
+
+        <header class="bluecheesecity-nav-container">
+            <div class="bluecheesecity-nav-buttons">
+                <a href="index-2.html"><button id="backward"><span class="glyphicon">&#xe091;</span> Go back</button></a>
+                <a href="index-3.html"><button id="forward">Proceed <span class="glyphicon">&#xe092;</span></button></a>
+            </div>
+            <div class="bluecheesecity-nav-progress">
+                <img src="static/img/ost.png">
+                <span>+</span>
+                <img class="bluecheesecity-nav-progress-notFound" src="static/img/ost.png">
+                <span>+</span>
+                <img class="bluecheesecity-nav-progress-notFound" src="static/img/ost.png">
+                <span>=</span>
+                <img class="bluecheesecity-nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png">
+            </div>
+            <div class="bluecheesecity-nav-info">
+                <p>The cheese bits might be hidden under the different elements. Hover over them to search for the missing cheese bits, but watch out for hidden dangers in the big scary city!</p>
+            </div>
+        </header>
+
+        <main>
+            <!-- Pigeon sequence -->
+            <img id="bluecheesecity-element-pigeon" src="static/img/bluecheesecity/pigeon.png">
+            <div class="bluecheesecity-speech-pigeon-mouse" id="bluecheesecity-speech-pigeon-mouse">
                 <img src="static/img/bluecheesecity/speechbubble-left.png">
                 <p>Darn... Nothing there.</p>
-              </div>
-              <!-- Pigeon sequence end -->
-              
-              <!-- Car sequence -->
-              <img id="bluecheesecity-element-ratPoison" src="static/img/bluecheesecity/rat-poison.png">
-              <img id="bluecheesecity-element-car" src="static/img/bluecheesecity/car.png">
-              
-              <div class="bluecheesecity-speech-car">
+            </div>
+            <!-- Pigeon sequence end -->
+
+            <!-- Car sequence -->
+            <img id="bluecheesecity-element-ratPoison" src="static/img/bluecheesecity/rat-poison.png">
+            <img id="bluecheesecity-element-car" src="static/img/bluecheesecity/car.png">
+
+            <div class="bluecheesecity-speech-car">
                 <div id="bluecheesecity-speech-car-car">
-                  <img src="static/img/bluecheesecity/speechbubble-right.png">
-                  <p>Hold on! Let me back up for you!</p>
+                    <img src="static/img/bluecheesecity/speechbubble-right.png">
+                    <p>Hold on! Let me back up for you!</p>
                 </div>
                 <div id="bluecheesecity-speech-car-mouse">
-                  <img src="static/img/bluecheesecity/speechbubble-left.png">
-                  <p>Oh no! Mouse poison! Get it away!</p>
+                    <img src="static/img/bluecheesecity/speechbubble-left.png">
+                    <p>Oh no! Mouse poison! Get it away!</p>
                 </div>
-              </div>
-              <!-- Car sequence end -->
-              
-              <!-- Garbage sequence -->
-              <img id="bluecheesecity-element-garbageBin" src="static/img/bluecheesecity/trash.png">
-              <div class="bluecheesecity-speech-cat">
+            </div>
+            <!-- Car sequence end -->
+
+            <!-- Garbage sequence -->
+            <img id="bluecheesecity-element-garbageBin" src="static/img/bluecheesecity/trash.png">
+            <div class="bluecheesecity-speech-cat">
                 <img class="bluecheesecity-cat" id="bluecheesecity-element-cat" src="static/img/bluecheesecity/cat.png">
                 <div id="bluecheesecity-speech-cat-cat">
-                  <img src="static/img/bluecheesecity/speechbubble-right.png">
-                  <p>Found you! Now I'm going to kill you!</p>
+                    <img src="static/img/bluecheesecity/speechbubble-right.png">
+                    <p>Found you! Now I'm going to kill you!</p>
                 </div>
                 <div id="bluecheesecity-speech-cat-mouse">
-                  <img src="static/img/bluecheesecity/speechbubble-right.png">
-                  <p>Oh no! There is no cheese here. Let's get out of here!</p>
+                    <img src="static/img/bluecheesecity/speechbubble-right.png">
+                    <p>Oh no! There is no cheese here. Let's get out of here!</p>
                 </div>
                 <img id="bluecheesecity-element-arrow" src="static/img/bluecheesecity/arrow-up.png">
-              </div>
-              <!-- Garbage sequence end --> 
-            </main>
-        </article>
-    </body>
+            </div>
+            <!-- Garbage sequence end -->
+        </main>
+    </article>
+</body>
+
 </html>

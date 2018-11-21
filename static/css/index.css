@@ -8,7 +8,7 @@ Static
 p,
 span,
 button {
-  
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 /* Static: Container
@@ -41,16 +41,18 @@ button {
 }
 
 .goudavalley-sign {
-    transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
-    z-index: 2;
-}
 
-.cheddartown-sign {
     transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
 }
 
-.parmaville-sign {
+.cheddartown-sign {
     transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
+}
+
+.parmaville-sign {
+    transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
+
+    z-index: 1;
 }
 
 .bluecheesecity-sign,
@@ -70,39 +72,36 @@ button {
     background-color: transparent;
 }
 
-.parma-glow {
-    background-color: orange;
-    z-index: 0;
-    width: 150px;
-    height: 100px;
-
-    transform: translateX(20px) translateY(30px);
-}
-
-.bluecheesecity-sign:hover,
-.goudavalley-sign:hover,
-.cheddartown-sign:hover,
-.parmaville-sign:hover {
-    opacity: 1;
-}
-
 .bluecheesecity-sign-link {
     transform: scale(0.7) translateX(405%) translateY(179%) rotate(20deg);
+
+    animation:
+        sign-link-visible 1s linear 3s forwards;
+}
+
+.goudavalley-sign-link {
+    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
+
+    animation:
+        sign-link-visible 1s linear 3s forwards;
+}
+
+.cheddartown-sign-link {
+    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
+
+    animation:
+        sign-link-visible 1s linear 3s forwards;
 }
 
 .parmaville-sign-link {
     transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
-}
 
-.cheddartown-sign-link {
-    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
-}
-
-.goudavalley-sign-link {
-    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
     z-index: 2;
 }
 
+.bluecheesecity-sign-link,
+.goudavalley-sign-link,
+.cheddartown-sign-link,
 .parmaville-sign-link {
     width: 200px;
     height: 200px;
@@ -110,7 +109,11 @@ button {
     position: absolute;
     float: left;
 
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
     visibility: hidden;
+    opacity: 0;
 }
 
 /* cities end
@@ -194,18 +197,12 @@ NAVIGATION
     margin: 0;
 }
 
-.bigger-font {
-    font-size: 20px;
-    text-decoration: underline !important;
-    margin-left: -30px !important;
-}
-
 /* ===============================================================
 ELEMENTS
 ===============================================================
 */
 
-#textbubble {
+.textbubble {
     animation-name: anim-bubble-in;
     animation-duration: 1s;
     animation-timing-function: ease-in;
@@ -231,8 +228,7 @@ ELEMENTS
     text-align: center;
 }
 
-
-#textbubble .round {
+.textbubble .direction {
     transform: scale(-1);
     width: 0;
     height: 0;
@@ -252,12 +248,11 @@ ELEMENTS
     height: 720px;
 }
 
-
 #btnStart {
     display: none;
 }
 
-#btnStart:checked ~ label .bubble {
+#btnStart:checked ~ label .textbubble {
     animation-name: anim-bubble-out;
     animation-duration: 1s;
     animation-timing-function: ease-out;
@@ -279,13 +274,7 @@ ELEMENTS
 
 #btnStart:checked ~ label .parmaville-sign-link {
     animation:
-        sign-link-visible 1s linear 10s infinite;
-    opacity: 1;
-}
-
-#btnStart:checked ~ label .parma-glow {
-    animation:
-        anim-pulsating-sign 1s linear 10s infinite;
+        sign-link-visible 1s linear 11s infinite;
 }
 
 #img-metro {
@@ -308,30 +297,6 @@ ELEMENTS
 ANIMATIONS
 ===============================================================
 */
-
-/* Not in use */
-@keyframes anim-bounce {
-    0% {
-        transform: scale(0.35) translateY(0);
-    }
-
-    10% {
-        transform: scale(0.4) translateY(0);
-    }
-
-    30% {
-        transform: scale(0.5) translateY(-25px);
-    }
-
-    50% {
-        transform: scale(0.6) translateY(0);
-    }
-
-    100% {
-        transform: scale(0.35) translateY(0);
-    }
-}
-
 @keyframes anim-metro-first {
     0% {
         transform: scale(0.35);
@@ -437,6 +402,17 @@ ANIMATIONS
 @keyframes sign-link-visible {
     100% {
         visibility: visible;
+        opacity: 1;
+    }
+}
+
+@keyframes sign-opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
 

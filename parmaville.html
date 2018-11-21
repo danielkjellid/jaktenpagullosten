@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html>
+<<<<<<< HEAD
     <head>
         <title>Parmaville</title>
         <link rel="stylesheet" type="text/css" href="static/css/parmaville.css">
@@ -71,7 +72,80 @@
             <img id="parmaville-vulture" src="static/img/Parmaville/flying-vulture.png">
             <!-- END Vulture sequence -->
             
+=======
+
+<head>
+    <title>Parmaville</title>
+    <link rel="stylesheet" type="text/css" href="static/css/parmaville.css">
+</head>
+
+<body id="parmaville-body">
+
+    <!-- MAIN CONTAINER -->
+    <div id="parmaville-container">
+
+        <!-- HEADER - NAVBAR -->
+        <header class="nav-container">
+            <div class="nav-buttons">
+                <a href="index.html"><button id="backward"><span class="glyphicon glyphicon-arrow-left"></span> Go back</button></a>
+                <a href="index-2.html"><button id="forward">Proceed <span class="glyphicon glyphicon-arrow-right"></span></button></a>
+            </div>
+            <div class="nav-progress">
+                <img class="nav-progress-notFound" src="static/img/ost.png">
+                <span>+</span>
+                <img class="nav-progress-notFound" src="static/img/ost.png">
+                <span>+</span>
+                <img class="nav-progress-notFound" src="static/img/ost.png">
+                <span>=</span>
+                <img class="nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png">
+            </div>
+            <div class="nav-info">
+                <p>Click or hover over various items to see if you can find one of the cheese bits. When you have found it, click proceed.</p>
+            </div>
+        </header>
+        <!-- END HEADER - NAVBAR -->
+
+        <!-- STATIC IMAGES -->
+        <img id="parmaville-background" src="static/img/parmaville-uten-mus.jpg">
+        <img id="parmaville-controlpanel" src="static/img/mus-i-cockpit.png">
+        <img id="parmaville-stoneWell" src="static/img/Parmaville/stone-well-clipart-5.png">
+        <!-- END STATIC IMAGES -->
+
+        <!-- Sheriff sequense -->
+        <img id="parmaville-sheriff1" src="static/img/Parmaville/sheriff_ned_featured_flipped.png">
+        <div class="parmaville-speechbubble" id="parmaville-speechbubble-sheriff1">Det kan bare finnes én av oss! Gjør deg klar for duell!</div>
+        <img id="parmaville-sheriff2" src="static/img/Parmaville/sheriff_ned_featured.png">
+        <div class="parmaville-speechbubble" id="parmaville-speechbubble-sheriff2">Det er jeg som er den ekte sheriffen, du er bare en ussel klone!</div>
+        <div class="parmaville-speechbubble" id="parmaville-speechbubble-mouse1">Å nei! Dette vil ikke jeg være med på. La oss finne osten og kjøre videre!</div>
+        <!-- END Sheriff sequence -->
+
+        <!-- Chest sequence -->
+        <div id="parmaville-chest">
+            <input id="parmaville-cheese-found" type="checkbox">
+            <label class="parmaville-label-cheese" for="parmaville-cheese-found">
+                <img id="parmaville-hidden-cheese" src="static/img/ost.png">
+            </label>
+            <div class="parmaville-speechbubble" id="parmaville-speechbubble-hidden-cheese">Click on the cheese to collect it</div>
+            <img id="parmaville-chest-top" src="static/img/Parmaville/chest_top1.png">
+            <img id="parmaville-chest-bottom" src="static/img/Parmaville/chest_bottom1.png">
+>>>>>>> 044496c22a0871434ace5a7696101c016dee2659
         </div>
-        <!-- END MAIN CONTAINER -->
-    </body>  
+        <!-- END Chest sequence -->
+
+        <!-- Horse sequence -->
+        <input id="parmaville-horse" type="checkbox">
+        <label class="parmaville-label-horse" for="parmaville-horse">
+            <img id="parmaville-horse" src="static/img/Parmaville/horse.png">
+        </label>
+        <div class="parmaville-speechbubble" id="parmaville-speechbubble-horse">I don´t want to be a part of this duel!</div>
+        <!-- END Horse sequence -->
+
+        <!-- Vulture sequence -->
+        <img id="parmaville-vulture" src="static/img/Parmaville/flying-vulture.png">
+        <!-- END Vulture sequence -->
+
+    </div>
+    <!-- END MAIN CONTAINER -->
+</body>
+
 </html>

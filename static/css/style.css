@@ -6,7 +6,6 @@ Static
 
 /* Static: Natives
 -------------------------------*/
-
 body {
     margin: auto;
 }
@@ -57,7 +56,6 @@ input {
     font-weight: normal;
 }
 
-
 /* ===============================================================
 NAVIGATION
 ===============================================================
@@ -97,9 +95,9 @@ NAVIGATION
 }
 
 .bluecheesecity-nav-buttons #forward {
-    top: 10px;
-    left: 110px;
-    height: 35px;
+    top: 0px;
+    left: 100px;
+    height: 40px;
     width: 90px;
     background-color: #1bb776;
     border: 1px solid #138254;
@@ -108,10 +106,15 @@ NAVIGATION
     border-bottom-right-radius: 3px;
 }
 
+.bluecheesecity-nav-buttons #forward:hover {
+    background-color: #148b59;
+    border-color: #138254;
+}
+
 .bluecheesecity-nav-buttons #backward {
-    top: 10px;
-    left: 20px;
-    height: 35px;
+    top: 0px;
+    left: 10px;
+    height: 40px;
     width: 90px;
     background-color: #1bb776;
     border: 1px solid #138254;
@@ -120,15 +123,14 @@ NAVIGATION
     border-bottom-left-radius: 3px;
 }
 
-.bluecheesecity-nav-buttons button:not(:last-child) {
-    border-right: 0;
-}
-
-.bluecheesecity-nav-buttons button:hover {
+.bluecheesecity-nav-buttons #backward:hover {
     background-color: #148b59;
     border-color: #138254;
 }
 
+.bluecheesecity-nav-buttons button:not(:last-child) {
+    border-right: 0;
+}
 
 /* Navigation: Progress
 -------------------------------*/

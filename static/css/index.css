@@ -261,7 +261,7 @@ ELEMENTS
     animation-fill-mode: none;
 }
 
-#btnStart:checked ~ label .metro-class {
+#btnStart:checked ~ label .metro-style {
     animation:
         anim-shake 0.25s ease-in 0s 16 none,
         anim-shrink 1s linear 4s 1 forwards,
@@ -287,17 +287,50 @@ ELEMENTS
     bottom: -45px;
 }
 
-#metro {
+#metro-first {
     left: 170px;
     top: 440px;
     position: relative;
 }
 
+#metro-second {
+    left: 870px;
+    top: 170px;
+    transform: scale(0.35);
+    position: relative;
+
+    animation: 
+    main-animation-metro-second 6s ease-in 1s 1 forwards;
+}
+
+#metro-third {
+    left: 620px;
+    top: 430px;
+    transform: scale(0.35);
+    position: relative;
+
+    animation: 
+    main-animation-metro-third 6s ease-in 1s 1 forwards;
+}
+
+#metro-fourth {
+    left: 820px;
+    top: 430px;
+    transform: scale(0.35);
+    position: relative;
+
+    animation: 
+    main-animation-metro-fourth 6s ease-in 1s 1 forwards;
+}
+
+
 /* ===============================================================
 ANIMATIONS
 ===============================================================
 */
-@keyframes anim-metro-first {
+
+/* Animation moving metro to first stop - Parmaville */
+@keyframes main-animation-metro-first {
     0% {
         transform: scale(0.35);
     }
@@ -323,6 +356,99 @@ ANIMATIONS
     100% {
         left: 870px;
         top: 170px;
+        transform: scale(0.35);
+    }
+}
+
+/* Animation moving metro to second stop - Blue Cheese City */
+@keyframes main-animation-metro-second {
+    0% {
+        transform: scale(0.35);
+    }
+
+    20% {
+        transform: scale(0.6);
+        left: 200px;
+        top: 400;
+    }
+
+    40% {
+        transform: scale(0.8);
+        left: 300px;
+        top: 600px;
+    }
+
+    60% {
+        transform: scale(0.9);
+        left: 600px;
+        top: 400px;
+    }
+
+    100% {
+        left: 620px;
+        top: 430px;
+        transform: scale(0.35);
+    }
+}
+
+/* Animation moving metro to third stop - Gouda Valley */
+@keyframes main-animation-metro-third {
+    0% {
+        transform: scale(0.35);
+    }
+
+    20% {
+        transform: scale(0.6);
+        left: 200px;
+        top: 400;
+    }
+
+    40% {
+        transform: scale(0.8);
+        left: 300px;
+        top: 600px;
+    }
+
+    60% {
+        transform: scale(0.9);
+        left: 600px;
+        top: 400px;
+    }
+
+    100% {
+        left: 820px;
+        top: 430px;
+        transform: scale(0.35);
+    }
+}
+
+/* Animation moving metro to fourth stop - Cheddar Town */
+@keyframes main-animation-metro-fourth {
+    0% {
+        transform: scale(0.35);
+    }
+
+    20% {
+        transform: scale(0.6);
+        left: 200px;
+        top: 400;
+    }
+
+    40% {
+        transform: scale(0.8);
+        left: 300px;
+        top: 600px;
+    }
+
+    60% {
+        transform: scale(0.9);
+        left: 600px;
+        top: 700px;
+    }
+
+    100% {
+        left: 940px;
+        top: 630px;
         transform: scale(0.35);
     }
 }

@@ -31,9 +31,9 @@
           <main>
               <!-- Pigeon sequence -->
               <img id="bluecheesecity-element-pigeon" src="static/img/bluecheesecity/pigeon.png">
-              <div class="bluecheesecity-speech-pigeon-mouse" id="bluecheesecity-speech-pigeon-mouse">
-                <img src="static/img/bluecheesecity/speechbubble-left.png">
-                <p>Darn... Nothing there.</p>
+              <div class="textbubble" id="bluecheesecity-speech-pigeonSequence-mouse">
+                  <p>Darn! Nothing here...</p>
+                  <div class="direction"></div>
               </div>
               <!-- Pigeon sequence end -->
               
@@ -41,32 +41,32 @@
               <img id="bluecheesecity-element-ratPoison" src="static/img/bluecheesecity/rat-poison.png">
               <img id="bluecheesecity-element-car" src="static/img/bluecheesecity/car.png">
               
-              <div class="bluecheesecity-speech-car">
-                <div id="bluecheesecity-speech-car-car">
-                  <img src="static/img/bluecheesecity/speechbubble-right.png">
-                  <p>Hold on! Let me back up for you!</p>
-                </div>
-                <div id="bluecheesecity-speech-car-mouse">
-                  <img src="static/img/bluecheesecity/speechbubble-left.png">
+              
+              <div class="textbubble" id="bluecheesecity-speech-carSequence-car">
+                  <p>Hold on! Let me back up for you! </p>
+                  <div class="direction left"></div>
+              </div>
+                
+              <div class="textbubble" id="bluecheesecity-speech-carSequence-mouse">
                   <p>Oh no! Mouse poison! Get it away!</p>
-                </div>
+                  <div class="direction"></div>
+              </div>
               </div>
               <!-- Car sequence end -->
               
               <!-- Garbage sequence -->
               <img id="bluecheesecity-element-garbageBin" src="static/img/bluecheesecity/trash.png">
-              <div class="bluecheesecity-speech-cat">
-                <img class="bluecheesecity-cat" id="bluecheesecity-element-cat" src="static/img/bluecheesecity/cat.png">
-                <div id="bluecheesecity-speech-cat-cat">
-                  <img src="static/img/bluecheesecity/speechbubble-right.png">
-                  <p>Found you! Now I'm going to kill you!</p>
+              
+              <img class="bluecheesecity-cat" id="bluecheesecity-element-cat" src="static/img/bluecheesecity/cat.png">
+              <img id="bluecheesecity-element-arrow" src="static/img/bluecheesecity/arrow-up.png">
+                <div class="textbubble" id="bluecheesecity-speech-garbageSequence-cat">
+                  <p>Found you! Now I'm going to kill you.</p>
+                  <div class="direction left"></div>
                 </div>
-                <div id="bluecheesecity-speech-cat-mouse">
-                  <img src="static/img/bluecheesecity/speechbubble-right.png">
+                <div class="textbubble" id="bluecheesecity-speech-garbageSequence-mouse">
                   <p>Oh no! There is no cheese here. Let's get out of here!</p>
+                  <div class="direction left"></div>
                 </div>
-                <img id="bluecheesecity-element-arrow" src="static/img/bluecheesecity/arrow-up.png">
-              </div>
               <!-- Garbage sequence end --> 
             </main>
         </article>

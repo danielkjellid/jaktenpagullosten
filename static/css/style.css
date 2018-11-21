@@ -13,6 +13,10 @@ p, span, button {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+.bluecheesecity-carSequence {
+  opacity: 0;
+}
+
 /* Static: Container
 -------------------------------*/
 .bluecheesecity-container {
@@ -191,22 +195,13 @@ ELEMENTS
   animation-timing-function: ease-in-out;
 }
 
-#bluecheesecity-element-pigeon:hover + #bluecheesecity-speech-pigeon-mouse{
-  display: block;
-}
-
-#bluecheesecity-speech-pigeon-mouse {
-  width: 120px;
-  height: 45px;
-  top: 380px;
-  left: 700px;
-  display: none;
-}
-
-#bluecheesecity-speech-pigeon-mouse p{
-  font-size: 12px;
-  margin: 6px;
-  color: #2D2832;
+#bluecheesecity-element-pigeon:hover + #bluecheesecity-speech-pigeonSequence-mouse{
+  animation-name: animation-hide-speech;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 /* Element: Car
@@ -223,38 +218,22 @@ ELEMENTS
   animation-timing-function:ease-in-out;
 }
 
-#bluecheesecity-element-car:hover + .bluecheesecity-speech-car{
-  display: block;
+#bluecheesecity-element-car:hover ~ #bluecheesecity-speech-carSequence-car{
+  animation-name: animation-hide-speech;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-.bluecheesecity-speech-car {
-  display: none;
-}
-
-#bluecheesecity-speech-car-car {
-  width: 161px;
-  height: 63px;
-  left: 100px;
-  top: 340px;
-}
-
-#bluecheesecity-speech-car-car p{
-  font-size: 16px;
-  margin: 6px;
-  color: #2D2832;
-}
-
-#bluecheesecity-speech-car-mouse {
-  width: 120px;
-  height: 45px;
-  top: 380px;
-  left: 700px;
-}
-
-#bluecheesecity-speech-car-mouse p{
-  font-size: 12px;
-  margin: 6px;
-  color: #2D2832;
+#bluecheesecity-element-car:hover ~ #bluecheesecity-speech-carSequence-mouse {
+  animation-name: animation-hide-speech;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 /* Element: Garbage
@@ -265,8 +244,22 @@ ELEMENTS
   top: 440px
 }
 
-#bluecheesecity-element-garbageBin:hover + .bluecheesecity-speech-cat {
-  display: block;
+#bluecheesecity-element-garbageBin:hover ~#bluecheesecity-speech-garbageSequence-cat {
+  animation-name: animation-hide-speech;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#bluecheesecity-element-garbageBin:hover ~#bluecheesecity-speech-garbageSequence-mouse {
+  animation-name: animation-hide-speech;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 /* Element: Cat
@@ -277,43 +270,13 @@ ELEMENTS
   top: 430px;
 }
 
-.bluecheesecity-speech-cat {
-  display: none;
-}
-
-#bluecheesecity-speech-cat-cat {
-  width: 161px;
-  height: 63px;
-  left: 810px;
-  top: 370px;
-}
-
-#bluecheesecity-speech-cat-cat p{
-  font-size: 16px;
-  margin: 6px;
-  color: #2D2832;
-}
-
-#bluecheesecity-speech-cat-mouse {
-  width: 161px;
-  height: 45px;
-  top: 380px;
-  left: 350px;
-}
-
-#bluecheesecity-speech-cat-mouse p{
-  font-size: 12px;
-  margin: 6px;
-  color: #2D2832;
-}
-
 /* Element: Rat Poison
 -------------------------------*/
 #bluecheesecity-element-ratPoison {
   width: 30px;
-  left: 200px;;
+  left: 200px;
   top: 465px;
-  transform: rotate(20deg)
+  transform: rotate(20deg);
 }
 
 /* Element: Arrow
@@ -322,12 +285,93 @@ ELEMENTS
   width: 40px;
   top: 60px;
   left: 130px;
-  animation-name: bluechessecity-animation-upAndDown;
+  animation-name: bluecheesecity-animation-upAndDown;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+/* ===============================================================
+Speech
+===============================================================
+*/
+.textbubble {
+    padding: 5px;
+    opacity: 0;
+    background-color: #FFA51E;
+    border: 3px solid #2D2832;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
 }
 
+.textbubble .direction {
+    width: 0;
+    height: 0;
+    bottom: -17px;
+    right: 25px;
+    border: solid 20px rgba(255, 255, 255, 0);
+    border-left-color: rgb(255, 165, 30);
+}
+
+.left {
+  transform: scaleX(-1);
+}
+
+#bluecheesecity-speech-pigeonSequence-mouse {
+  width: 160px;
+  height: 50px;
+  top: 350px;
+  left: 720px;
+}
+
+#bluecheesecity-speech-pigeonSequence-mouse .direction{
+  margin-right: 100px;
+}
+
+#bluecheesecity-speech-carSequence-car {
+  width: 165px;
+  height: 60px;
+  top: 330px;
+  left: 50px;
+}
+
+#bluecheesecity-speech-carSequence-car .direction{
+  margin-right: 10px;
+}
+
+#bluecheesecity-speech-carSequence-mouse {
+  width: 165px;
+  height: 65px;
+  top: 350px;
+  left: 720px;
+}
+
+#bluecheesecity-speech-carSequence-mouse .direction{
+  margin-right: 90px;
+}
+
+#bluecheesecity-speech-garbageSequence-cat {
+  width: 165px;
+  height: 65px;
+  top: 360px;
+  left: 770px;
+}
+
+#bluecheesecity-speech-garbageSequence-cat .direction{
+  margin-right: 10px;
+}
+
+#bluecheesecity-speech-garbageSequence-mouse {
+  width: 200px;
+  height: 80px;
+  top: 350px;
+  left: 300px;
+}
+
+#bluecheesecity-speech-garbageSequence-mouse .direction{
+  margin-right: 10px;
+}
 /* ===============================================================
 Animations
 ===============================================================
@@ -380,7 +424,7 @@ Animations
 
 /* Animation: Up and down
 -------------------------------*/
-@keyframes bluechessecity-animation-upAndDown {
+@keyframes bluecheesecity-animation-upAndDown {
   0% {
     top: 60px;
   }
@@ -390,4 +434,14 @@ Animations
   100% {
     top: 60px;
   }
+}
+/* Animation: Hide speech
+-------------------------------*/
+@keyframes animation-hide-speech {
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }

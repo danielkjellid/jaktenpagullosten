@@ -139,7 +139,8 @@ height: 50px;;
 width: 50px;
 top: 0px;
 left:50px;
-display: none;
+display:none; 
+
 }
 
 
@@ -147,9 +148,9 @@ display: none;
     background:url("../img/cheddar_town/blue-snow-falling-md.png");
    background-repeat:repeat; 
    width: 1280px;
-   height: 720px; 
-    position: absolute;
-  animation: animate1 20s linear infinite ;
+   height: 720px;
+   background-size: 50px;
+  animation: animate1 15s linear infinite ;
   z-index: 10;
  }
      

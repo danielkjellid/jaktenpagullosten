@@ -41,16 +41,18 @@ button {
 }
 
 .goudavalley-sign {
-    transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
-    z-index: 2;
-}
 
-.cheddartown-sign {
     transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
 }
 
-.parmaville-sign {
+.cheddartown-sign {
     transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
+}
+
+.parmaville-sign {
+    transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
+
+    z-index: 1;
 }
 
 .bluecheesecity-sign,
@@ -70,7 +72,7 @@ button {
     background-color: transparent;
 }
 
-.parma-glow {
+.sign-glow {
     background-color: orange;
     z-index: 0;
     width: 150px;
@@ -88,21 +90,34 @@ button {
 
 .bluecheesecity-sign-link {
     transform: scale(0.7) translateX(405%) translateY(179%) rotate(20deg);
+
+    animation:
+        sign-link-visible 1s linear 3s forwards;
+}
+
+.goudavalley-sign-link {
+    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
+
+    animation:
+        sign-link-visible 1s linear 3s forwards;
+}
+
+.cheddartown-sign-link {
+    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
+
+    animation:
+        sign-link-visible 1s linear 3s forwards;
 }
 
 .parmaville-sign-link {
     transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
-}
 
-.cheddartown-sign-link {
-    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
-}
-
-.goudavalley-sign-link {
-    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
     z-index: 2;
 }
 
+.bluecheesecity-sign-link,
+.goudavalley-sign-link,
+.cheddartown-sign-link,
 .parmaville-sign-link {
     width: 200px;
     height: 200px;
@@ -110,7 +125,11 @@ button {
     position: absolute;
     float: left;
 
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
     visibility: hidden;
+    opacity: 0;
 }
 
 /* cities end
@@ -279,13 +298,18 @@ ELEMENTS
 
 #btnStart:checked ~ label .parmaville-sign-link {
     animation:
-        sign-link-visible 1s linear 10s infinite;
-    opacity: 1;
+        sign-link-visible 1s linear 11s infinite;
 }
 
-#btnStart:checked ~ label .parma-glow {
+.active-sign {
+    opacity: 1;
     animation:
-        anim-pulsating-sign 1s linear 10s infinite;
+        sign-opacity 1s linear;
+}
+
+#btnStart:checked ~ label .sign-glow {
+    animation:
+        anim-pulsating-sign 1s linear 11s infinite;
 }
 
 #img-metro {
@@ -437,6 +461,17 @@ ANIMATIONS
 @keyframes sign-link-visible {
     100% {
         visibility: visible;
+        opacity: 1;
+    }
+}
+
+@keyframes sign-opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
 

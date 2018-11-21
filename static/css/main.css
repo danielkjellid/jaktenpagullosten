@@ -1,117 +1,47 @@
-body {
-    overflow: hidden;
-    margin: 0;
+/* ===============================================================
+Static
+===============================================================
+*/
+
+/* Static: Natives
+-------------------------------*/
+p,
+span,
+button {
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-.btn-start {
-    width: 150px;
-    height: 150px;
-    border: 1px solid blue;
-    border-radius: 50%;
-    position: relative;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-.fill-btn-start {
-    width: 100%;
-    height: 100%;
-    background-color: red;
-    transform: translateY(150px);
-    transition: all 0.3s ease-in;
-}
-
-@keyframes anim-shrink-metro {
-    100% {
-        transform: scale(-1);
-    }
-}
-
-.btn-start:active .fill-btn-start {
-    transform: translateY(0px);
-}
-
-/* text bubble start */
-
-#metro:active #textbubble {
-    opacity: 1;
-    transform: scale(1);
-}
-
-#textbubble {
-    min-width: 16px;
-    min-height: 8px;
-    max-height: 100px;
-    transform: scale(0);
-    transition: 1s linear;
-    position: absolute;
-    opacity: 0;
-    margin: 0;
-    padding: 15px;
-    padding-bottom: 40px;
-    bottom: 25px;
-    left: -240px;
-    background-color: rgb(255, 203, 7);
-    border-radius: 15px;
-    color: #FFF;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 24px;
-    text-shadow: 2px 2px #000000;
-    word-wrap: break-word;
-    text-align: center;
-}
-
-
-#textbubble .round {
-    transform: scale(-1);
-    width: 0;
-    height: 0;
-    bottom: -17px;
-    position: absolute;
-    right: 15px;
-    margin-right: 130px;
-    border: solid 20px rgba(255, 255, 255, 0);
-    border-left-color: rgb(255, 203, 7);
-}
-
-/* text bubble end */
-
-#main-container {
-    background-image: url("../img/main.jpg");
-    background-size: cover;
+/* Static: Container
+-------------------------------*/
+.main-container {
     margin: auto;
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-container * {
+    position: absolute;
+}
+
+/* Static: background
+-------------------------------*/
+#main-background {
     width: 1280px;
     height: 720px;
 }
 
-#metro {
-    left: 300px;
-    position: relative;
-    top: 200px;
-}
 
-#img-metro {
-    width: 300px;
-    top: 100px;
-    position: absolute;
-}
-
-#img-mouse {
-    width: 160px;
-    top: 1px;
-    left: 45px;
-    position: absolute;
-}
+/* Static: cities
+-------------------------------*/
 
 .bluecheesecity-sign {
     transform: scale(0.7) translateX(405%) translateY(179%) rotate(20deg);
 }
 
 .goudavalley-sign {
-    transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
-
-    z-index: 1;
+    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
 }
 
 .cheddartown-sign {
@@ -119,7 +49,8 @@ body {
 }
 
 .parmaville-sign {
-    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
+    transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
+    z-index: 1;
 }
 
 .bluecheesecity-sign,
@@ -136,12 +67,413 @@ body {
 
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
+    background-color: transparent;
 }
 
+.parma-glow {   
+    background-color: orange;
+    z-index: 0;
+    width: 150px;
+    height: 100px;
+
+    transform: translateX(20px) translateY(30px);
+}
 
 .bluecheesecity-sign:hover,
 .goudavalley-sign:hover,
 .cheddartown-sign:hover,
 .parmaville-sign:hover {
     opacity: 1;
+}
+
+.bluecheesecity-sign-link {
+    transform: scale(0.7) translateX(405%) translateY(179%) rotate(20deg);
+}
+
+.goudavalley-sign-link {
+    transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
+}
+
+.cheddartown-sign-link {
+    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
+}
+
+.parmaville-sign-link {
+    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
+    z-index: 2;
+}
+
+.parmaville-sign-link {
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    float: left;
+
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* cities end
+-------------------------------*/
+
+
+/* ===============================================================
+NAVIGATION
+===============================================================
+*/
+
+/* Navigation: Container
+-------------------------------*/
+.main-nav-container {
+    width: 100%;
+    height: 8%;
+    background-color: #413746;
+    color: #fff;
+    border-bottom: 1px solid #bbb;
+}
+
+/* Navigation: Progress
+-------------------------------*/
+
+.main-nav-progress {
+    width: auto;
+    height: 112%;
+    margin-left: 77%;
+    margin-top: 0;
+    border-left: 1px solid #bbb;
+    padding-left: 8px;
+    margin-top: -7px;
+}
+
+.main-nav-progress img {
+    width: 45px;
+    margin: 12px;
+    padding: 0;
+    position: relative;
+}
+
+.main-nav-progress #cheeseWheel {
+    width: 40px;
+}
+
+.main-nav-progress-notFound {
+    opacity: 0.2;
+}
+
+.main-nav-progress-Found {
+    opacity: 1.0;
+    animation: anim-pulsating-cheese 2s linear 0s infinite;
+    border-radius: 100px;
+}
+
+.main-nav-progress span {
+    font-size: 30px;
+    margin-top: 11px;
+    margin-left: -8px;
+    padding: 0;
+}
+
+/* Navigation: Info block
+-------------------------------*/
+
+.main-nav-info {
+    width: 45%;
+    height: 65%;
+    background-color: #FFA51E;
+    border: 3px solid #2D2832;
+    border-radius: 2px;
+    margin-left: 200px;
+    margin-top: 0;
+    padding: 3px;
+    margin-top: 4px;
+}
+
+.main-nav-info p {
+    font-size: 12px;
+    color: #2D2832;
+    margin: 0;
+}
+
+.bigger-font {
+    font-size: 20px;
+    text-decoration: underline !important;
+    margin-left: -30px !important;
+}
+
+/* ===============================================================
+ELEMENTS
+===============================================================
+*/
+
+#textbubble {
+    animation-name: anim-bubble-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    transform: scale(0);
+    opacity: 0;
+    width: 370px;
+    height: 220px;
+    padding: 10px;
+    position: absolute;
+    bottom: 70px;
+    left: -90px;
+
+    background-color: #FFA51E;
+    border: 3px solid #2D2832;
+    color: #2D2832 font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+#textbubble .round {
+    transform: scale(-1);
+    width: 0;
+    height: 0;
+    bottom: -17px;
+    position: absolute;
+    right: 15px;
+    margin-right: 130px;
+    border: solid 20px rgba(255, 255, 255, 0);
+    border-left-color: rgb(255, 165, 30);
+}
+
+#main-container {
+    background-image: url("../img/main.jpg");
+    background-size: cover;
+    margin: auto;
+    width: 1280px;
+    height: 720px;
+}
+
+
+#btnStart {
+    display: none;
+}
+
+#btnStart:checked ~ label .bubble {
+    animation-name: anim-bubble-out;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: none;
+}
+
+#btnStart:checked ~ label .metro-class {
+    animation:
+        anim-shake 0.25s ease-in 0s 16 none,
+        anim-shrink 1s linear 4s 1 forwards,
+        anim-metro-first 6s ease-in 5s 1 forwards;
+}
+
+#btnStart:checked ~ label .parmaville-sign {
+    opacity: 1;
+}
+
+#btnStart:checked ~ label .parmaville-sign-link {
+    display: block;
+    animation: sign-link-visible 1s linear 10s infinite;
+}
+
+#btnStart:checked ~ label .parma-glow {
+    animation:
+    anim-pulsating-sign 1s linear 10s infinite;
+}
+
+#img-metro {
+    width: 400px;
+}
+
+#img-mouse {
+    width: 120px;
+    left: 120px;
+    bottom: -45px;
+}
+
+#metro {
+    left: 170px;
+    top: 440px;
+    position: relative;
+}
+
+/* ===============================================================
+ANIMATIONS
+===============================================================
+*/
+
+/* Not in use */
+@keyframes anim-bounce {
+    0% {
+        transform: scale(0.35) translateY(0);
+    }
+
+    10% {
+        transform: scale(0.4) translateY(0);
+    }
+
+    30% {
+        transform: scale(0.5) translateY(-25px);
+    }
+
+    50% {
+        transform: scale(0.6) translateY(0);
+    }
+
+    100% {
+        transform: scale(0.35) translateY(0);
+    }
+}
+
+@keyframes anim-metro-first {
+    0% {
+        transform: scale(0.35);
+    }
+
+    20% {
+        transform: scale(0.6);
+        left: 200px;
+        top: 400;
+    }
+
+    40% {
+        transform: scale(0.8);
+        left: 300px;
+        top: 600px;
+    }
+
+    60% {
+        transform: scale(0.9);
+        left: 600px;
+        top: 400px;
+    }
+
+    100% {
+        left: 870px;
+        top: 170px;
+        transform: scale(0.35);
+    }
+}
+
+@keyframes anim-pulsating-sign {
+    0% {
+        box-shadow: 0 0 0px #FFFF00, inset 0 0 0px #FFFF00;
+    }
+
+    50% {
+        box-shadow: 0 0 200px #FFFF00, inset 0 0 200px #FFFF00;
+    }
+
+    100% {
+        box-shadow: 0 0 400px #FFFF00, inset 0 0 400px #FFFF00;
+    }
+}
+
+@keyframes anim-pulsating-cheese {
+    0% {
+        box-shadow: 0 0 4px #FFFF00, inset 0 0 4px #FFFF00;
+    }
+
+    50% {
+        box-shadow: 0 0px 80px #FFFF00, inset 0 0 80px #FFFF00;
+    }
+
+    100% {
+        box-shadow: 0 0 4px #FFFF00, inset 0 0 2px #FFFF00;
+    }
+}
+
+@keyframes anim-shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, -1px, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 2px, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, -4px, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 4px, 0);
+    }
+}
+
+@keyframes anim-shrink {
+    100% {
+        transform: scale(0.35);
+    }
+}
+
+
+@keyframes anim-bubble-in {
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes anim-bubble-out {
+    100% {
+        display: none;
+    }
+}
+
+@keyframes sign-link-visible {
+    100% {
+        visibility: visible;
+    }
+}
+
+/* ===============================================================
+STUPID AUDIO HACK
+===============================================================
+*/
+
+audio {
+    background-color: #FFA51E;
+    color: #FFA51E;
+    width: 88px;
+    height: 40px;
+    opacity: 0.01;
+    z-index: 3;
+    position: absolute;
+}
+
+audio#hidden1 {
+    left: 120px;
+    bottom: -3px;
+}
+
+audio#hidden2 {
+    left: 140px;
+    bottom: -3px;
+}
+
+audio#hidden3 {
+    left: 160px;
+    bottom: -3px;
+}
+
+audio#hidden4 {
+    left: 185px;
+    bottom: -3px;
 }

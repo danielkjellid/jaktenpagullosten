@@ -6,34 +6,63 @@
     </head>
 	
     <body>
-        <article class="bluecheesecity-container">
-          <img id="bluecheesecity-background" src="static/img/goudavalley.jpg">
+        <article class="goudavalley-container">
+          <img id="goudavalley-background" src="static/img/goudavalley.jpg">
           
-          <header class="bluecheesecity-nav-container">
-			  <div class="bluecheesecity-nav-buttons">
+          <header class="goudavalley-nav-container">
+			  <div class="goudavalley-nav-buttons">
 				  <button id="backward"><span class="glyphicon glyphicon-arrow-left"></span> Go back</button>
 				  <button id="forward">Proceed <span class="glyphicon glyphicon-arrow-right"></span></button>
 			  </div>
-			  <div class="bluecheesecity-nav-progress">
+			  <div class="goudavalley-nav-progress">
 				  <img src="static/img/ost.png">
 				  <span>+</span>
-				  <img class="bluecheesecity-nav-progress-notFound" src="static/img/ost.png">
+				  <img class="goudavalley-nav-progress-notFound" src="static/img/ost.png">
 				  <span>+</span>
-				  <img class="bluecheesecity-nav-progress-notFound" src="static/img/ost.png">
+				  <img class="goudavalley-nav-progress-notFound" src="static/img/ost.png">
 				  <span>=</span>
-				  <img class="bluecheesecity-nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png">
-				</div>
-				<div class="bluecheesecity-nav-info">
-				  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat orci lectus, in maximus lorem tincidunt sit amet. Donec ornare sem non vehicula accumsan. Sed id libero accumsan magna rhoncus convallis. Duis cursus consequat aliquet.</p>
-				</div>
+				  <img class="goudavalley-nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png">
+              </div>
+              <div class="goudavalley-nav-info">
+                  <p>The cheese bits might be hidden under the different elements. Hover over them to search for the remaining cheese bits!</p>
+              </div>
             </header>
           
             <main>
+                <!-- Sheep sequence -->
+                <img id="goudavalley-sheep" src="static/img/gouda_valley/png-sheep-cartoon-big-image-png-2400.png">
+                <div class="goudavalley-speech-sheep-mouse" id="goudavalley-speech-sheep-mouse">
+                    <img src="static/img/bluecheesecity/speechbubble-left.png">
+                    <p>Hmm, no cheese bits here!</p>
+                </div>
+                <!-- Sheep sequence end -->
+
+                <!-- Tractor sequence -->
+                <img id="goudavalley-tractor" src="static/img/gouda_valley/1224784818918522095yman_Little_Green_Tractor.svg.hi.png">
+                <!-- Tractor sequence end -->
+                
+                <!-- Golden Cheese sequence-->
+                <div>
+                <input type="checkbox" id="cheese-btnStart"/>
+                <label class="cheese-btn" for="cheese-btnStart">
+                <img class="goudavalley-golden-cheese" src="static/img/ost.png">
+                </label>
+                </div>
+                
+                <!-- Golden Cheese sequence end -->
+                
+                <!-- Rock sequence -->
+                <input type="checkbox" id="btnStart"/>
+                <label class="btn" for="btnStart">
+                <img id="goudavalley-rock" class="goudavalley-rock-class" src="static/img/gouda_valley/rock-576669_960_720.png">
+                <div class="goudavalley-speech-rock" id="goudavalley-speech-rock-mouse">
+                    <img src="static/img/bluecheesecity/speechbubble-right.png">
+                    <p>Oh! Here is a piece of my golden cheese!</p>
+                    
+                </div>
+                </label>
+                <!-- Rock sequence end-->
             </main>
-          
-            <section>
-            </section>
-          
         </article>
     </body>
 </html>

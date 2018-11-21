@@ -72,22 +72,6 @@ button {
     background-color: transparent;
 }
 
-.sign-glow {
-    background-color: orange;
-    z-index: 0;
-    width: 150px;
-    height: 100px;
-
-    transform: translateX(20px) translateY(30px);
-}
-
-.bluecheesecity-sign:hover,
-.goudavalley-sign:hover,
-.cheddartown-sign:hover,
-.parmaville-sign:hover {
-    opacity: 1;
-}
-
 .bluecheesecity-sign-link {
     transform: scale(0.7) translateX(405%) translateY(179%) rotate(20deg);
 
@@ -271,7 +255,6 @@ ELEMENTS
     height: 720px;
 }
 
-
 #btnStart {
     display: none;
 }
@@ -299,17 +282,6 @@ ELEMENTS
 #btnStart:checked ~ label .parmaville-sign-link {
     animation:
         sign-link-visible 1s linear 11s infinite;
-}
-
-.active-sign {
-    opacity: 1;
-    animation:
-        sign-opacity 1s linear;
-}
-
-#btnStart:checked ~ label .sign-glow {
-    animation:
-        anim-pulsating-sign 1s linear 11s infinite;
 }
 
 #img-metro {

@@ -1111,11 +1111,12 @@ button {
 }
 
 .goudavalley-sign {
-    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
+
+    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
 }
 
 .cheddartown-sign {
-    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
+    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
 }
 
 .parmaville-sign {
@@ -1162,11 +1163,11 @@ button {
 }
 
 .goudavalley-sign-link {
-    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
+    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
 }
 
 .cheddartown-sign-link {
-    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
+    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
 }
 
 .parmaville-sign-link {

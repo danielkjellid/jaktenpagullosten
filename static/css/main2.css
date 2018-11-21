@@ -1357,14 +1357,12 @@ ELEMENTS
 }
 
 #btnStart:checked ~ label .goudavalley-sign-link {
-    display: block;
-
-    animation: sign-link-visible 1s linear 10s infinite;
+    animation: sign-link-visible 1s linear 11s infinite;
 }
 
 #btnStart:checked ~ label .gouda-glow {
     animation:
-        anim-pulsating-sign 1s linear 10s infinite;
+        anim-pulsating-sign 1s linear 11s infinite;
 }
 
 #img-metro {

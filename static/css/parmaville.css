@@ -292,23 +292,64 @@
 #parmaville-horse {
     width: 150px;
     bottom: 160px;
-    left: 500px;
+    left: 600px;
+}
+
+#parmaville-speechbubble-horse {
+    height: 30px;
+    bottom: 250px;
+    left: 480px;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px 10px 0px 10px;
+    opacity: 0;
+}
+
+#parmaville-horse:hover {
+    animation: horseMoves 2s linear 5s forwards;
+}
+
+#parmaville-horse:hover ~ #parmaville-speechbubble-horse {
+    opacity: 1;
+}
+
+@keyframes horseMoves {
+    0%{
+        left: 600px;
+        transform: rotate(0deg);
+    }
+    50%{
+        left: 375px;
+        transform: rotate(10deg);
+    }
+    100%{
+        left: -150px;
+        transform: rotate(0deg);
+    }
 }
 
 /* Vulture ---------------------------------------------------- */
-#parmaville-standing-vulture {
+#parmaville-vulture {
     width: 100px;
-    top: 100px;
-    right: 450px;
+    top: 50px;
+    left: -100px;
+    animation: vultureMoves 5s linear 0s infinite;
 }
 
-#parmaville-flying-vulture {
-    width: 100px;
-    top: 100px;
-    right: 550px;
+@keyframes vultureMoves {
+    0%{
+        top: 50px;
+        left: -100px; 
+    }
+    100%{
+        top: 100px;
+        right: -100px;
+    }
 }
 
-/* Tresure chest ----------------------------------------------- */
+/* Tresure chest with cheese sequence ---------------------------- */
 #parmaville-chest {
     width: 100px;
     height: 100px;
@@ -331,16 +372,9 @@
     bottom: 55px;
 }
 
-#parmaville-hidden-cheese {
-    width: 30px;
-    bottom: -68px;
-    left: 35px;
-    opacity: 1;
-}
-
 #parmaville-speechbubble-hidden-cheese {
     height: 40px;
-    bottom: -50px;
+    bottom: 50px;
     left: 110px;
     font-size: 14px;
     color: black;
@@ -350,20 +384,42 @@
     opacity: 0;
 }
 
-#parmaville-hidden-cheese:hover ~ #parmaville-speechbubble-hidden-cheese {
+#parmaville-chest:hover #parmaville-speechbubble-hidden-cheese {
+    opacity: 1;
+    transition: all 0.5s linear 2s;
+}
+
+#parmaville-hidden-cheese {
+    width: 30px;
+    bottom: -68px;
+    left: 35px;
     opacity: 1;
 }
 
-#cheese1:target {
-    opacity: 1;
+#parmaville-cheese-found {
+    opacity: 0;
 }
 
+#parmaville-cheese-found:checked ~ .parmaville-label-cheese #parmaville-hidden-cheese {
+    animation: parmaville-cheeseMoves 2s linear 0s forwards;
+    z-index: 10;
+}
 
+#parmaville-cheese-found{
+    
+}
 
-
-
-
-
+@keyframes parmaville-cheeseMoves {
+    0%{
+        bottom: -68px;
+        left: 35px;
+    }
+    100%{
+        width: 45px;
+        bottom: 364px;
+        left: 226px;
+    }
+}
 
 /* ============================================================ 
                         END Main-container  

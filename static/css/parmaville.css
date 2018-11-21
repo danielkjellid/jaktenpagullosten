@@ -2,7 +2,7 @@
                             PARMAVILLE 
 ================================================================ */
 
-/* GylfIcon ---------------------------------------------------- */
+/* GylfIcon & Fonts ---------------------------------------------------- */
 
 @font-face {
   font-family: 'Glyphicons Halflings';
@@ -20,13 +20,11 @@
   line-height: 1;
 }
 
-.glyphicon-arrow-left:before {
-  content: "\e091";
-} /*Brukt*/
-
-.glyphicon-arrow-right:before {
-  content: "\e092";
-} /*Brukt*/
+p, 
+span, 
+button {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
 
 /* Header ------------------------------------------------------ */
 
@@ -130,7 +128,7 @@
 }
 
 .nav-info p {
-    font-size: 15px;
+    font-size: 13px;
     color: #2D2832;
     margin: 0;
     padding-top: 10px;
@@ -173,6 +171,7 @@
     width: 80px;
     bottom: 122px;
     left: 220px;
+    z-index: 2;
 }
 
 /* Speechbubble design ----------------------------------------- */
@@ -180,6 +179,7 @@
     width: 100px;
     height: 50px;
     background-color: lemonchiffon;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     border: 2px solid black;
     z-index: 10;
 }
@@ -249,6 +249,7 @@
     width: 150px;
     bottom: 100px;
     left: 300px;
+    z-index: 2;
 }
 
 #parmaville-speechbubble-sheriff2 {
@@ -291,13 +292,13 @@
 /* Horse ------------------------------------------------------ */
 #parmaville-horse {
     width: 150px;
-    bottom: 160px;
+    top: 445px;
     left: 600px;
 }
 
 #parmaville-speechbubble-horse {
     height: 30px;
-    bottom: 250px;
+    top: 430px;
     left: 480px;
     font-size: 12px;
     color: black;
@@ -307,12 +308,22 @@
     opacity: 0;
 }
 
-#parmaville-horse:hover {
-    animation: horseMoves 2s linear 5s forwards;
+#parmaville-horse:hover ~ #parmaville-speechbubble-horse{
+    opacity: 1;
+    transition: all 0.5s linear 0s;
 }
 
-#parmaville-horse:hover ~ #parmaville-speechbubble-horse {
-    opacity: 1;
+#parmaville-horse-click {
+    opacity: 0;
+}
+
+#parmaville-horse-click:checked ~ .parmaville-label-horse #parmaville-horse {
+    animation: horseMoves 5s linear 0s forwards;
+}
+
+#parmaville-horse-click:checked ~ .parmaville-label-horse #parmaville-speechbubble-horse {
+    opacity: 0;
+    transition: all 0s linear 0s;
 }
 
 @keyframes horseMoves {
@@ -320,8 +331,40 @@
         left: 600px;
         transform: rotate(0deg);
     }
-    50%{
+    10%{
+        left: 525px;
+        transform: rotate(10deg);
+    }
+    20%{
+        left: 450px;
+        transform: rotate(0deg);
+    }
+    30%{
         left: 375px;
+        transform: rotate(10deg);
+    }
+    40%{
+        left: 300px;
+        transform: rotate(0deg);
+    }
+    50%{
+        left: 225px;
+        transform: rotate(10deg);
+    }
+    60%{
+        left: 150px;
+        transform: rotate(0deg);
+    }
+    70%{
+        left: 75px;
+        transform: rotate(10deg);
+    }
+    80%{
+        left: 0px;
+        transform: rotate(0deg);
+    }
+    90%{
+        left: -75px;
         transform: rotate(10deg);
     }
     100%{
@@ -386,7 +429,7 @@
 
 #parmaville-chest:hover #parmaville-speechbubble-hidden-cheese {
     opacity: 1;
-    transition: all 0.5s linear 2s;
+    transition: all 0.5s linear 1s;
 }
 
 #parmaville-hidden-cheese {
@@ -405,8 +448,14 @@
     z-index: 10;
 }
 
-#parmaville-cheese-found{
-    
+#parmaville-proceed-arrow {
+    top: -340px;
+    left: -640px;
+    opacity: 0;
+}
+
+#parmaville-cheese-found:checked ~ #parmaville-proceed-arrow {
+    animation: arrowUpAndDown 3s ease-in-out 3s infinite;
 }
 
 @keyframes parmaville-cheeseMoves {
@@ -418,6 +467,20 @@
         width: 45px;
         bottom: 364px;
         left: 226px;
+    }
+}
+
+@keyframes arrowUpAndDown {
+    0% {
+        opacity: 1;
+        top: -340px;
+    }
+    50% {
+        top: -320px;
+    }
+    100% {
+        opacity: 1;
+        top: -340px;
     }
 }
 

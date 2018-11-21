@@ -14,8 +14,8 @@
             <!-- HEADER - NAVBAR -->
             <header class="nav-container">
 			  <div class="nav-buttons">
-				  <button id="backward"><span class="glyphicon glyphicon-arrow-left"></span> Go back</button>
-				  <button id="forward">Proceed <span class="glyphicon glyphicon-arrow-right"></span></button>
+				  <button id="backward"><span class="glyphicon">&#xe091;</span> Go back</button>
+				  <button id="forward">Proceed <span class="glyphicon">&#xe092;</span></button>
 			  </div>
 			  <div class="nav-progress">
 				  <img class="nav-progress-notFound" src="static/img/ost.png">
@@ -35,13 +35,13 @@
             <!-- STATIC IMAGES -->
             <img id="parmaville-background" src="static/img/parmaville-uten-mus.jpg">
             <img id="parmaville-controlpanel" src="static/img/mus-i-cockpit.png">
-            <img id="parmaville-stoneWell" src="static/img/Parmaville/stone-well-clipart-5.png">
+            <img id="parmaville-stoneWell" src="static/img/parmaville/stone-well-clipart-5.png">
             <!-- END STATIC IMAGES -->
             
             <!-- Sheriff sequense -->
-            <img id="parmaville-sheriff1" src="static/img/Parmaville/sheriff_ned_featured_flipped.png">
+            <img id="parmaville-sheriff1" src="static/img/parmaville/sheriff_ned_featured_flipped.png">
             <div class="parmaville-speechbubble" id="parmaville-speechbubble-sheriff1">Det kan bare finnes én av oss! Gjør deg klar for duell!</div>
-            <img id="parmaville-sheriff2" src="static/img/Parmaville/sheriff_ned_featured.png">
+            <img id="parmaville-sheriff2" src="static/img/parmaville/sheriff_ned_featured.png">
             <div class="parmaville-speechbubble" id="parmaville-speechbubble-sheriff2">Det er jeg som er den ekte sheriffen, du er bare en ussel klone!</div>
             <div class="parmaville-speechbubble" id="parmaville-speechbubble-mouse1">Å nei! Dette vil ikke jeg være med på. La oss finne osten og kjøre videre!</div>
             <!-- END Sheriff sequence -->
@@ -53,17 +53,18 @@
                     <img id="parmaville-hidden-cheese" src="static/img/ost.png">
                 </label>
                 <div class="parmaville-speechbubble" id="parmaville-speechbubble-hidden-cheese">Click on the cheese to collect it</div>
+                <img id="parmaville-proceed-arrow" src="static/img/bluecheesecity/arrow-up.png">
                 <img id="parmaville-chest-top" src="static/img/Parmaville/chest_top1.png">
                 <img id="parmaville-chest-bottom" src="static/img/Parmaville/chest_bottom1.png">
             </div>
             <!-- END Chest sequence -->
             
             <!-- Horse sequence -->
-            <input id="parmaville-horse" type="checkbox">
-            <label class="parmaville-label-horse" for="parmaville-horse">
+            <input id="parmaville-horse-click" type="checkbox">
+            <label class="parmaville-label-horse" for="parmaville-horse-click">
                 <img id="parmaville-horse" src="static/img/Parmaville/horse.png">
+                <div class="parmaville-speechbubble" id="parmaville-speechbubble-horse">I don´t want to be a part of this duel!</div>
             </label>
-            <div class="parmaville-speechbubble" id="parmaville-speechbubble-horse">I don´t want to be a part of this duel!</div>
             <!-- END Horse sequence -->
             
             <!-- Vulture sequence -->

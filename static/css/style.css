@@ -9,7 +9,9 @@ body {
 	margin: auto;
 }
 
-p, span, button {
+p, 
+span, 
+button {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 

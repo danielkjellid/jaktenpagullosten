@@ -107,25 +107,135 @@ transform: rotate(90deg);
 
 
 }
+#create-snow{
+    height: 10px;
+    width: 100px;
+    background-color:snow;
+     border-radius: 40%;
+    
+    top:240px;
+    left: 450px;
+    
+    transform: rotate(-20deg);
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    
+    z-index: 10;
+    }
+   div  #create-snow:hover{
+    top:200px;
+ 
+    
+    }
+    #create-snow:hover #chesse{
+display: block;
+    }
  
 
 #chesse {
 height: 50px;;
 width: 50px;
-top: 500px;
+top: 0px;
+left:50px;
+display: none;
 }
-/*
- .snowz {
-    background:url("/static/img/cheddar_town/blue-snow-falling-md.png");
+
+
+ .snow1 {
+    background:url("../img/cheddar_town/blue-snow-falling-md.png");
    background-repeat:repeat; 
-    width: 1000px;
-    height: 1000px; 
+   width: 1280px;
+   height: 720px; 
     position: absolute;
+  animation: animate1 20s linear infinite ;
+  z-index: 10;
+ }
+     
+ 
+ /*
+Uncommet me just for fun :)
+ 
+.snow2 {
+    background:url("../img/cheddar_town/blue-snow-falling-md.png");
+   background-repeat:repeat; 
+    width: 1280px;
+    height: 720px; 
+    position: absolute;
+    animation: animate2 12s linear infinite 
+    }
+ .snow3 {
+    background:url("../img/cheddar_town/blue-snow-falling-md.png");
+   background-repeat:repeat; 
+   width: 1280px;
+   height: 7200px; 
+    position: absolute;
+    animation: animate3 12s linear infinite 
+    }
+ .snow4 {
+    background:url("../img/cheddar_town/blue-snow-falling-md.png");
+   background-repeat:repeat; 
+   width: 1280px;
+   height: 7200px; 
+    position: absolute;
+    animation: animate4 12s linear infinite 
+    }
+    */
+  
+    @keyframes animate1 {
+    0%{
+        background-position: 0px 0px;
+
+    }
+
+    100% {
+        background-position: 100px 64px;
+
+    }
   
     }
-*/
+    @keyframes animate2 {
+    0%{
+        background-position: 0px -100px;
+
+    }
+
+    100% {
+        background-position:  200px 64px;
+
+    }
+  
+    }
+    @keyframes animate3 {
+    0%{
+        background-position:0px 100px;
+
+    }
+
+    100% {
+        background-position: 300px  64px;
+
+    }
+  
+    }
+    @keyframes animate4 {
+    0%{
+        background-position: 0px 140px;
+
+    }
+
+    100% {
+        background-position: 350px 649px;
+
+    }
+  
+    }
 
 
+/*
+
+ide 2
 .snow-fall{
     z-index: 10;
     border-radius: 50%;
@@ -339,4 +449,4 @@ left:1200px;
         
         }
 
-        
+     */   

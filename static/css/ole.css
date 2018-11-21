@@ -51,7 +51,6 @@ p, span, button {
     transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
 }
 
-.bluecheesecity-sign,
 .goudavalley-sign,
 .cheddartown-sign,
 .parmaville-sign {
@@ -67,6 +66,22 @@ p, span, button {
     transition-timing-function: ease-in-out;
 }
 
+.bluecheesecity-sign {
+    opacity: 0.3;
+
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    float: left;
+
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+    animation: anim-visible-sign 2s linear 0s 1 forwards;
+
+}
+
 .bluecheesecity-sign:hover,
 .goudavalley-sign:hover,
 .cheddartown-sign:hover,
@@ -76,11 +91,11 @@ p, span, button {
 
 .bluecheesecity-sign-link {
     transform: scale(0.7) translateX(405%) translateY(179%) rotate(20deg);
+    z-index: 2;
 }
 
 .goudavalley-sign-link {
     transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
-    z-index: 2;
 }
 
 .cheddartown-sign-link {
@@ -229,7 +244,7 @@ ELEMENTS
   position: relative;
 
   animation:
-  anim-shake 0.25s ease-in 1s 16 none,
+  anim-shake 0.5s ease-in 1s 10 none,
   anim-metro-second 6s ease-in 5s 1 forwards;
 }
 
@@ -242,20 +257,20 @@ ANIMATIONS
   0% {
     transform: scale(0.35);
   } 20% {
-    transform: scale(0.6);
+    transform: scale(0.4);
     left: 200px;
     top: 400px;
   } 40% {
-    transform: scale(0.8);
+    transform: scale(0.5);
     left: 300px;
     top: 600px;
   } 60% {
-    transform: scale(0.9);
+    transform: scale(0.4);
     left: 600px;
     top: 400px;
   } 100% {
-    left: 870px;
-    top: 350px;
+    left: 610px;
+    top: 445px;
     transform: scale(0.35);
   }
 }
@@ -300,5 +315,11 @@ ANIMATIONS
 @keyframes anim-bubble-out {
   100% {
     display: none;
+  }
+}
+
+@keyframes anim-visible-sign {
+  100% {
+    opacity: 1;
   }
 }

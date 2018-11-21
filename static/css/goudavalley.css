@@ -221,10 +221,11 @@ GOUDAVALLEY ELEMENTS
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
 #btnStart:checked ~ label .goudavalley-speech-rock {
   display: block;
-}
 
+}
 
 /* Element: goudavalley-sheep
 -------------------------------*/

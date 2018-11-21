@@ -1138,8 +1138,17 @@ button {
 
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
+    background-color: transparent;
 }
 
+.gouda-glow {
+    background-color: orange;
+    z-index: 0;
+    width: 150px;
+    height: 100px;
+
+    transform: translateX(20px) translateY(30px);
+}
 
 .bluecheesecity-sign:hover,
 .goudavalley-sign:hover,
@@ -1179,7 +1188,7 @@ button {
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
 
-    display: none;
+    visibility: hidden;
     opacity: 0;
 }
 
@@ -1276,7 +1285,6 @@ ELEMENTS
 */
 
 #textbubble {
-
     animation-name: anim-bubble-in;
     animation-duration: 1s;
     animation-timing-function: ease-in;
@@ -1348,12 +1356,13 @@ ELEMENTS
     opacity: 1;
 }
 
-#btnStart:checked ~ label .sign-glow {
-    box-shadow: 5px 5px 5px 5px;
+#btnStart:checked ~ label .goudavalley-sign-link {
+    animation: sign-link-visible 1s linear 11s infinite;
 }
 
-#btnStart:checked ~ label .goudavalley-sign-link {
-    display: block;
+#btnStart:checked ~ label .gouda-glow {
+    animation:
+        anim-pulsating-sign 1s linear 11s infinite;
 }
 
 #img-metro {
@@ -1430,6 +1439,20 @@ ANIMATIONS
     }
 }
 
+@keyframes anim-pulsating-sign {
+    0% {
+        box-shadow: 0 0 0px #FFFF00, inset 0 0 0px #FFFF00;
+    }
+
+    50% {
+        box-shadow: 0 0 200px #FFFF00, inset 0 0 200px #FFFF00;
+    }
+
+    100% {
+        box-shadow: 0 0 400px #FFFF00, inset 0 0 400px #FFFF00;
+    }
+}
+
 @keyframes anim-pulsating-cheese {
     0% {
         box-shadow: 0 0 4px #FFFF00, inset 0 0 4px #FFFF00;
@@ -1443,7 +1466,6 @@ ANIMATIONS
         box-shadow: 0 0 4px #FFFF00, inset 0 0 2px #FFFF00;
     }
 }
-
 
 @keyframes anim-shake {
 
@@ -1486,6 +1508,12 @@ ANIMATIONS
 @keyframes anim-bubble-out {
     100% {
         display: none;
+    }
+}
+
+@keyframes sign-link-visible {
+    100% {
+        visibility: visible;
     }
 }
 

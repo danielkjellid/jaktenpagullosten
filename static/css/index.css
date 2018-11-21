@@ -8,7 +8,7 @@ Static
 p,
 span,
 button {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 /* Static: Container
@@ -197,18 +197,12 @@ NAVIGATION
     margin: 0;
 }
 
-.bigger-font {
-    font-size: 20px;
-    text-decoration: underline !important;
-    margin-left: -30px !important;
-}
-
 /* ===============================================================
 ELEMENTS
 ===============================================================
 */
 
-#textbubble {
+.textbubble {
     animation-name: anim-bubble-in;
     animation-duration: 1s;
     animation-timing-function: ease-in;
@@ -234,8 +228,7 @@ ELEMENTS
     text-align: center;
 }
 
-
-#textbubble .round {
+.textbubble .direction {
     transform: scale(-1);
     width: 0;
     height: 0;
@@ -259,7 +252,7 @@ ELEMENTS
     display: none;
 }
 
-#btnStart:checked ~ label .bubble {
+#btnStart:checked ~ label .textbubble {
     animation-name: anim-bubble-out;
     animation-duration: 1s;
     animation-timing-function: ease-out;
@@ -304,30 +297,6 @@ ELEMENTS
 ANIMATIONS
 ===============================================================
 */
-
-/* Not in use */
-@keyframes anim-bounce {
-    0% {
-        transform: scale(0.35) translateY(0);
-    }
-
-    10% {
-        transform: scale(0.4) translateY(0);
-    }
-
-    30% {
-        transform: scale(0.5) translateY(-25px);
-    }
-
-    50% {
-        transform: scale(0.6) translateY(0);
-    }
-
-    100% {
-        transform: scale(0.35) translateY(0);
-    }
-}
-
 @keyframes anim-metro-first {
     0% {
         transform: scale(0.35);

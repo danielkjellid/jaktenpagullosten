@@ -191,7 +191,6 @@ NAVIGATION
 
 .main-nav-progress-Found {
     opacity: 1.0;
-    animation: anim-pulsating-cheese 2s linear 0s infinite;
     border-radius: 100px;
 }
 
@@ -516,34 +515,6 @@ ANIMATIONS
         left: 200px;
         top: 630px;
         transform: scale(0);
-    }
-}
-
-@keyframes anim-pulsating-sign {
-    0% {
-        box-shadow: 0 0 0px #FFFF00, inset 0 0 0px #FFFF00;
-    }
-
-    50% {
-        box-shadow: 0 0 200px #FFFF00, inset 0 0 200px #FFFF00;
-    }
-
-    100% {
-        box-shadow: 0 0 400px #FFFF00, inset 0 0 400px #FFFF00;
-    }
-}
-
-@keyframes anim-pulsating-cheese {
-    0% {
-        box-shadow: 0 0 4px #FFFF00, inset 0 0 4px #FFFF00;
-    }
-
-    50% {
-        box-shadow: 0 0px 80px #FFFF00, inset 0 0 80px #FFFF00;
-    }
-
-    100% {
-        box-shadow: 0 0 4px #FFFF00, inset 0 0 2px #FFFF00;
     }
 }
 

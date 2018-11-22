@@ -157,7 +157,8 @@ input {
     position: fixed;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
-    visibility: hidden;
+    
+    pointer-events: none;
     opacity: 0;
 }
 
@@ -381,7 +382,7 @@ ELEMENTS
 
 #btnStart:checked ~ label .parmaville-sign-link {
     animation:
-        sign-link-visible 1s linear 11s infinite;
+        sign-link-visible 1s linear 11s forwards;
 }
 
 #img-metro {
@@ -526,12 +527,14 @@ ELEMENTS
     border: 3px solid #2D2832;
     color: #2D2832 font-weight: bold;
     font-size: 16px;
-    line-height: 20px;
-    word-wrap: break-word;
     text-align: center;
     top: 500px;
     left: 370px;
     display: none;
+}
+
+#textbubble-sheep p {
+    top: -10px;
 }
 
 #textbubble-sheep #sheep-direction {
@@ -815,9 +818,11 @@ Speech
     border: 3px solid #2D2832;
     color: #2D2832 font-weight: bold;
     font-size: 16px;
-    line-height: 20px;
-    word-wrap: break-word;
     text-align: center;
+}
+
+.textbubble p {
+    top: -10px;
 }
 
 .textbubble .direction {
@@ -864,12 +869,14 @@ Speech
     border: 3px solid #2D2832;
     color: #2D2832 font-weight: bold;
     font-size: 16px;
-    line-height: 20px;
-    word-wrap: break-word;
     text-align: center;
     top: 320px;
     left: 720px;
     opacity: 0;
+}
+
+.goudavalley-textbubble p {
+    top: 20px;
 }
 
 .goudavalley-textbubble .goudavalley-direction {
@@ -1390,7 +1397,7 @@ Animations
 
 @keyframes sign-link-visible {
     100% {
-        visibility: visible;
+        pointer-events: all;
         opacity: 1;
     }
 }

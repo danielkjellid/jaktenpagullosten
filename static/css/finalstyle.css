@@ -30,6 +30,14 @@ input {
     position: absolute;
 }
 
+#main-container {
+    background-image: url("../img/main.jpg");
+    background-size: cover;
+    margin: auto;
+    width: 1280px;
+    height: 720px;
+}
+
 
 /* Static: background
 -------------------------------*/
@@ -54,6 +62,118 @@ input {
     bottom: 122px;
     left: 220px;
     z-index: 2;
+}
+
+#main-background {
+    width: 1280px;
+    height: 720px;
+}
+
+#mugg-background {
+    width: 1280px;
+    height: 720px;
+
+    opacity: 0;
+    animation:
+        fade-opacity 8s linear 0s forwards;
+}
+
+.main-danger-button {
+    transform: scale(0.6) translateX(350%) translateY(200%);
+}
+
+.main-play-again {
+    font-size: 64px;
+    width: 500px;
+
+    color: whitesmoke;
+
+    top: 250px;
+    left: 170px;
+
+    opacity: 0;
+    animation:
+        fade-opacity 3s linear 12s forwards;
+}
+
+/* Static: cities
+-------------------------------*/
+.bluecheesecity-sign {
+    transform: scale(0.7) translateX(405%) translateY(179%) rotate(20deg);
+}
+
+.goudavalley-sign {
+
+    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
+}
+
+.cheddartown-sign {
+    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
+}
+
+.parmaville-sign {
+    transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
+
+    z-index: 1;
+}
+
+.bluecheesecity-sign,
+.goudavalley-sign,
+.cheddartown-sign,
+.parmaville-sign {
+    opacity: 0.3;
+
+    width: 200px;
+    height: 200px;
+
+    position: fixed;
+
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    background-color: transparent;
+}
+
+.bluecheesecity-sign-link {
+    transform: scale(0.7) translateX(405%) translateY(179%) rotate(20deg);
+
+    animation:
+        sign-link-visible 1s linear 3s forwards;
+}
+
+.goudavalley-sign-link {
+    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
+
+    animation:
+        sign-link-visible 1s linear 3s forwards;
+}
+
+.cheddartown-sign-link {
+    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
+
+    animation:
+        sign-link-visible 1s linear 3s forwards;
+}
+
+.parmaville-sign-link {
+    transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
+
+    z-index: 2;
+}
+
+.bluecheesecity-sign-link,
+.goudavalley-sign-link,
+.cheddartown-sign-link,
+.parmaville-sign-link {
+    width: 200px;
+    height: 200px;
+
+    position: fixed;
+
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+    visibility: hidden;
+    opacity: 0;
 }
 
 /* ===============================================================
@@ -112,7 +232,7 @@ NAVIGATION
 }
 
 .nav-buttons #backward {
-    top: 0px;
+    top: -1px;
     left: 10px;
     height: 40px;
     width: 90px;
@@ -187,10 +307,154 @@ NAVIGATION
     margin: 0;
 }
 
+/* Navigation: main-specific
+-------------------------------*/
+.main-nav-progress {
+    width: auto;
+    height: 112%;
+    margin-left: 77%;
+    margin-top: 0;
+    border-left: 1px solid #bbb;
+    padding-left: 8px;
+    margin-top: -7px;
+}
+
+.main-nav-progress img {
+    width: 45px;
+    margin: 12px;
+    padding: 0;
+    position: relative;
+}
+
+.main-nav-progress #cheeseWheel {
+    width: 40px;
+}
+
+.main-nav-progress-notFound {
+    opacity: 0.2;
+}
+
+.main-nav-progress-Found {
+    opacity: 1.0;
+    border-radius: 100px;
+}
+
+.main-nav-progress span {
+    font-size: 30px;
+    margin-top: 11px;
+    margin-left: -8px;
+    padding: 0;
+}
+
+.main-nav-info {
+    width: 74%;
+    height: 65%;
+    background-color: #FFA51E;
+    border: 3px solid #2D2832;
+    border-radius: 2px;
+    margin-left: 10px;
+    margin-top: 0;
+    padding: 3px;
+    margin-top: 4px;
+}
+
+.main-nav-info p {
+    font-size: 12px;
+    color: #2D2832;
+    margin: 0;
+}
+
 /* ===============================================================
 ELEMENTS
 ===============================================================
 */
+
+/* Element: Main
+-------------------------------*/
+#btnStart {
+    display: none;
+}
+
+#btnStart:checked ~ label .textbubble {
+    animation-name: anim-bubble-out;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: none;
+}
+
+#btnStart:checked ~ label .metro-style {
+    animation:
+        anim-shake 0.25s ease-in 0s 16 none,
+        anim-shrink 1s linear 4s 1 forwards,
+        main-animation-metro-first 6s ease-in 5s 1 forwards;
+}
+
+#btnStart:checked ~ label .parmaville-sign {
+    opacity: 1;
+}
+
+#btnStart:checked ~ label .parmaville-sign-link {
+    animation:
+        sign-link-visible 1s linear 11s infinite;
+}
+
+#img-metro {
+    width: 400px;
+}
+
+#img-mouse {
+    width: 120px;
+    left: 120px;
+    bottom: -45px;
+}
+
+#metro-first {
+    left: 170px;
+    top: 440px;
+    position: relative;
+}
+
+#metro-second {
+    left: 870px;
+    top: 170px;
+    transform: scale(0.35);
+    position: relative;
+
+    animation:
+        main-animation-metro-second 6s ease-in 1s 1 forwards;
+}
+
+#metro-third {
+    left: 620px;
+    top: 430px;
+    transform: scale(0.35);
+    position: relative;
+
+    animation:
+        main-animation-metro-third 6s ease-in 1s 1 forwards;
+}
+
+#metro-fourth {
+    left: 820px;
+    top: 430px;
+    transform: scale(0.35);
+    position: relative;
+
+    animation:
+        main-animation-metro-fourth 6s ease-in 1s 1 forwards;
+}
+
+#metro-last {
+    left: -200px;
+    top: 440px;
+    transform: scale(0.35);
+    position: relative;
+
+    animation:
+        main-animation-metro-last 10s ease-in 1s 1 forwards;
+}
 
 /* Element: Sherrif
 -------------------------------*/
@@ -426,6 +690,44 @@ Speech
 ===============================================================
 */
 .textbubble {
+    animation-name: anim-bubble-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    transform: scale(0);
+    opacity: 0;
+    width: 370px;
+    height: 220px;
+    padding: 10px;
+    position: absolute;
+    bottom: 70px;
+    left: -90px;
+
+    background-color: #FFA51E;
+    border: 3px solid #2D2832;
+    color: #2D2832 font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.textbubble .direction {
+    transform: scale(-1);
+    width: 0;
+    height: 0;
+    bottom: -17px;
+    position: absolute;
+    right: 15px;
+    margin-right: 130px;
+    border: solid 20px rgba(255, 255, 255, 0);
+    border-left-color: rgb(255, 165, 30);
+}
+
+.bluecheesecity-textbubble {
     padding: 5px;
     padding-bottom: 15px;
     opacity: 0;
@@ -435,7 +737,7 @@ Speech
     text-align: center;
 }
 
-.textbubble .direction {
+.bluecheesecity-textbubble .bluecheesecity-direction {
     width: 0;
     height: 0;
     bottom: -17px;
@@ -751,4 +1053,258 @@ Animations
         bottom: 364px;
         left: 226px;
     }
+}
+
+/* Animation moving metro to first stop - Parmaville */
+@keyframes main-animation-metro-first {
+    0% {
+        transform: scale(0.35);
+    }
+
+    20% {
+        transform: scale(0.6);
+        left: 200px;
+        top: 400;
+    }
+
+    40% {
+        transform: scale(0.8);
+        left: 300px;
+        top: 600px;
+    }
+
+    60% {
+        transform: scale(0.9);
+        left: 600px;
+        top: 400px;
+    }
+
+    100% {
+        left: 870px;
+        top: 170px;
+        transform: scale(0.35);
+    }
+}
+
+/* Animation moving metro to second stop - Blue Cheese City */
+@keyframes main-animation-metro-second {
+    0% {
+        transform: scale(0.35);
+    }
+
+    20% {
+        transform: scale(0.6);
+        left: 200px;
+        top: 400;
+    }
+
+    40% {
+        transform: scale(0.8);
+        left: 300px;
+        top: 600px;
+    }
+
+    60% {
+        transform: scale(0.9);
+        left: 600px;
+        top: 400px;
+    }
+
+    100% {
+        left: 620px;
+        top: 430px;
+        transform: scale(0.35);
+    }
+}
+
+/* Animation moving metro to third stop - Gouda Valley */
+@keyframes main-animation-metro-third {
+    0% {
+        transform: scale(0.35);
+    }
+
+    20% {
+        transform: scale(0.6);
+        left: 200px;
+        top: 400;
+    }
+
+    40% {
+        transform: scale(0.8);
+        left: 300px;
+        top: 600px;
+    }
+
+    60% {
+        transform: scale(0.9);
+        left: 600px;
+        top: 400px;
+    }
+
+    100% {
+        left: 820px;
+        top: 430px;
+        transform: scale(0.35);
+    }
+}
+
+/* Animation moving metro to fourth stop - Cheddar Town */
+@keyframes main-animation-metro-fourth {
+    0% {
+        transform: scale(0.35);
+    }
+
+    20% {
+        transform: scale(0.6);
+        left: 200px;
+        top: 400;
+    }
+
+    40% {
+        transform: scale(0.8);
+        left: 300px;
+        top: 600px;
+    }
+
+    60% {
+        transform: scale(0.9);
+        left: 600px;
+        top: 700px;
+    }
+
+    100% {
+        left: 940px;
+        top: 630px;
+        transform: scale(0.35);
+    }
+}
+
+@keyframes main-animation-metro-last {
+    0% {
+        transform: scale(0.6);
+    }
+
+    20% {
+        transform: scale(0.6);
+        left: 1500px;
+        top: 440px;
+    }
+
+    40% {
+        transform: scale(0.4);
+        left: -300px;
+        top: 220px;
+    }
+
+    60% {
+        transform: scale(0.2);
+        left: 1500px;
+        top: 330px;
+    }
+
+    100% {
+        left: 200px;
+        top: 630px;
+        transform: scale(0);
+    }
+}
+
+@keyframes anim-shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, -1px, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 2px, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, -4px, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 4px, 0);
+    }
+}
+
+@keyframes anim-shrink {
+    100% {
+        transform: scale(0.35);
+    }
+}
+
+
+@keyframes anim-bubble-in {
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes anim-bubble-out {
+    100% {
+        display: none;
+    }
+}
+
+@keyframes sign-link-visible {
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@keyframes fade-opacity {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* ===============================================================
+STUPID AUDIO HACK
+===============================================================
+*/
+
+audio {
+    background-color: #FFA51E;
+    color: #FFA51E;
+    width: 88px;
+    height: 40px;
+    opacity: 0.01;
+    z-index: 3;
+    position: absolute;
+}
+
+audio#hidden1 {
+    left: 120px;
+    bottom: -3px;
+}
+
+audio#hidden2 {
+    left: 140px;
+    bottom: -3px;
+}
+
+audio#hidden3 {
+    left: 160px;
+    bottom: -3px;
+}
+
+audio#hidden4 {
+    left: 185px;
+    bottom: -3px;
 }

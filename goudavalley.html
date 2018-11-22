@@ -4,34 +4,44 @@
         <title></title>
         <link rel="stylesheet" type="text/css" href="static/css/goudavalley.css">
     </head>
-
+	
     <body>
+        <!-- SOUND -->
+        <iframe src="data:audio/mp3;base64,/+MYxAAAAANIAAAAAExBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV" style="display: none;" allow="autoplay">
+        </iframe>
+        <audio autoplay loop>
+            <source src="static/sounds/" type="audio/mp3">
+        </audio>
+        <!-- END SOUND -->
+        
         <article class="goudavalley-container">
           <img id="goudavalley-background" src="static/img/goudavalley.jpg">
-
-          <header class="goudavalley-nav-container">
-			  <div class="goudavalley-nav-buttons">
-                  <a href="index-3.html"><input type="button" value="Go Back" id="backward"/></a>
+          
+          <!-- HEADER - NAVBAR -->
+            <header class="nav-container">
+			  <div class="nav-buttons">
+                    <a href="index-3.html"><input type="button" value="Go Back" id="backward"/></a>
                     <a href="index-4.html"><input type="button" value="Proceed" id="forward"/></a>
 			  </div>
-			  <div class="goudavalley-nav-progress">
-				  <img src="static/img/ost.png">
+			  <div class="nav-progress">
+				  <img class="nav-progress-notFound" src="static/img/ost.png">
 				  <span>+</span>
-				  <img class="goudavalley-nav-progress-notFound" src="static/img/ost.png">
+				  <img class="nav-progress-notFound" src="static/img/ost.png">
 				  <span>+</span>
-				  <img class="goudavalley-nav-progress-notFound" src="static/img/ost.png">
+				  <img class="nav-progress-notFound" src="static/img/ost.png">
 				  <span>=</span>
-				  <img class="goudavalley-nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png">
-              </div>
-              <div class="goudavalley-nav-info">
-                  <p>The cheese bits might be hidden under the different elements. Hover over them to search for the remaining cheese bits!</p>
-              </div>
+				  <img class="nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png">
+				</div>
+				<div class="nav-info">
+				  <p>Click or hover over various items to see if you can find one of the cheese bits. When you have found it, click proceed.</p>
+				</div>
             </header>
-
+            <!-- END HEADER - NAVBAR -->
+          
             <main>
                 <!-- Sheep sequence -->
                 <img id="goudavalley-sheep" src="static/img/gouda_valley/png-sheep-cartoon-big-image-png-2400.png">
-                <div id="sheep-text-bubble">
+                <div id="textbubble-sheep">
                     <div id="sheep-direction"></div>
                     <p>Hmm, no cheese bits in this sheeps wool!</p>
                 </div>
@@ -40,18 +50,22 @@
                 <!-- Tractor sequence -->
                 <img id="goudavalley-tractor" src="static/img/gouda_valley/1224784818918522095yman_Little_Green_Tractor.svg.hi.png">
                 <!-- Tractor sequence end -->
-
+                
                 <!-- Golden Cheese sequence-->
-                <input type="checkbox" id="cheese-btnStart">
-                <label class="cheese-btn" for="cheese-btnStart">
+                <input type="checkbox" id="cheese-btn-start">
+                <label class="cheese-btn" for="cheese-btn-start">
                 <img class="goudavalley-golden-cheese" src="static/img/ost.png">
                 </label>
-
+                
                 <!-- Golden Cheese sequence end -->
-
+                
+                <!-- Arrow sequence -->
+                <img id="goudavalley-proceed-arrow" src="static/img/bluecheesecity/arrow-up.png">
+                <!-- Arrow sequence end -->
+                
                 <!-- Rock sequence -->
-                <input type="checkbox" id="btnStart">
-                <label for="btnStart">
+                <input type="checkbox" id="btn-start">
+                <label for="btn-start">
                 <img id="goudavalley-rock" class="goudavalley-rock-class" src="static/img/gouda_valley/rock-576669_960_720.png">
                     <div class="textbubble">
                         <div class="direction"></div>
@@ -59,7 +73,7 @@
                     </div>
                 </label>
                 <!-- Rock sequence end-->
-
+                
             </main>
         </article>
     </body>

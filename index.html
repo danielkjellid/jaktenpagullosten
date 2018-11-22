@@ -1,83 +1,99 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>Planet Cheese</title>
-    <link rel="stylesheet" type="text/css" href="static/css/finalstyle.css">
-</head>
-
-<body>
-    <iframe src="data:audio/mp3;base64,/+MYxAAAAANIAAAAAExBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV" style="display: none;" allow="autoplay">
-    </iframe>
-    <audio autoplay loop>
-        <source src="static/sounds/main_background.mp3" type="audio/mp3">
-    </audio>
-
-    <article class="container">
-        <img id="main-background" src="static/img/main/main.jpg">
-
-        <header class="nav-container">
-            <div class="main-nav-progress">
-                <img class="main-nav-progress-notFound" src="static/img/ost.png">
-                <span>+</span>
-                <img class="main-nav-progress-notFound" src="static/img/ost.png">
-                <span>+</span>
-                <img class="main-nav-progress-notFound" src="static/img/ost.png">
-                <span>=</span>
-                <img class="main-nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png">
-            </div>
-            <div class="main-nav-info">
-                <p>Golden cheese bits are hidden in different cities around Planet Cheese. You need to help Ralphy find them! But be careful, there might be some dangers lurken around the corner!</p>
-            </div>
-        </header>
-        <main>
-
-            <input type="checkbox" id="btnStart" />
-            <label class="btn" for="btnStart">
-                <div id="metro-first" class="metro-style">
-                    <img id="img-metro" src="static/img/main/metro.png">
-
-                    <img id="img-mouse" src="static/img/main/ralphie.gif">
-                    <div class="bubble textbubble">
-                        <!-- onClick audio attempt -- _really_ bad  -->
-                        <audio controls id="hidden1">
-                            <source src="static/sounds/train_whistle_small.mp3" type="audio/mp3">
-                        </audio>
-                        <audio controls id="hidden2">
-                            <source src="static/sounds/train_whistle_small.mp3" type="audio/mp3">
-                        </audio>
-                        <audio controls id="hidden3">
-                            <source src="static/sounds/train_whistle_small.mp3" type="audio/mp3">
-                        </audio>
-                        <audio controls id="hidden4">
-                            <source src="static/sounds/train_whistle_small.mp3" type="audio/mp3">
-                        </audio>
-                        <div class="direction"></div>
-                        <p>Hi friend ! I'm Ralphy the mouse ! <br>Please help me find my Golden cheese bits! <br><br>My Golden cheese has been stolen by <br>Sacha the Squirrel - an awwful little squirrel ! <br>He has hidden bits all over the place !<br><br>Please help me find the Golden cheese bits. <br>It was inherited by my great grand father.<br>Click to start !<br></p>
-                    </div>
+    <head>
+        <title>Planet Cheese</title>
+        <meta charset="UTF-8"/>
+        <meta description="Index site"/>
+        <meta author="Ole Algoritme & Thomas Nesset / Gruppe 9"/>
+        <link rel="stylesheet" type="text/css" href="static/css/finalstyle.css">
+    </head>
+    
+    <body>
+        <!-- AUDIO -->
+        <iframe src="data:audio/mp3;base64,/+MYxAAAAANIAAAAAExBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV" style="display: none;" allow="autoplay">
+        </iframe>
+        <audio autoplay loop>
+            <source src="static/sounds/main_background.mp3" type="audio/mp3">
+        </audio>
+        <!-- AUDIO END -->
+        
+        <!-- MAIN CONTAINER -->
+        <div class="container">
+            
+            <!-- STATIC IMAGES -->
+            <img id="main-background" src="static/img/main/main.png">
+            <!-- STATIC IMAGES -->
+            
+            <!-- HEADER - NAVBAR -->
+            <header class="nav-container">
+                <div class="main-nav-progress">
+                    <img class="main-nav-progress-notFound" src="static/img/ost.png">
+                    <span>+</span>
+                    <img class="main-nav-progress-notFound" src="static/img/ost.png">
+                    <span>+</span>
+                    <img class="main-nav-progress-notFound" src="static/img/ost.png">
+                    <span>=</span>
+                    <img class="main-nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png">
                 </div>
-
-                <span class="bluecheesecity-sign">
-                    <img src="static/img/mainbluecheesecity-sign.png">
-                </span>
-
-                <span class="cheddartown-sign">
-                    <img src="static/img/maincheddartown-sign.png">
-                </span>
-
-                <span class="goudavalley-sign">
-                    <img src="static/img/maingoudavalley-sign.png">
-                </span>
-
-                <span class="parmaville-sign">
-                    <img src="static/img/mainparmaville-sign.png">
-                </span>
-                <span class="parmaville-sign-link">
+                <div class="main-nav-info">
+                    <p>Golden cheese bits are hidden in different cities around Planet Cheese. You need to help Ralphy find them! But be careful, there might be some dangers lurken around the corner!</p>
+                </div>
+            </header>
+            <!-- HEADER - NAVBAR END -->
+            
+            <!-- SITE -->
+            <div>
+                <input type="checkbox" id="btnStart" />
+                
+                <!-- Mouse travel sequence -->
+                <label class="btn" for="btnStart">
+                    <div id="metro-first" class="metro-style">
+                        <img id="img-metro" src="static/img/main/metro.png">
+                        <img id="img-mouse" src="static/img/main/ralphie.gif">
+                        <div class="bubble textbubble">
+                            <!-- onClick audio attempt -- _really_ bad  -->
+                            <audio controls id="hidden1">
+                                <source src="static/sounds/train_whistle_small.mp3" type="audio/mp3">
+                            </audio>
+                            <audio controls id="hidden2">
+                                <source src="static/sounds/train_whistle_small.mp3" type="audio/mp3">
+                            </audio>
+                            <audio controls id="hidden3">
+                                <source src="static/sounds/train_whistle_small.mp3" type="audio/mp3">
+                            </audio>
+                            <audio controls id="hidden4">
+                                <source src="static/sounds/train_whistle_small.mp3" type="audio/mp3">
+                            </audio>
+                            <div class="direction"></div>
+                            <p>Hi friend ! I'm Ralphy the mouse ! <br>Please help me find my Golden cheese bits! <br><br>My Golden cheese has been stolen by <br>Sacha the Squirrel - an awwful little squirrel ! <br>He has hidden bits all over the place !<br><br>Please help me find the Golden cheese bits. <br>It was inherited by my great grand father.<br>Click to start !<br></p>
+                        </div>
+                    </div>
+                    <!-- Mouse travel sequence end -->
+                    
+                    <!-- SITE IMAGES -->
+                    <span class="bluecheesecity-sign">
+                    <img src="static/img/main/bluecheesecity-sign.png">
+                    </span>
+                    <span class="cheddartown-sign">
+                    <img src="static/img/main/cheddartown-sign.png">
+                    </span>
+                    <span class="goudavalley-sign">
+                    <img src="static/img/main/goudavalley-sign.png">
+                    </span>
+                    <span class="parmaville-sign">
+                    <img src="static/img/main/parmaville-sign.png">
+                    </span>
+                    <span class="parmaville-sign-link">
                     <a href="parmaville.html"><img src="static/img/main/parmaville-sign.png"></a>
-                </span>
-            </label>
-        </main>
-    </article>
-</body>
-
+                    </span>
+                    <!-- SITE IMAGES -->
+                </label>
+                
+            </div>
+            <!-- SITE END -->
+            
+        </div>
+        <!-- MAIN CONTAINER END -->
+        
+    </body>
 </html>

@@ -7,47 +7,47 @@
         <meta author="Håkon Hess / Gruppe 9"/>
         <link rel="stylesheet" type="text/css" href="static/css/finalstyle.css">
     </head>
+    
     <body>
-        <!-- SOUND -->
+        <!-- AUDIO -->
         <iframe src="data:audio/mp3;base64,/+MYxAAAAANIAAAAAExBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV" style="display: none;" allow="autoplay">
         </iframe>
         <audio autoplay loop>
             <source src="static/sounds/western.mp3" type="audio/mp3">
         </audio>
-        <!-- END SOUND -->
-
+        <!-- AUDIO END -->
+        
         <!-- MAIN CONTAINER -->
-        <article class="container">
+        <div class="container">
             
             <!-- STATIC IMAGES -->
             <img id="parmaville-background" src="static/img/parmaville/parmaville-uten-mus.png">
             <img id="parmaville-controlpanel" src="static/img/mus-i-cockpit.png">
             <img id="parmaville-stoneWell" src="static/img/parmaville/stone-well-clipart-5.png">
             <!-- END STATIC IMAGES -->
-
+            
             <!-- HEADER - NAVBAR -->
             <header class="nav-container">
-			  <div class="nav-buttons">
+                <div class="nav-buttons">
                     <a href="index.html"><input type="button" value="Go Back" id="backward"/></a>
                     <a href="index-2.html"><input type="button" value="Proceed" id="forward"/></a>
-			  </div>
-			  <div class="nav-progress">
-				  <img class="nav-progress-notFound" src="static/img/ost.png">
-				  <span>+</span>
-				  <img class="nav-progress-notFound" src="static/img/ost.png">
-				  <span>+</span>
-				  <img class="nav-progress-notFound" src="static/img/ost.png">
-				  <span>=</span>
-				  <img class="nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png">
-				</div>
-				<div class="nav-info">
-				  <p>Click or hover over various items to see if you can find one of the cheese bits. When you have found it, click proceed.</p>
-				</div>
+                </div>
+                <div class="nav-progress">
+                    <img class="nav-progress-notFound" src="static/img/ost.png">
+                    <span>+</span>
+                    <img class="nav-progress-notFound" src="static/img/ost.png">
+                    <span>+</span>
+                    <img class="nav-progress-notFound" src="static/img/ost.png">
+                    <span>=</span>
+                    <img class="nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png">
+                </div>
+                <div class="nav-info">
+                    <p>Click or hover over various items to see if you can find one of the cheese bits. When you have found it, click proceed.</p>
+                </div>
             </header>
             <!-- END HEADER - NAVBAR -->
             
-            
-                <!-- Sheriff sequense -->
+            <!-- Sheriff sequense -->
             <img id="parmaville-sheriff1" src="static/img/parmaville/sheriff_ned_featured_flipped.png">
             <div class="parmaville-textbubble" id="parmaville-textbubble-sheriff1">
                 <p>There can only be one sheriff. Get ready for a duel!</p>
@@ -63,12 +63,12 @@
                 <div class="parmaville-speech-direction"></div>
             </div>
             <!-- END Sheriff sequence -->
-
+            
             <!-- Chest sequence -->
             <div id="parmaville-chest">
                 <input id="parmaville-cheese-found" type="checkbox">
                 <label class="parmaville-label-cheese" for="parmaville-cheese-found">
-                    <img id="parmaville-hidden-cheese" src="static/img/ost.png">
+                <img id="parmaville-hidden-cheese" src="static/img/ost.png">
                 </label>
                 <div class="parmaville-textbubble" id="parmaville-textbubble-hidden-cheese">
                     <p>Click on the cheese to collect it</p>
@@ -78,7 +78,7 @@
                 <img id="parmaville-chest-bottom" src="static/img/parmaville/chest_bottom1.png">
             </div>
             <!-- END Chest sequence -->
-
+            
             <!-- Horse sequence -->
             <input id="parmaville-horse-click" type="checkbox">
             <label class="parmaville-label-horse" for="parmaville-horse-click">
@@ -89,13 +89,12 @@
                 </div>
             </label>
             <!-- END Horse sequence -->
-
+            
             <!-- Vulture sequence -->
             <img id="parmaville-vulture" src="static/img/parmaville/flying-vulture.png">
             <!-- END Vulture sequence -->
-
-        </article>
+            
+        </div>
         <!-- END MAIN CONTAINER -->
     </body>
-
 </html>

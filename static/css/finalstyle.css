@@ -361,19 +361,13 @@ ELEMENTS
 }
 
 #btnStart:checked ~ label .textbubble {
-    animation-name: anim-bubble-out;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: none;
+    animation: anim-bubble-out 1s ease-out 0s 1 none
 }
 
 #btnStart:checked ~ label .metro-style {
-    animation:
-        anim-shake 0.25s ease-in 0s 16 none,
-        anim-shrink 1s linear 4s 1 forwards,
-        main-animation-metro-first 6s ease-in 5s 1 forwards;
+    animation: anim-shake 0.25s ease-in 0s 16 none,
+               anim-shrink 1s linear 4s 1 forwards,
+               main-animation-metro-first 6s ease-in 5s 1 forwards;
 }
 
 #btnStart:checked ~ label .parmaville-sign {
@@ -381,8 +375,12 @@ ELEMENTS
 }
 
 #btnStart:checked ~ label .parmaville-sign-link {
+<<<<<<< HEAD
     animation:
         sign-link-visible 1s linear 11s forwards;
+=======
+    animation: sign-link-visible 1s linear 11s infinite;
+>>>>>>> 37061d44a0c2a903c2defc8db2f490c2dcd1b4b1
 }
 
 #img-metro {
@@ -406,9 +404,7 @@ ELEMENTS
     top: 170px;
     transform: scale(0.35);
     position: relative;
-
-    animation:
-        main-animation-metro-second 6s ease-in 1s 1 forwards;
+    animation: main-animation-metro-second 6s ease-in 1s 1 forwards;
 }
 
 #metro-third {
@@ -416,9 +412,7 @@ ELEMENTS
     top: 430px;
     transform: scale(0.35);
     position: relative;
-
-    animation:
-        main-animation-metro-third 6s ease-in 1s 1 forwards;
+    animation: main-animation-metro-third 6s ease-in 1s 1 forwards;
 }
 
 #metro-fourth {
@@ -426,9 +420,7 @@ ELEMENTS
     top: 430px;
     transform: scale(0.35);
     position: relative;
-
-    animation:
-        main-animation-metro-fourth 6s ease-in 1s 1 forwards;
+    animation: main-animation-metro-fourth 6s ease-in 1s 1 forwards;
 }
 
 #metro-last {
@@ -436,9 +428,7 @@ ELEMENTS
     top: 440px;
     transform: scale(0.35);
     position: relative;
-
-    animation:
-        main-animation-metro-last 10s ease-in 1s 1 forwards;
+    animation: main-animation-metro-last 10s ease-in 1s 1 forwards;
 }
 
 .goudavalley-golden-cheese {
@@ -607,6 +597,7 @@ ELEMENTS
     opacity: 1;
     transition: all 0.5s linear 0s;
 }
+
 /* Element: Horse
 -------------------------------*/
 #parmaville-horse {
@@ -798,12 +789,7 @@ Speech
 ===============================================================
 */
 .textbubble {
-    animation-name: anim-bubble-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation: anim-bubble-in 1s ease-in 0s 1 forwards;
 
     transform: scale(0);
     opacity: 0;
@@ -1514,7 +1500,7 @@ Animations
 }
 
 /* ===============================================================
-STUPID AUDIO HACK
+AUDIO
 ===============================================================
 */
 

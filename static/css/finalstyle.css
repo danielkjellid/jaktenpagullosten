@@ -592,7 +592,7 @@ ELEMENTS
 }
 
 #parmaville-cheese-found:checked ~ #parmaville-proceed-arrow {
-    animation: arrowUpAndDown 3s ease-in-out 3s infinite;
+    animation: arrowUpAndDown 1s ease-in-out 3s infinite;
 }
 
 /* Element: Pigeon

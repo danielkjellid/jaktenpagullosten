@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="static/css/goudavalley.css">
+        <title>GoudaValley</title>
+        <meta charset="UTF-8"/>
+        <meta description="GoudaValley"/>
+        <meta author="Christian Engebretsen / Gruppe 9"/>
+        <link rel="stylesheet" type="text/css" href="static/css/finalstyle.css"/>
     </head>
 	
     <body>
@@ -14,33 +17,33 @@
         </audio>
         <!-- END SOUND -->
         
-        <article class="goudavalley-container">
-          <img id="goudavalley-background" src="static/img/goudavalley.jpg">
+        <div class="container">
+          <img id="goudavalley-background" src="static/img/goudavalley/goudavalley.png">
           
           <!-- HEADER - NAVBAR -->
             <header class="nav-container">
-			  <div class="nav-buttons">
+                <div class="nav-buttons">
                     <a href="index-3.html"><input type="button" value="Go Back" id="backward"/></a>
                     <a href="index-4.html"><input type="button" value="Proceed" id="forward"/></a>
-			  </div>
-			  <div class="nav-progress">
-				  <img class="nav-progress-notFound" src="static/img/ost.png">
-				  <span>+</span>
-				  <img class="nav-progress-notFound" src="static/img/ost.png">
-				  <span>+</span>
-				  <img class="nav-progress-notFound" src="static/img/ost.png">
-				  <span>=</span>
-				  <img class="nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png">
-				</div>
-				<div class="nav-info">
-				  <p>Click or hover over various items to see if you can find one of the cheese bits. When you have found it, click proceed.</p>
-				</div>
+                </div>
+                <div class="nav-progress">
+                    <img src="static/img/ost.png"/>
+                    <span>+</span>
+                    <img class="nav-progress-notFound" src="static/img/ost.png"/>
+                    <span>+</span>
+                    <img class="nav-progress-notFound" src="static/img/ost.png"/>
+                    <span>=</span>
+                    <img class="nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png"/>
+                </div>
+                <div class="nav-info">
+                    <p>The cheese bits might be hidden under the different elements. Hover over them to search for the missing cheese bits, but watch out for hidden dangers in the big scary city!</p>
+                </div>
             </header>
             <!-- END HEADER - NAVBAR -->
           
-            <main>
+            <div>
                 <!-- Sheep sequence -->
-                <img id="goudavalley-sheep" src="static/img/gouda_valley/png-sheep-cartoon-big-image-png-2400.png">
+                <img id="goudavalley-sheep1" src="static/img/goudavalley/png-sheep-cartoon-big-image-png-2400.png">
                 <div id="textbubble-sheep">
                     <div id="sheep-direction"></div>
                     <p>Hmm, no cheese bits in this sheeps wool!</p>
@@ -48,7 +51,7 @@
                 <!-- Sheep sequence end -->
 
                 <!-- Tractor sequence -->
-                <img id="goudavalley-tractor" src="static/img/gouda_valley/1224784818918522095yman_Little_Green_Tractor.svg.hi.png">
+                <img id="goudavalley-tractor" src="static/img/goudavalley/1224784818918522095yman_Little_Green_Tractor.svg.hi.png">
                 <!-- Tractor sequence end -->
                 
                 <!-- Golden Cheese sequence-->
@@ -60,21 +63,21 @@
                 <!-- Golden Cheese sequence end -->
                 
                 <!-- Arrow sequence -->
-                <img id="goudavalley-proceed-arrow" src="static/img/bluecheesecity/arrow-up.png">
+                <img id="goudavalley-proceed-arrow" src="static/img/arrow-up.png">
                 <!-- Arrow sequence end -->
                 
                 <!-- Rock sequence -->
                 <input type="checkbox" id="btn-start">
                 <label for="btn-start">
-                <img id="goudavalley-rock" class="goudavalley-rock-class" src="static/img/gouda_valley/rock-576669_960_720.png">
-                    <div class="textbubble">
+                <img id="goudavalley-rock" class="goudavalley-rock-class" src="static/img/goudavalley/rock-576669_960_720.png">
+                    <div class="goudavalley-textbubble">
                         <div class="direction"></div>
                         <p>Oh! You found one of my golden cheese pieces!</p>
                     </div>
                 </label>
                 <!-- Rock sequence end-->
                 
-            </main>
-        </article>
+            </div>
+        </div>
     </body>
 </html>

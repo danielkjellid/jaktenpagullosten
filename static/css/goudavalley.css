@@ -49,17 +49,6 @@ Goudavalley NAVIGATION
     border-bottom: 1px solid #bbb;
 }
 
-/* Navigation: Container
--------------------------------*/
-.goudavalley-nav-container {
-    width: 100%;
-    height: 8%;
-    background-color: #413746;
-    color: #fff;
-    border-bottom: 1px solid #bbb;
-}
-
-
 /* Navigation: Buttons
 -------------------------------*/
 .goudavalley-nav-buttons {
@@ -70,55 +59,44 @@ Goudavalley NAVIGATION
     padding: 1px;
 }
 
-.goudavalley-nav-buttons input {
-    margin-top: 8px;
+.goudavalley-nav-buttons button{
+    background-color: #1bb776;
+    border: 1px solid #138254; 
+    color: #fff; 
+    height: 40px;
+    width: 100px;
+    margin-top: 7px;
     margin-left: 10px;
     font-size: 14px;
     padding: 0;
 }
 
-.goudavalley-nav-buttons input span {
+.goudavalley-nav-buttons button span{
     position: relative;
 }
 
 .goudavalley-nav-buttons #forward {
-    top: 0px;
+    top: 0;
     left: 100px;
-    height: 40px;
-    width: 90px;
-    background-color: #1bb776;
-    border: 1px solid #138254;
-    color: #fff;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
 
-.goudavalley-nav-buttons #forward:hover {
-    background-color: #148b59;
-    border-color: #138254;
-}
-
 .goudavalley-nav-buttons #backward {
-    top: 0px;
-    left: 10px;
-    height: 40px;
-    width: 90px;
-    background-color: #1bb776;
-    border: 1px solid #138254;
-    color: #fff;
+    top: 0;
+    left: 0;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
 
-.goudavalley-nav-buttons #backward:hover {
-    background-color: #148b59;
-    border-color: #138254;
-}
-
-.goudavalley-nav-buttons button:not(:last-child) {
+.goudavalley-nav-buttons button:not(:last-child){
     border-right: 0;
 }
 
+.goudavalley-nav-buttons button:hover {
+    background-color: #148b59;
+    border-color: #138254;
+}
 
 /* Navigation: Progress
 -------------------------------*/
@@ -151,7 +129,7 @@ Goudavalley NAVIGATION
     font-size: 30px;
     margin-top: 11px;
     margin-left: -8px;
-    padding: 0;
+    padding: 0; 
 }
 
 /* Navigation: Info block
@@ -186,16 +164,11 @@ GOUDAVALLEY ELEMENTS
     left: 1050px;
 }
 
-#cheese-btnStart:checked ~ label .goudavalley-golden-cheese {
-    animation-name: goudavalley-golden-cheese-anim;
-    animation-duration: 5s;
-    animation-timing-function: none;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+#cheese-btn-start:checked ~ label .goudavalley-golden-cheese {
+    animation: goudavalley-animation-golden-cheese 5s none 0s 1 forwards;
 }
 
-#cheese-btnStart {
+#cheese-btn-start {
     opacity: 0;
 }
 /* Element: Goudavalley-tractor
@@ -205,15 +178,12 @@ GOUDAVALLEY ELEMENTS
     top: 300px;
     left: 300px;
     transform: rotate(350deg);
-    animation-name: goudavalley-tractor-crash;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: none;
+    animation: goudavalley-animation-tractor 5s infinite none;
 }
 
 /* Element: goudavalley-rock
 -------------------------------*/
-
+ 
 
 .textbubble {
     width: 200px;
@@ -251,26 +221,16 @@ GOUDAVALLEY ELEMENTS
     left: 1000px;
 }
 
-#btnStart {
+#btn-start {
   display: none;
 }
 
-#btnStart:checked ~ label .goudavalley-rock-class {
-    animation-name: goudavalley-animation-rock-cheese;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+#btn-start:checked ~ label .goudavalley-rock-class {
+    animation: goudavalley-animation-rock-cheese 2s ease-in 0s 1 forwards
 }
 
-#btnStart:checked ~ label .textbubble {
-    animation-name: goudavalley-animation-speech;
-    animation-duration: 6s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+#btn-start:checked ~ label .textbubble {
+    animation: goudavalley-animation-speech 6s ease-in-out 0s 1 forwards;
 }
 
 /* Element: goudavalley-sheep
@@ -279,16 +239,14 @@ GOUDAVALLEY ELEMENTS
     height: 80px;
     top: 300px;
     left: 200px;
-    animation-name: goudavalley-sheep-anim;
-    animation-duration: 3s;
-    animation-iteration-count:infinite;
+    animation: goudavalley-animation-sheep 3s infinite;
 }
 
-#goudavalley-sheep:hover + #sheep-text-bubble {
+#goudavalley-sheep:hover + #textbubble-sheep {
     display: block;
 }
 
-#sheep-text-bubble {
+#textbubble-sheep {
     width: 100px;
     height: 100px;
     padding: 10px;
@@ -305,7 +263,7 @@ GOUDAVALLEY ELEMENTS
     display: none;
 }
 
-#sheep-text-bubble #sheep-direction {
+#textbubble-sheep #sheep-direction {
     transform: scale(-1);
     width: 0;
     height: 0;
@@ -317,16 +275,24 @@ GOUDAVALLEY ELEMENTS
     border-left-color: rgb(255, 165, 30);
 }
 
-/* Element: goudavalley-sheep
+/* Element: goudavalley arrow
 -------------------------------*/
+#goudavalley-proceed-arrow {
+    top:70px;
+    left:140px;
+    opacity:0;
+}
 
+#cheese-btn-start:checked ~ #goudavalley-proceed-arrow {
+    animation: goudavalley-animation-proceed-arrow 5s 1s infinite;
+}
 
 
 
 /* Animation: tractor
 -------------------------------*/
 
-@keyframes goudavalley-tractor-crash {
+@keyframes goudavalley-animation-tractor {
     0% {
         top: 300px;
         left: 300px;
@@ -357,7 +323,7 @@ GOUDAVALLEY ELEMENTS
 /* Animation: cheese-nav-bar
 -------------------------------*/
 
-@keyframes goudavalley-golden-cheese-anim {
+@keyframes goudavalley-animation-golden-cheese {
     50% {
         opacity: 0.5;
     }
@@ -370,7 +336,11 @@ GOUDAVALLEY ELEMENTS
 /* Animation: sheep
 -------------------------------*/
 
-@keyframes goudavalley-sheep-anim {
+@keyframes goudavalley-animation-sheep {
+    10% {
+        top: 300px;
+        left: 200px;
+    }
     20% {
         top: 300px;
         left: 200px;
@@ -397,5 +367,21 @@ GOUDAVALLEY ELEMENTS
     100% {
         top: 300px;
         left:200px;
+    }
+}
+
+/* Animation: goudavalley-proceed-arrow
+-------------------------------*/
+@keyframes goudavalley-animation-proceed-arrow {
+    0% {
+        opacity: 1;
+        top: 70px;
+    }
+    50% {
+        top: 80px;
+    }
+    100% {
+        top: 70px;
+        opacity: 1;
     }
 }

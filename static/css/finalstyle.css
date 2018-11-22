@@ -31,7 +31,7 @@ input {
 }
 
 #main-container {
-    background-image: url("../img/main.jpg");
+    background-image: url("../img/main/main.png");
     background-size: cover;
     margin: auto;
     width: 1280px;

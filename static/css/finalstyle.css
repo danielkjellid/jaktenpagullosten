@@ -38,6 +38,24 @@ input {
     height: 720px;
 }
 
+#parmaville-background {
+    width: 1280px;
+    height: 720px;
+}
+
+#parmaville-controlpanel {
+    width: 1280px;
+    top: 100px;
+    left: 0;
+}
+
+#parmaville-stoneWell {
+    width: 80px;
+    bottom: 122px;
+    left: 220px;
+    z-index: 2;
+}
+
 /* ===============================================================
 NAVIGATION
 ===============================================================
@@ -78,7 +96,7 @@ NAVIGATION
 
 .nav-buttons #forward {
     top: -1px;
-    left: 98px;
+    left: 99px;
     height: 40px;
     width: 90px;
     background-color: #1bb776;
@@ -174,6 +192,145 @@ ELEMENTS
 ===============================================================
 */
 
+/* Element: Sherrif
+-------------------------------*/
+#parmaville-sheriff1 {
+    width: 150px;
+    bottom: 100px;
+    right: 200px;
+}
+
+#parmaville-sheriff1:hover {
+    animation: parmaville-animation-sheriff1Moves 2s linear 0s infinite;
+}
+
+#parmaville-sheriff1:hover ~ #parmaville-textbubble-sheriff1 {
+    opacity: 1;
+    transition: all 0.5s linear 0s;
+}
+
+#parmaville-sheriff1:hover ~ #parmaville-textbubble-mouse {
+    opacity: 1;
+    transition: all 0.5s linear 2s;
+}
+
+#parmaville-sheriff2 {
+    width: 150px;
+    bottom: 100px;
+    left: 300px;
+    z-index: 2;
+}
+
+#parmaville-textbubble-sheriff2 {
+    height: 60px;
+    bottom: 220px;
+    left: 340px;
+}
+
+#parmaville-sheriff2:hover {
+    animation: parmaville-animation-sheriff2Moves 2s linear 0s infinite;
+}
+
+#parmaville-sheriff2:hover ~ #parmaville-textbubble-sheriff2 {
+    opacity: 1;
+    transition: all 0.5s linear 0s;
+}
+/* Element: Horse
+-------------------------------*/
+#parmaville-horse {
+    width: 150px;
+    top: 445px;
+    left: 600px;
+}
+
+#parmaville-horse:hover ~ #parmaville-textbubble-horse{
+    opacity: 1;
+    transition: all 0.5s linear 0s;
+}
+
+#parmaville-horse-click {
+    opacity: 0;
+}
+
+#parmaville-horse-click:checked ~ .parmaville-label-horse #parmaville-horse {
+    animation: parmaville-animation-horseMoves 5s linear 0s forwards;
+}
+
+#parmaville-horse-click:checked ~ .parmaville-label-horse #parmaville-textbubble-horse {
+    opacity: 0;
+    transition: all 0s linear 0s;
+}
+
+/* Element: Vulture
+-------------------------------*/
+#parmaville-vulture {
+    width: 100px;
+    top: 50px;
+    left: 100px;
+    animation: parmaville-animation-vultureMoves 10s linear 0s infinite;
+}
+
+/* Element: Treasure chest
+-------------------------------*/
+#parmaville-chest {
+    width: 100px;
+    height: 100px;
+    bottom: 212px;
+    right: 400px;
+}
+
+#parmaville-chest-top {
+    width: 100px;
+    bottom: 30px;
+    transition: bottom 1s linear 0s;
+}
+
+#parmaville-chest-bottom {
+    width: 100px;
+    bottom: 0px;
+}
+
+#parmaville-chest:hover #parmaville-chest-top {
+    bottom: 55px;
+}
+
+#parmaville-textbubble-hidden-cheese {
+    height: 55px;
+    bottom: 20px;
+    left: 110px;
+}
+
+#parmaville-chest:hover #parmaville-textbubble-hidden-cheese {
+    opacity: 1;
+    transition: all 0.5s linear 1s;
+}
+
+#parmaville-hidden-cheese {
+    width: 30px;
+    bottom: -68px;
+    left: 35px;
+    opacity: 1;
+}
+
+#parmaville-cheese-found {
+    opacity: 0;
+}
+
+#parmaville-cheese-found:checked ~ .parmaville-label-cheese #parmaville-hidden-cheese {
+    animation: parmaville-animation-cheeseMoves 2s linear 0s forwards;
+    z-index: 10;
+}
+
+#parmaville-proceed-arrow {
+    top: -340px;
+    left: -640px;
+    opacity: 0;
+}
+
+#parmaville-cheese-found:checked ~ #parmaville-proceed-arrow {
+    animation: arrowUpAndDown 3s ease-in-out 3s infinite;
+}
+
 /* Element: Pigeon
 -------------------------------*/
 #bluecheesecity-element-pigeon {
@@ -183,18 +340,11 @@ ELEMENTS
 }
 
 #bluecheesecity-element-pigeon:hover {
-    animation-name: bluecheesecity-animation-pigeon;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
+    animation: bluecheesecity-animation-pigeon 5s ease-in-out;
 }
 
 #bluecheesecity-element-pigeon:hover+#bluecheesecity-speech-pigeonSequence-mouse {
-    animation-name: animation-hide-speech;
-    animation-duration: 6s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation: animation-hide-speech 6s ease-in-out 0s 1 forwards;
 }
 
 /* Element: Car
@@ -210,27 +360,15 @@ ELEMENTS
 }
 
 #bluecheesecity-element-car:hover {
-    animation-name: bluecheesecity-animation-car;
-    animation-duration: 10s;
-    animation-timing-function: ease-in-out;
+    animation: bluecheesecity-animation-car 10s ease-in-out;
 }
 
 #bluecheesecity-element-car:hover~#bluecheesecity-speech-carSequence-car {
-    animation-name: animation-hide-speech;
-    animation-duration: 6s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation: animation-hide-speech 6s ease-in-out 0s 1 forwards;
 }
 
 #bluecheesecity-element-car:hover~#bluecheesecity-speech-carSequence-mouse {
-    animation-name: animation-hide-speech;
-    animation-duration: 6s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation: animation-hide-speech 6s ease-in-out 0s 1 forwards;
 }
 
 
@@ -243,21 +381,11 @@ ELEMENTS
 }
 
 #bluecheesecity-element-garbageBin:hover~#bluecheesecity-speech-garbageSequence-cat {
-    animation-name: animation-hide-speech;
-    animation-duration: 6s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation: animation-hide-speech 6s ease-in-out 0s 1 forwards;
 }
 
 #bluecheesecity-element-garbageBin:hover~#bluecheesecity-speech-garbageSequence-mouse {
-    animation-name: animation-hide-speech;
-    animation-duration: 6s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation: animation-hide-speech 6s ease-in-out 0s 1 forwards;
 }
 
 #bluecheesecity-element-garbageBin:hover~.bluecheesecity-carSequence-hidden {
@@ -290,11 +418,7 @@ ELEMENTS
     width: 40px;
     top: 60px;
     left: 130px;
-    animation-name: bluecheesecity-animation-upAndDown;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+    animation: animation-upAndDown 3s infinite ease-in-out forwards;
 }
 
 /* ===============================================================
@@ -322,6 +446,53 @@ Speech
 
 .left {
     transform: scaleX(-1);
+}
+
+.parmaville-textbubble  {
+    width: 150px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #FFA51E;
+    border: 3px solid #2D2832;
+    opacity: 0;
+    z-index: 10;
+}
+
+.parmaville-textbubble p {
+    z-index: 10;
+}
+
+.parmaville-speech-direction {
+    width: 0;
+    height: 0;
+    bottom: -17px;
+    right: 60px;
+    border: solid 20px rgba(255, 255, 255, 0);
+    border-left-color: rgb(255, 165, 30);
+}
+
+#parmaville-textbubble-sheriff1 {
+    height: 70px;
+    bottom: 220px;
+    right: 230px;
+}
+
+#parmaville-textbubble-sheriff2 {
+    height: 60px;
+    bottom: 220px;
+    left: 340px;
+}
+
+#parmaville-textbubble-mouse {
+    height: 70px;
+    bottom: 80px;
+    right: 350px;
+}
+
+#parmaville-textbubble-horse {
+    height: 60px;
+    top: 370px;
+    left: 510px;
 }
 
 #bluecheesecity-speech-pigeonSequence-mouse {
@@ -421,7 +592,7 @@ Animations
 
 /* Animation: Up and down
 -------------------------------*/
-@keyframes bluecheesecity-animation-upAndDown {
+@keyframes  animation-upAndDown {
     0% {
         top: 60px;
     }
@@ -430,6 +601,20 @@ Animations
     }
     100% {
         top: 60px;
+    }
+}
+
+@keyframes arrowUpAndDown {
+    0% {
+        opacity: 1;
+        top: -340px;
+    }
+    50% {
+        top: -320px;
+    }
+    100% {
+        opacity: 1;
+        top: -340px;
     }
 }
 
@@ -442,5 +627,128 @@ Animations
     }
     100% {
         opacity: 0;
+    }
+}
+
+/* Animation: Sheriff moves
+-------------------------------*/
+@keyframes parmaville-animation-sheriff1Moves {
+    0% {
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes parmaville-animation-sheriff2Moves {
+    0% {
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+/* Animation: Horse moves
+-------------------------------*/
+@keyframes parmaville-animation-horseMoves {
+    0%{
+        left: 600px;
+        transform: rotate(0deg);
+    }
+    10%{
+        left: 525px;
+        transform: rotate(10deg);
+    }
+    20%{
+        left: 450px;
+        transform: rotate(0deg);
+    }
+    30%{
+        left: 375px;
+        transform: rotate(10deg);
+    }
+    40%{
+        left: 300px;
+        transform: rotate(0deg);
+    }
+    50%{
+        left: 225px;
+        transform: rotate(10deg);
+    }
+    60%{
+        left: 150px;
+        transform: rotate(0deg);
+    }
+    70%{
+        left: 75px;
+        transform: rotate(10deg);
+    }
+    80%{
+        left: 0px;
+        transform: rotate(0deg);
+    }
+    90%{
+        left: -75px;
+        transform: rotate(10deg);
+    }
+    100%{
+        left: -150px;
+        transform: rotate(0deg);
+    }
+}
+
+/* Animation: Vulture moves
+-------------------------------*/
+@keyframes parmaville-animation-vultureMoves {
+    0%{
+        top: 50px;
+        left: -100px;
+    }
+    25%{
+        top: 100px;
+    }
+    50%{
+        top: 150px;
+    }
+    75%{
+        top: 100px;
+    }
+    100%{
+        top: 50px;
+        left: 1280px;
+    }
+}
+
+/* Animation: Cheese moves
+-------------------------------*/
+@keyframes parmaville-animation-cheeseMoves {
+    0%{
+        bottom: -68px;
+        left: 35px;
+    }
+    100%{
+        width: 45px;
+        bottom: 364px;
+        left: 226px;
     }
 }

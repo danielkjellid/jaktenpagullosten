@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <title>Parmaville</title>
-        <link rel="stylesheet" type="text/css" href="static/css/parmaville.css">
+        <meta charset="UTF-8"/>
+        <meta description="Parmaville"/>
+        <meta author="Håkon Hess / Gruppe 9"/>
+        <link rel="stylesheet" type="text/css" href="static/css/finalstyle.css">
     </head>
-
-    <body id="parmaville-body">
-
+    <body>
         <!-- SOUND -->
-        <iframe
-                src="data:audio/mp3;base64,/+MYxAAAAANIAAAAAExBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV" style="display: none;" allow="autoplay">
+        <iframe src="data:audio/mp3;base64,/+MYxAAAAANIAAAAAExBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV" style="display: none;" allow="autoplay">
         </iframe>
         <audio autoplay loop>
             <source src="static/sounds/western.mp3" type="audio/mp3">
@@ -18,11 +17,17 @@
         <!-- END SOUND -->
 
         <!-- MAIN CONTAINER -->
-        <div id="parmaville-container">
+        <article class="container">
+            
+            <!-- STATIC IMAGES -->
+            <img id="parmaville-background" src="static/img/parmaville/parmaville-uten-mus.jpg">
+            <img id="parmaville-controlpanel" src="static/img/mus-i-cockpit.png">
+            <img id="parmaville-stoneWell" src="static/img/parmaville/stone-well-clipart-5.png">
+            <!-- END STATIC IMAGES -->
 
             <!-- HEADER - NAVBAR -->
             <header class="nav-container">
-			  <div class="parmaville-nav-buttons">
+			  <div class="nav-buttons">
                     <input type="button" value="Go Back" id="backward"/>
                     <a href="index-2.html"><input type="button" value="Proceed" id="forward"/></a>
 			  </div>
@@ -40,14 +45,9 @@
 				</div>
             </header>
             <!-- END HEADER - NAVBAR -->
-
-            <!-- STATIC IMAGES -->
-            <img id="parmaville-background" src="static/img/parmaville-uten-mus.jpg">
-            <img id="parmaville-controlpanel" src="static/img/mus-i-cockpit.png">
-            <img id="parmaville-stoneWell" src="static/img/parmaville/stone-well-clipart-5.png">
-            <!-- END STATIC IMAGES -->
-
-            <!-- Sheriff sequense -->
+            
+            
+                <!-- Sheriff sequense -->
             <img id="parmaville-sheriff1" src="static/img/parmaville/sheriff_ned_featured_flipped.png">
             <div class="parmaville-textbubble" id="parmaville-textbubble-sheriff1">
                 <p>There can only be one sheriff. Get ready for a duel!</p>
@@ -94,7 +94,7 @@
             <img id="parmaville-vulture" src="static/img/parmaville/flying-vulture.png">
             <!-- END Vulture sequence -->
 
-        </div>
+        </article>
         <!-- END MAIN CONTAINER -->
     </body>
 

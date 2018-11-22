@@ -74,6 +74,12 @@ input {
     height: 720px;
 }
 
+#cheddartown-background {
+    width: 1280px;
+    height: 720px;
+    bottom: 150px;
+}
+
 #mugg-background {
     width: 1280px;
     height: 720px;
@@ -112,7 +118,7 @@ input {
 
 .parmaville-sign {
     transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
-    z-index: 1;
+    z-index: 60;
 }
 
 .bluecheesecity-sign,
@@ -145,7 +151,8 @@ input {
 
 .parmaville-sign-link {
     transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
-    z-index: 2;
+    z-index: 250;
+       animation: sign-link-visible 1s linear 3s forwards;
 }
 
 .bluecheesecity-sign-link,
@@ -176,6 +183,7 @@ NAVIGATION
     background-color: #413746;
     color: #fff;
     border-bottom: 1px solid #bbb;
+    z-index: 50;
 }
 
 
@@ -435,6 +443,7 @@ ELEMENTS
     width: 45px;
     top: 420px;
     left: 1050px;
+    z-index: 60;
 }
 
 #cheese-btn-start:checked ~ label .goudavalley-golden-cheese {
@@ -468,6 +477,7 @@ ELEMENTS
     height: 80px;
     top: 400px;
     left: 1000px;
+    z-index: 70;
 }
 
 #btn-start {
@@ -646,11 +656,13 @@ ELEMENTS
     width: 100px;
     bottom: 30px;
     transition: bottom 1s linear 0s;
+    z-index: 70;
 }
 
 #parmaville-chest-bottom {
     width: 100px;
     bottom: 0px;
+    z-index: 70;
 }
 
 #parmaville-chest:hover #parmaville-chest-top {
@@ -673,15 +685,17 @@ ELEMENTS
     bottom: -68px;
     left: 35px;
     opacity: 1;
+    z-index: 60;
 }
 
 #parmaville-cheese-found {
     opacity: 0;
+    z-index: 60;
 }
 
 #parmaville-cheese-found:checked ~ .parmaville-label-cheese #parmaville-hidden-cheese {
     animation: parmaville-animation-cheeseMoves 2s linear 0s forwards;
-    z-index: 10;
+    z-index: 60;
 }
 
 #parmaville-proceed-arrow {
@@ -782,6 +796,120 @@ ELEMENTS
     top: 60px;
     left: 130px;
     animation: animation-upAndDown 3s infinite ease-in-out forwards;
+}
+
+/* Element: Snowmobile
+-------------------------------*/
+#cheddartown-img-snowmobile {
+    top: 343px;
+    left: 100px;
+    width: 250px;
+    z-index: 101;
+}
+
+/* Element: Snow
+-------------------------------*/
+#cheddartown-img-snow {
+    background: url("../img/cheddar_town/falling_snow.png");
+    background-repeat: repeat;
+    width: 1280px;
+    height: 720px;
+    background-size: 50px;
+    animation: cheddartown-animation-snow 15s linear infinite ;
+}
+
+/* Element: Snowman
+-------------------------------*/
+#cheddartown-img-snowman {
+    height: 100px;
+    width: 100px;
+    right: 200px;
+    top: 300px;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.5s;
+}
+
+/* Element: Arrow
+-------------------------------*/
+#cheddartown-img-arrow {
+    width: 40px;
+    top: 70px;
+    left: 140px;
+    opacity: 0;
+}
+
+/* Element: Golden Cheese
+-------------------------------*/
+#cheddartown-img-cheese {
+    z-index: 100;
+    width: 45px;
+    top: 390px;
+    left:190px;
+}
+
+/* Element: Full cheese
+-------------------------------*/
+#cheddartown-img-fullcheese {
+    width: 40px;
+    left: 1225px;
+    top: 7px;
+    opacity: 0;
+    z-index: 100;
+}
+
+/* Element: Control panel
+-------------------------------*/
+#cheddartown-img-controlpanel {
+    width: 1280px;
+    bottom: 0px;
+}
+
+/* Element: Sledge
+-------------------------------*/
+#cheddartown-img-sledge {
+    width:100px;
+    bottom:235px;
+    z-index: 1000;
+}
+
+/* Element: Snowman:hover
+-------------------------------*/
+#cheddartown-img-snowman:hover {
+    transform: rotate(90deg);
+}
+
+#cheddartown-btnStart, #cheddartown-btnGetCheese, #cheddartown-btnSledge {
+    display: none;
+}
+
+#cheddartown-btnStart:checked ~ label > #cheddartown-img-snowmobile {
+    animation: cheddartown-animation-snowmobile 10s linear 0s 1 forwards;
+}
+
+#cheddartown-btnSledge:checked ~ label > #cheddartown-img-sledge {
+    animation: cheddartown-animation-sledge 10s linear 0s 1 forwards;
+}
+
+#cheddartown-btnGetCheese:checked ~ label > #cheddartown-img-cheese {
+    animation-name: cheddartown-animation-cheese; 
+    animation-duration:  2s;
+    animation-timing-function: linear; 
+    animation-delay: 0s; 
+    animation-fill-mode: forwards;
+}
+
+#cheddartown-btnGetCheese:checked ~ label > #cheddartown-img-fullcheese {
+    animation-name: cheddartown-animation-fullcheese; 
+    animation-duration: 1s; 
+    animation-timing-function: linear; 
+    animation-delay: 2s; 
+    animation-fill-mode: forwards;
+}
+
+#cheddartown-btnGetCheese:checked ~ label > #cheddartown-img-arrow {
+    animation: cheddartown-animation-arrow 1s infinite 2s;
 }
 
 /* ===============================================================
@@ -1496,6 +1624,79 @@ Animations
     100% {
         top: 70px;
         opacity: 1;
+    }
+}
+
+/* Animation: Snowmobile
+-------------------------------*/
+@keyframes cheddartown-animation-snowmobile {
+    100% {
+      left: 2500px;
+    }
+}
+
+/* Animation: Cheese
+-------------------------------*/
+@keyframes cheddartown-animation-cheese {
+    100% {
+      top: 12px;
+      left: 1154px;
+    }
+}
+
+/* Animation: Full cheese
+-------------------------------*/
+@keyframes cheddartown-animation-fullcheese {
+    100% {
+      opacity: 1;
+    }
+}
+
+/* Animation: Snow
+-------------------------------*/
+@keyframes cheddartown-animation-snow {
+    0%{
+      background-position: 0px 0px;
+    }
+    100% {
+      background-position: 100px 64px;
+    }
+}
+
+/* Animation: Arrow
+-------------------------------*/
+@keyframes cheddartown-animation-arrow {
+    0% {
+        top: 70px;
+        opacity: 1;
+    }
+    50% {
+        top: 80px;
+    }
+    100% {
+        top: 70px;
+        opacity: 1;
+    }
+}
+
+/* Animation: Sledge
+-------------------------------*/
+@keyframes cheddartown-animation-sledge {
+    0% {
+        right:0px;
+        bottom:235px;
+    }
+    25% {
+        bottom:1280px;
+    }
+    50% {
+        right:900px; 
+        bottom:220px;
+        transform: rotate(30deg);
+    }
+    100% {
+        right: 1280px; 
+        bottom:500px; 
     }
 }
 

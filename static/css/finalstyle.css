@@ -18,7 +18,7 @@ input {
 
 /* Static: Container
 -------------------------------*/
-.bluecheesecity-container {
+.container {
     margin: auto;
     width: 1280px;
     height: 720px;
@@ -26,7 +26,7 @@ input {
     overflow: hidden;
 }
 
-.bluecheesecity-container * {
+.container * {
     position: absolute;
 }
 
@@ -38,24 +38,6 @@ input {
     height: 720px;
 }
 
-
-/* Static: fonts
--------------------------------*/
-@font-face {
-    font-family: 'Glyphicons Halflings';
-    src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot');
-    src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}
-
-.glyphicon {
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: normal;
-}
-
 /* ===============================================================
 NAVIGATION
 ===============================================================
@@ -64,7 +46,7 @@ NAVIGATION
 
 /* Navigation: Container
 -------------------------------*/
-.bluecheesecity-nav-container {
+.nav-container {
     width: 100%;
     height: 8%;
     background-color: #413746;
@@ -75,7 +57,7 @@ NAVIGATION
 
 /* Navigation: Buttons
 -------------------------------*/
-.bluecheesecity-nav-buttons {
+.nav-buttons {
     width: 17%;
     height: 98%;
     margin-top: 0;
@@ -83,18 +65,18 @@ NAVIGATION
     padding: 1px;
 }
 
-.bluecheesecity-nav-buttons input {
+.nav-buttons input {
     margin-top: 8px;
     margin-left: 10px;
     font-size: 14px;
     padding: 0;
 }
 
-.bluecheesecity-nav-buttons input span {
+.nav-buttons input span {
     position: relative;
 }
 
-.bluecheesecity-nav-buttons #forward {
+.nav-buttons #forward {
     top: -1px;
     left: 98px;
     height: 40px;
@@ -106,12 +88,12 @@ NAVIGATION
     border-bottom-right-radius: 3px;
 }
 
-.bluecheesecity-nav-buttons #forward:hover {
+.nav-buttons #forward:hover {
     background-color: #148b59;
     border-color: #138254;
 }
 
-.bluecheesecity-nav-buttons #backward {
+.nav-buttons #backward {
     top: 0px;
     left: 10px;
     height: 40px;
@@ -123,18 +105,18 @@ NAVIGATION
     border-bottom-left-radius: 3px;
 }
 
-.bluecheesecity-nav-buttons #backward:hover {
+.nav-buttons #backward:hover {
     background-color: #148b59;
     border-color: #138254;
 }
 
-.bluecheesecity-nav-buttons button:not(:last-child) {
+.nav-buttons button:not(:last-child) {
     border-right: 0;
 }
 
 /* Navigation: Progress
 -------------------------------*/
-.bluecheesecity-nav-progress {
+.nav-progress {
     width: auto;
     height: 112%;
     margin-left: 77%;
@@ -144,22 +126,22 @@ NAVIGATION
     margin-top: -7px;
 }
 
-.bluecheesecity-nav-progress img {
+.nav-progress img {
     width: 45px;
     margin: 12px;
     padding: 0;
     position: relative;
 }
 
-.bluecheesecity-nav-progress #cheeseWheel {
+.nav-progress #cheeseWheel {
     width: 40px;
 }
 
-.bluecheesecity-nav-progress-notFound {
+.nav-progress-notFound {
     opacity: 0.2;
 }
 
-.bluecheesecity-nav-progress span {
+.nav-progress span {
     font-size: 30px;
     margin-top: 11px;
     margin-left: -8px;
@@ -169,7 +151,7 @@ NAVIGATION
 
 /* Navigation: Info block
 -------------------------------*/
-.bluecheesecity-nav-info {
+.nav-info {
     width: 57%;
     height: 65%;
     background-color: #FFA51E;
@@ -181,18 +163,16 @@ NAVIGATION
     margin-top: 4px;
 }
 
-.bluecheesecity-nav-info p {
+.nav-info p {
     font-size: 12px;
     color: #2D2832;
     margin: 0;
 }
 
-
 /* ===============================================================
 ELEMENTS
 ===============================================================
 */
-
 
 /* Element: Pigeon
 -------------------------------*/
@@ -316,7 +296,6 @@ ELEMENTS
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
 }
-
 
 /* ===============================================================
 Speech

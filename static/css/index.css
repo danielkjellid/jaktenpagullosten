@@ -32,6 +32,32 @@ button {
     height: 720px;
 }
 
+#mugg-background {
+    width: 1280px;
+    height: 720px;
+
+    opacity: 0;
+    animation:
+        fade-opacity 8s linear 0s forwards;
+}
+
+.main-danger-button {
+    transform: scale(0.6) translateX(350%) translateY(200%);
+}
+
+.main-play-again {
+    font-size: 64px;
+    width: 500px;
+
+    color: whitesmoke;
+
+    top: 250px;
+    left: 170px;
+
+    opacity: 0;
+    animation:
+        fade-opacity 3s linear 12s forwards;
+}
 
 /* Static: cities
 -------------------------------*/
@@ -41,15 +67,17 @@ button {
 }
 
 .goudavalley-sign {
-    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
+
+    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
 }
 
 .cheddartown-sign {
-    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
+    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
 }
 
 .parmaville-sign {
     transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
+
     z-index: 1;
 }
 
@@ -70,39 +98,36 @@ button {
     background-color: transparent;
 }
 
-.parma-glow {   
-    background-color: orange;
-    z-index: 0;
-    width: 150px;
-    height: 100px;
-
-    transform: translateX(20px) translateY(30px);
-}
-
-.bluecheesecity-sign:hover,
-.goudavalley-sign:hover,
-.cheddartown-sign:hover,
-.parmaville-sign:hover {
-    opacity: 1;
-}
-
 .bluecheesecity-sign-link {
     transform: scale(0.7) translateX(405%) translateY(179%) rotate(20deg);
+
+    animation:
+        sign-link-visible 1s linear 3s forwards;
 }
 
 .goudavalley-sign-link {
-    transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
+    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
+
+    animation:
+        sign-link-visible 1s linear 3s forwards;
 }
 
 .cheddartown-sign-link {
-    transform: scale(0.7) translateX(575%) translateY(170%) rotate(-10deg);
+    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
+
+    animation:
+        sign-link-visible 1s linear 3s forwards;
 }
 
 .parmaville-sign-link {
-    transform: scale(0.7) translateX(680%) translateY(315%) rotate(10deg);
+    transform: scale(0.7) translateX(550%) translateY(-10%) rotate(-15deg);
+
     z-index: 2;
 }
 
+.bluecheesecity-sign-link,
+.goudavalley-sign-link,
+.cheddartown-sign-link,
 .parmaville-sign-link {
     width: 200px;
     height: 200px;
@@ -198,18 +223,12 @@ NAVIGATION
     margin: 0;
 }
 
-.bigger-font {
-    font-size: 20px;
-    text-decoration: underline !important;
-    margin-left: -30px !important;
-}
-
 /* ===============================================================
 ELEMENTS
 ===============================================================
 */
 
-#textbubble {
+.textbubble {
     animation-name: anim-bubble-in;
     animation-duration: 1s;
     animation-timing-function: ease-in;
@@ -235,8 +254,7 @@ ELEMENTS
     text-align: center;
 }
 
-
-#textbubble .round {
+.textbubble .direction {
     transform: scale(-1);
     width: 0;
     height: 0;
@@ -256,12 +274,11 @@ ELEMENTS
     height: 720px;
 }
 
-
 #btnStart {
     display: none;
 }
 
-#btnStart:checked ~ label .bubble {
+#btnStart:checked ~ label .textbubble {
     animation-name: anim-bubble-out;
     animation-duration: 1s;
     animation-timing-function: ease-out;
@@ -270,11 +287,11 @@ ELEMENTS
     animation-fill-mode: none;
 }
 
-#btnStart:checked ~ label .metro-class {
+#btnStart:checked ~ label .metro-style {
     animation:
         anim-shake 0.25s ease-in 0s 16 none,
         anim-shrink 1s linear 4s 1 forwards,
-        anim-metro-first 6s ease-in 5s 1 forwards;
+        main-animation-metro-first 6s ease-in 5s 1 forwards;
 }
 
 #btnStart:checked ~ label .parmaville-sign {
@@ -282,13 +299,8 @@ ELEMENTS
 }
 
 #btnStart:checked ~ label .parmaville-sign-link {
-    display: block;
-    animation: sign-link-visible 1s linear 10s infinite;
-}
-
-#btnStart:checked ~ label .parma-glow {
     animation:
-    anim-pulsating-sign 1s linear 10s infinite;
+        sign-link-visible 1s linear 11s infinite;
 }
 
 #img-metro {
@@ -301,41 +313,60 @@ ELEMENTS
     bottom: -45px;
 }
 
-#metro {
+#metro-first {
     left: 170px;
     top: 440px;
     position: relative;
 }
+
+#metro-second {
+    left: 870px;
+    top: 170px;
+    transform: scale(0.35);
+    position: relative;
+
+    animation:
+        main-animation-metro-second 6s ease-in 1s 1 forwards;
+}
+
+#metro-third {
+    left: 620px;
+    top: 430px;
+    transform: scale(0.35);
+    position: relative;
+
+    animation:
+        main-animation-metro-third 6s ease-in 1s 1 forwards;
+}
+
+#metro-fourth {
+    left: 820px;
+    top: 430px;
+    transform: scale(0.35);
+    position: relative;
+
+    animation:
+        main-animation-metro-fourth 6s ease-in 1s 1 forwards;
+}
+
+#metro-last {
+    left: -200px;
+    top: 440px;
+    transform: scale(0.35);
+    position: relative;
+
+    animation:
+        main-animation-metro-last 10s ease-in 1s 1 forwards;
+}
+
 
 /* ===============================================================
 ANIMATIONS
 ===============================================================
 */
 
-/* Not in use */
-@keyframes anim-bounce {
-    0% {
-        transform: scale(0.35) translateY(0);
-    }
-
-    10% {
-        transform: scale(0.4) translateY(0);
-    }
-
-    30% {
-        transform: scale(0.5) translateY(-25px);
-    }
-
-    50% {
-        transform: scale(0.6) translateY(0);
-    }
-
-    100% {
-        transform: scale(0.35) translateY(0);
-    }
-}
-
-@keyframes anim-metro-first {
+/* Animation moving metro to first stop - Parmaville */
+@keyframes main-animation-metro-first {
     0% {
         transform: scale(0.35);
     }
@@ -362,6 +393,129 @@ ANIMATIONS
         left: 870px;
         top: 170px;
         transform: scale(0.35);
+    }
+}
+
+/* Animation moving metro to second stop - Blue Cheese City */
+@keyframes main-animation-metro-second {
+    0% {
+        transform: scale(0.35);
+    }
+
+    20% {
+        transform: scale(0.6);
+        left: 200px;
+        top: 400;
+    }
+
+    40% {
+        transform: scale(0.8);
+        left: 300px;
+        top: 600px;
+    }
+
+    60% {
+        transform: scale(0.9);
+        left: 600px;
+        top: 400px;
+    }
+
+    100% {
+        left: 620px;
+        top: 430px;
+        transform: scale(0.35);
+    }
+}
+
+/* Animation moving metro to third stop - Gouda Valley */
+@keyframes main-animation-metro-third {
+    0% {
+        transform: scale(0.35);
+    }
+
+    20% {
+        transform: scale(0.6);
+        left: 200px;
+        top: 400;
+    }
+
+    40% {
+        transform: scale(0.8);
+        left: 300px;
+        top: 600px;
+    }
+
+    60% {
+        transform: scale(0.9);
+        left: 600px;
+        top: 400px;
+    }
+
+    100% {
+        left: 820px;
+        top: 430px;
+        transform: scale(0.35);
+    }
+}
+
+/* Animation moving metro to fourth stop - Cheddar Town */
+@keyframes main-animation-metro-fourth {
+    0% {
+        transform: scale(0.35);
+    }
+
+    20% {
+        transform: scale(0.6);
+        left: 200px;
+        top: 400;
+    }
+
+    40% {
+        transform: scale(0.8);
+        left: 300px;
+        top: 600px;
+    }
+
+    60% {
+        transform: scale(0.9);
+        left: 600px;
+        top: 700px;
+    }
+
+    100% {
+        left: 940px;
+        top: 630px;
+        transform: scale(0.35);
+    }
+}
+
+@keyframes main-animation-metro-last {
+    0% {
+        transform: scale(0.6);
+    }
+
+    20% {
+        transform: scale(0.6);
+        left: 1500px;
+        top: 440px;
+    }
+
+    40% {
+        transform: scale(0.4);
+        left: -300px;
+        top: 220px;
+    }
+
+    60% {
+        transform: scale(0.2);
+        left: 1500px;
+        top: 330px;
+    }
+
+    100% {
+        left: 200px;
+        top: 630px;
+        transform: scale(0);
     }
 }
 
@@ -440,6 +594,21 @@ ANIMATIONS
 @keyframes sign-link-visible {
     100% {
         visibility: visible;
+        opacity: 1;
+    }
+}
+
+@keyframes fade-opacity {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
 

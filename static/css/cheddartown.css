@@ -1,89 +1,4 @@
 
-
-#sledge {
-
- height:100px;
- width:100px;
- right: 0px;
-bottom:90px;
-
-
-
-
-animation-name: moving-sledge;
-animation-duration: 10s;
-animation-delay: 1s;
-animation-iteration-count: infinite;
-animation-timing-function: linear;
-
-}
-
-@keyframes moving-sledge {
-0%{right:0px;bottom:100px;}
-25%{bottom:20px;}
-50%{right:1000px; bottom:0px; transform:}
-75%{bottom:20px; transform: rotate(50deg); }
-100%{right: 1280px; bottom:100px; }
-
-}
-
-#snow-man {
-
-height: 100px;
-width: 100px;
-right:200px; 
-top:450px;
-transition-property: all;
-transition-duration: 3s;
-transition-timing-function: linear;
-transition-delay: 1s;
-
-   z-index:10;
-}
-
-#snow-man:hover {
-transform: rotate(90deg);
-
-
-}
-#create-snow{
-    height: 10px;
-    width: 100px;
-    background-color:snow;
-     border-radius: 40%;
-    
-    top:240px;
-    left: 450px;
-    
-    transform: rotate(-20deg);
-    transition-property: all;
-    transition-duration: 3s;
-    transition-timing-function: linear;
-    transition-delay: 1s;
-    
-    z-index: 10;
-    }
-   div  #create-snow:hover{
-    top:200px;
- 
-    
-    }
-    #create-snow:hover #chesse{
-display: block;
-    }
- 
-
-#chesse {
-height: 50px;;
-width: 50px;
-top: 0px;
-left:50px;
-display:none; 
-
-}
-
-
-
 /* ===============================================================
 Static
 ===============================================================
@@ -95,9 +10,26 @@ body {
 	margin: auto;
 }
 
-p, span, button {
+p,
+span,
+input {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
+/* Static: Container
+-------------------------------*/
+.bluecheesecity-container {
+    margin: auto;
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bluecheesecity-container * {
+    position: absolute;
+}
+
 
 /* Static: Container
 -------------------------------*/
@@ -111,10 +43,6 @@ p, span, button {
 
 .cheddartown-container *{
   position: absolute;
-}
-
-#cheddartown-snow-container {
-  top: 92%;
 }
 
 /* Static: background
@@ -160,52 +88,61 @@ NAVIGATION
 
 /* Navigation: Buttons
 -------------------------------*/
-
 .cheddartown-nav-buttons {
-  width: 17%;
-  height: 98%;
-  margin-top: 0;
-  border-right: 1px solid #bbb;
-  padding: 1px;
+    width: 17%;
+    height: 98%;
+    margin-top: 0;
+    border-right: 1px solid #bbb;
+    padding: 1px;
 }
 
-.cheddartown-nav-buttons button{
-  background-color: #1bb776;
-  border: 1px solid #138254; 
-  color: #fff; 
-  height: 40px;
-  width: 100px;
-  margin-top: 8px;
-  margin-left: 10px;
-  font-size: 14px;
-  padding: 0;
+.cheddartown-nav-buttons input {
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 0;
 }
 
-.cheddartown-nav-buttons button span{
-  position: relative;
+.cheddartown-nav-buttons input span {
+    position: relative;
 }
 
 .cheddartown-nav-buttons #forward {
-  top: 0;
-  left: 100px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+    top: 0px;
+    left: 100px;
+    height: 40px;
+    width: 90px;
+    background-color: #1bb776;
+    border: 1px solid #138254;
+    color: #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.cheddartown-nav-buttons #forward:hover {
+    background-color: #148b59;
+    border-color: #138254;
 }
 
 .cheddartown-nav-buttons #backward {
-  top: 0;
-  left: 0;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+    top: 0px;
+    left: 10px;
+    height: 40px;
+    width: 90px;
+    background-color: #1bb776;
+    border: 1px solid #138254;
+    color: #fff;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
-.cheddartown-nav-buttons button:not(:last-child){
-  border-right: 0;
+.cheddartown-nav-buttons #backward:hover {
+    background-color: #148b59;
+    border-color: #138254;
 }
 
-.cheddartown-nav-buttons button:hover {
-  background-color: #148b59;
-  border-color: #138254;
+.cheddartown-nav-buttons button:not(:last-child) {
+    border-right: 0;
 }
 
 /* Navigation: Progress
@@ -240,7 +177,7 @@ NAVIGATION
   font-size: 30px;
   margin-top: 11px;
   margin-left: -8px;
-  padding: 0; 
+  padding: 0;
 }
 
 /* Navigation: Info block
@@ -264,6 +201,31 @@ NAVIGATION
   margin: 0;
 }
 
+#btnStart, #btnGetCheese {
+  display: none; /* none */
+}
+
+#btnStart:checked ~ label > #img-snowMobile {
+  animation:
+  anim_snowMobile 10s linear 0.3s 1 forwards;
+}
+
+#btnGetCheese:checked ~ label > #img-cheese {
+  animation: anim-cheese 2s linear 0s forwards;
+}
+
+#btnGetCheese:checked ~ label > #img-fullcheese {
+  animation: cheddartown-animation-opacity 1s linear 2s forwards;
+}
+
+#btnGetCheese:checked ~ label > #cheddartown-element-arrow {
+    animation-name: cheddartown-animation-upAndDown, cheddartown-animation-opacity;
+    animation-duration: 3s, 10s;
+    animation-iteration-count: 3, 2;
+    animation-timing-function: ease-in-out, ease-out;
+    animation-delay: 2s, 3s;
+    animation-fill-mode: none, none;
+}
 
 /* ===============================================================
 ELEMENTS
@@ -272,47 +234,88 @@ ELEMENTS
 
 /* Element: Snowmobile
 -------------------------------*/
-#cheddartown-elenment-snowMobile {
-  height: 100px;
-  width:100px;
-  left:-100px;
-  bottom:100px;
-  animation-name: cheddartown-anomation-snowMobile;
-  animation-duration: 10s;
-  animation-delay: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+
+/* Element: Arrow
+-------------------------------*/
+#cheddartown-element-arrow {
+    width: 40px;
+    top: 60px;
+    left: 130px;
+    opacity: 0;
 }
 
 
-/* Element: Sledge
--------------------------------*/
+#img-cheese {
+  z-index: 1;
+  width: 45px;
+  top: 390px;
+  left:190px;
+}
 
+#img-snowMobile {
+  top: 343px;
+  left: 100px;
+  width: 250px;
+  z-index: 10;
+}
 
-/* Element: Snow man
--------------------------------*/
-
+#img-fullcheese {
+  width: 40px;
+  left: 1225px;
+  top: 7px;
+  opacity: 0;
+}
 
 /* Element: Snow
 -------------------------------*/
 #cheddartown-element-snow {
-  background: url("../img/cheddar_town/blue-snow-falling-md.png");
-  background-repeat: repeat; 
+  background: url("../img/cheddar_town/falling_snow.png");
+  background-repeat: repeat;
   width: 1280px;
   height: 720px;
   background-size: 50px;
   animation: cheddartown-animation-snow 15s linear infinite ;
-  z-index: 10;
+
  }
 
 /* Element: Control panel
 -------------------------------*/
-#cheddartown-elment-controlPanel{
+#cheddartown-controlPanel {
     width: 1280px;
     bottom: 0px;
-    z-index:10 ;
+}
+
+
+#sledge {
+
+height:100px;
+width:100px;
+right: 0px;
+bottom:235px;
+
+animation-name: moving-sledge;
+animation-duration: 10s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
 
 }
+
+#snow-man {
+height: 100px;
+width: 100px;
+right:200px;
+top:300px;
+transition-property: all;
+transition-duration: 1.5s;
+transition-timing-function: ease-in;
+transition-delay: 0.5s;
+}
+
+#snow-man:hover {
+transform: rotate(90deg);
+}
+
 
 /* ===============================================================
 Animations
@@ -321,27 +324,24 @@ Animations
 
 /* Animation: SnowMobile
 -------------------------------*/
-@keyframes cheddartown-anomation-snowMobile {
-  0% {
-    left:-100;bottom: 100px;
-  }
-  25% {
-    bottom: 50px;
-  }
-  50% {
-    transform:rotate(20deg); 
-    left:900px; 
-    bottom:0px; 
-  }
-  75% {
-    bottom:50px; 
-  }
+@keyframes anim_snowMobile {
   100% {
-    left:1380px;
-    bottom:100px;
-    transform:rotate(-30deg);  
+    left: 2500px;
   }
-} 
+}
+
+@keyframes anim-cheese {
+  100% {
+    top: 12px;
+    left: 1154px;
+  }
+}
+
+@keyframes cheddartown-animation-opacity {
+  100% {
+    opacity: 1;
+  }
+}
 
 @keyframes cheddartown-animation-snow {
     0%{
@@ -351,6 +351,30 @@ Animations
         background-position: 100px 64px;
     }
 }
+
+/* Animation: Up and down
+-------------------------------*/
+@keyframes cheddartown-animation-upAndDown {
+    0% {
+        top: 60px;
+    }
+    50% {
+        top: 80px;
+    }
+    100% {
+        top: 60px;
+    }
+}
+
+
+@keyframes moving-sledge {
+0%{right:0px;bottom:235px;}
+25%{bottom:1280px;}
+50%{right:900px; bottom:220px; transform: rotate(30deg)}
+
+100%{right: 1280px; bottom:500px; }
+}
+
 
 
      

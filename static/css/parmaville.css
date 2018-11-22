@@ -1,12 +1,12 @@
 /* ===============================================================
-                            PARMAVILLE 
+                            PARMAVILLE
 ================================================================ */
 
-/* GylfIcon ---------------------------------------------------- */
+/* GylfIcon & Fonts ---------------------------------------------------- */
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot'); 
+  src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
@@ -20,13 +20,11 @@
   line-height: 1;
 }
 
-.glyphicon-arrow-left:before {
-  content: "\e091";
-} /*Brukt*/
-
-.glyphicon-arrow-right:before {
-  content: "\e092";
-} /*Brukt*/
+p,
+span,
+button {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
 
 /* Header ------------------------------------------------------ */
 
@@ -38,7 +36,9 @@
     z-index: 1;
 }
 
-.nav-buttons {
+/* Navigation: Buttons
+-------------------------------*/
+.parmaville-nav-buttons {
     width: 17%;
     height: 98%;
     margin-top: 0;
@@ -46,43 +46,53 @@
     padding: 1px;
 }
 
-.nav-buttons button{
-    background-color: #1bb776;
-    border: 1px solid #138254; 
-    color: #fff; 
-    height: 40px;
-    width: 100px;
-    margin-top: 7px;
+.parmaville-nav-buttons input {
+    margin-top: 8px;
     margin-left: 10px;
     font-size: 14px;
     padding: 0;
 }
 
-.nav-buttons button span{
-    position: relative !important;
+.parmaville-nav-buttons input span {
+    position: relative;
 }
 
-.nav-buttons #forward {
-    top: 0;
+.parmaville-nav-buttons #forward {
+    top: 0px;
     left: 100px;
+    height: 40px;
+    width: 90px;
+    background-color: #1bb776;
+    border: 1px solid #138254;
+    color: #fff;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
 
-.nav-buttons #backward {
-    top: 0;
-    left: 0;
+.parmaville-nav-buttons #forward:hover {
+    background-color: #148b59;
+    border-color: #138254;
+}
+
+.parmaville-nav-buttons #backward {
+    top: 0px;
+    left: 10px;
+    height: 40px;
+    width: 90px;
+    background-color: #1bb776;
+    border: 1px solid #138254;
+    color: #fff;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
 
-.nav-buttons button:not(:last-child){
-    border-right: 0;
-}
-
-.nav-buttons button:hover {
+.parmaville-nav-buttons #backward:hover {
     background-color: #148b59;
     border-color: #138254;
+}
+
+.parmaville-nav-buttons button:not(:last-child) {
+    border-right: 0;
 }
 
 .nav-progress {
@@ -114,7 +124,7 @@
     font-size: 30px;
     margin-top: 11px;
     margin-left: -8px;
-    padding: 0; 
+    padding: 0;
 }
 
 .nav-info {
@@ -130,15 +140,15 @@
 }
 
 .nav-info p {
-    font-size: 15px;
+    font-size: 13px;
     color: #2D2832;
     margin: 0;
     padding-top: 10px;
     padding-left: 10px;
 }
 
-/* ============================================================ 
-                         Main-container  
+/* ============================================================
+                         Main-container
 =============================================================== */
 
 #parmaville-body {
@@ -173,17 +183,37 @@
     width: 80px;
     bottom: 122px;
     left: 220px;
+    z-index: 2;
 }
 
-/* Speechbubble design ----------------------------------------- */
-.parmaville-speechbubble {
-    width: 100px;
-    height: 50px;
-    background-color: lemonchiffon;
-    border: 2px solid black;
+/* Textbubble design ----------------------------------------- */
+.parmaville-textbubble  {
+    width: 150px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #FFA51E;
+    border: 3px solid #2D2832;
+    opacity: 0;
     z-index: 10;
 }
 
+.parmaville-textbubble p {
+    z-index: 10;
+}
+
+.parmaville-speech-direction {
+    width: 0;
+    height: 0;
+    bottom: -17px;
+    right: 60px;
+    border: solid 20px rgba(255, 255, 255, 0);
+    border-left-color: rgb(255, 165, 30);
+}
+
+.parmaville-speech-direction-left {
+    transform: scaleX(-1);
+
+}
 
 /* Sheriff1 ---------------------------------------------------- */
 #parmaville-sheriff1 {
@@ -192,36 +222,28 @@
     right: 200px;
 }
 
-#parmaville-speechbubble-sheriff1 {
-    bottom: 200px;
-    right: 310px;
-    font-size: 12px;
-    text-align: center;
-    padding: 5px 5px 0px 5px;
-    border-radius: 10px 10px 0px 10px;
-    opacity: 0;
+#parmaville-textbubble-sheriff1 {
+    height: 70px;
+    bottom: 220px;
+    right: 230px;
 }
 
-#parmaville-speechbubble-mouse1 {
-    bottom: 70px;
-    right: 390px;
-    font-size: 12px;
-    text-align: center;
-    padding: 5px 5px 10px 5px;
-    border-radius: 10px 10px 10px 0px;
-    opacity: 0; 
+#parmaville-textbubble-mouse {
+    height: 70px;
+    bottom: 80px;
+    right: 350px;
 }
 
 #parmaville-sheriff1:hover {
     animation: sheriff1Moves 2s linear 0s infinite;
 }
 
-#parmaville-sheriff1:hover ~ #parmaville-speechbubble-sheriff1 {
+#parmaville-sheriff1:hover ~ #parmaville-textbubble-sheriff1 {
     opacity: 1;
     transition: all 0.5s linear 0s;
 }
 
-#parmaville-sheriff1:hover ~ #parmaville-speechbubble-mouse1 {
+#parmaville-sheriff1:hover ~ #parmaville-textbubble-mouse {
     opacity: 1;
     transition: all 0.5s linear 2s;
 }
@@ -249,23 +271,20 @@
     width: 150px;
     bottom: 100px;
     left: 300px;
+    z-index: 2;
 }
 
-#parmaville-speechbubble-sheriff2 {
-    bottom: 200px;
-    left: 420px;
-    font-size: 12px;
-    text-align: center;
-    padding: 5px 5px 10px 5px;
-    border-radius: 10px 10px 10px 0px;
-    opacity: 0;
+#parmaville-textbubble-sheriff2 {
+    height: 60px;
+    bottom: 220px;
+    left: 340px;
 }
 
 #parmaville-sheriff2:hover {
     animation: sheriff2Moves 2s linear 0s infinite;
 }
 
-#parmaville-sheriff2:hover ~ #parmaville-speechbubble-sheriff2 {
+#parmaville-sheriff2:hover ~ #parmaville-textbubble-sheriff2 {
     opacity: 1;
     transition: all 0.5s linear 0s;
 }
@@ -291,24 +310,110 @@
 /* Horse ------------------------------------------------------ */
 #parmaville-horse {
     width: 150px;
-    bottom: 160px;
-    left: 500px;
+    top: 445px;
+    left: 600px;
+}
+
+#parmaville-textbubble-horse {
+    height: 60px;
+    top: 370px;
+    left: 510px;
+}
+
+#parmaville-horse:hover ~ #parmaville-textbubble-horse{
+    opacity: 1;
+    transition: all 0.5s linear 0s;
+}
+
+#parmaville-horse-click {
+    opacity: 0;
+}
+
+#parmaville-horse-click:checked ~ .parmaville-label-horse #parmaville-horse {
+    animation: horseMoves 5s linear 0s forwards;
+}
+
+#parmaville-horse-click:checked ~ .parmaville-label-horse #parmaville-textbubble-horse {
+    opacity: 0;
+    transition: all 0s linear 0s;
+}
+
+@keyframes horseMoves {
+    0%{
+        left: 600px;
+        transform: rotate(0deg);
+    }
+    10%{
+        left: 525px;
+        transform: rotate(10deg);
+    }
+    20%{
+        left: 450px;
+        transform: rotate(0deg);
+    }
+    30%{
+        left: 375px;
+        transform: rotate(10deg);
+    }
+    40%{
+        left: 300px;
+        transform: rotate(0deg);
+    }
+    50%{
+        left: 225px;
+        transform: rotate(10deg);
+    }
+    60%{
+        left: 150px;
+        transform: rotate(0deg);
+    }
+    70%{
+        left: 75px;
+        transform: rotate(10deg);
+    }
+    80%{
+        left: 0px;
+        transform: rotate(0deg);
+    }
+    90%{
+        left: -75px;
+        transform: rotate(10deg);
+    }
+    100%{
+        left: -150px;
+        transform: rotate(0deg);
+    }
 }
 
 /* Vulture ---------------------------------------------------- */
-#parmaville-standing-vulture {
+#parmaville-vulture {
     width: 100px;
-    top: 100px;
-    right: 450px;
+    top: 50px;
+    left: 100px;
+    animation: vultureMoves 10s linear 0s infinite;
 }
 
-#parmaville-flying-vulture {
-    width: 100px;
-    top: 100px;
-    right: 550px;
+@keyframes vultureMoves {
+    0%{
+        top: 50px;
+        left: -100px;
+    }
+    25%{
+        top: 100px;
+    }
+    50%{
+        top: 150px;
+    }
+    75%{
+        top: 100px;
+    }
+    100%{
+        top: 50px;
+        left: 1280px;
+    }
 }
 
-/* Tresure chest ----------------------------------------------- */
+/* Tresure chest with cheese sequence ---------------------------- */
 #parmaville-chest {
     width: 100px;
     height: 100px;
@@ -331,6 +436,17 @@
     bottom: 55px;
 }
 
+#parmaville-textbubble-hidden-cheese {
+    height: 55px;
+    bottom: 20px;
+    left: 110px;
+}
+
+#parmaville-chest:hover #parmaville-textbubble-hidden-cheese {
+    opacity: 1;
+    transition: all 0.5s linear 1s;
+}
+
 #parmaville-hidden-cheese {
     width: 30px;
     bottom: -68px;
@@ -338,34 +454,52 @@
     opacity: 1;
 }
 
-#parmaville-speechbubble-hidden-cheese {
-    height: 40px;
-    bottom: -50px;
-    left: 110px;
-    font-size: 14px;
-    color: black;
-    text-align: center;
-    padding: 5px 5px 0px 5px;
-    border-radius: 10px 10px 10px 0px;
+#parmaville-cheese-found {
     opacity: 0;
 }
 
-#parmaville-hidden-cheese:hover ~ #parmaville-speechbubble-hidden-cheese {
-    opacity: 1;
+#parmaville-cheese-found:checked ~ .parmaville-label-cheese #parmaville-hidden-cheese {
+    animation: parmaville-cheeseMoves 2s linear 0s forwards;
+    z-index: 10;
 }
 
-#cheese1:target {
-    opacity: 1;
+#parmaville-proceed-arrow {
+    top: -340px;
+    left: -640px;
+    opacity: 0;
 }
 
+#parmaville-cheese-found:checked ~ #parmaville-proceed-arrow {
+    animation: arrowUpAndDown 3s ease-in-out 3s infinite;
+}
 
+@keyframes parmaville-cheeseMoves {
+    0%{
+        bottom: -68px;
+        left: 35px;
+    }
+    100%{
+        width: 45px;
+        bottom: 364px;
+        left: 226px;
+    }
+}
 
+@keyframes arrowUpAndDown {
+    0% {
+        opacity: 1;
+        top: -340px;
+    }
+    50% {
+        top: -320px;
+    }
+    100% {
+        opacity: 1;
+        top: -340px;
+    }
+}
 
-
-
-
-
-/* ============================================================ 
-                        END Main-container  
+/* ============================================================
+                        END Main-container
 =============================================================== */
 

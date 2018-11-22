@@ -2,50 +2,62 @@
 <html>
     <head>
         <title>Cheddar Town</title>
-        <link rel="stylesheet" type="text/css" href="static/css/cheddartown.css">
+        <meta charset="UTF-8"/>
+        <meta description="Cheddar Town"/>
+        <meta author="Asad / Gruppe 9"/>
+        <link rel="stylesheet" type="text/css" href="static/css/cheddartown.css"/>
     </head>
-    
     <body>
         <article class="cheddartown-container">
-          <img id="cheddartown-background" src="static/img/cheddartown.jpg">
-          
+          <img id="cheddartown-background" src="static/img/cheddartown.jpg"/>
+          <div id="cheddartown-element-snow"></div>
+
           <header class="cheddartown-nav-container">
-			  <div class="cheddartown-nav-buttons">
-				  <button id="backward"><span class="glyphicon">&#xe091;</span> Go back</button>
-				  <button id="forward">Proceed <span class="glyphicon">&#xe092;</span></button>
-			  </div>
-			  <div class="cheddartown-nav-progress">
-				  <img src="static/img/ost.png">
-				  <span>+</span>
-				  <img class="cheddartown-nav-progress-notFound" src="static/img/ost.png">
-				  <span>+</span>
-				  <img class="cheddartown-nav-progress-notFound" src="static/img/ost.png">
-				  <span>=</span>
-				  <img class="cheddartown-nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png">
-				</div>
-				<div class="cheddartown-nav-info">
-				  <p>The cheese bits might be hidden under the different elements. Hover over them to search for the missing cheese bits, but watch out for hidden dangers in the big scary city!</p>
-				</div>
-            </header>
-          
-              <div id="cheddartown-element-snow">
-                <div id="cheddartown-snow-snowFalling"></div>
-              </div>
+			      <div class="cheddartown-nav-buttons">
+              <input type="button" value="Go Back" id="backward"/>
+              <a href="index-final.html"><input type="button" value="Proceed" id="forward"/></a>
+            </div>
+			      <div class="cheddartown-nav-progress">
+				      <img class="cheddartown-nav-progress-Found" src="static/img/ost.png"/>
+				      <span>+</span>
+				      <img class="cheddartown-nav-progress-Found" src="static/img/ost.png"/>
+				      <span>+</span>
+				      <img class="cheddartown-nav-progress-notFound" src="static/img/ost.png"/>
+				      <span>=</span>
+				      <img class="cheddartown-nav-progress-notFound" id="cheeseWheel" src="static/img/cheesewheel.png"/>
+				    </div>
+				    <div class="cheddartown-nav-info">
+				      <p>The cheese bits might be hidden under the different elements. Hover over them to search for the missing cheese bits, but watch out for hidden dangers in the big scary city!</p>
+			      </div>
+          </header>
 
-              <img id="cheddartown-elment-controlPanel"  src="static/img/mus-i-cockpit.png">
+          <img id="cheddartown-controlPanel" src="static/img/mus-i-cockpit.png"/>
 
-              <!-- Snowmobile sequence -->
-              <img id="cheddartown-elenment-snowMobile" src="static/img/cheddar_town/snow_horse_smk_800_snowmobile_by_ac710n87.png">
+          <!-- Snowmobile / cheese bit / full cheese sequence -->
+
+          <input type="checkbox" id="btnStart">
+            <label for="btnStart">
+              <img id="img-snowMobile" src="static/img/cheddar_town/snowmobile.png"/>
+            </label>
+          </input>
+
+          <input type="checkbox" id="btnGetCheese">
+            <label for="btnGetCheese">
+              <img id="cheddartown-element-arrow" src="static/img/arrow-up.png"/>
+              <img id="img-cheese" src="static/img/ost.png"/>
+              <img id="img-fullcheese" src="static/img/cheesewheel.png"/>
+            </label>
+          </input>
               <!-- Snowmobile sequence end -->
 
               <!-- Sledge sequence -->
-              <img  id="sledge"  src="static/img/cheddar_town/kisspng-santa-claus-sledding-snowman-clip-art-sledge-cliparts-5a889cf9e20071.0887599215189025219257.png">
+              <img  id="sledge" src="static/img/cheddar_town/sledge.png"/>
               <!-- Seldge sequence end -->
 
               <!-- Snow man sequence -->
-              <img id="snow-man"  src="static/img/cheddar_town/snowman-png-5.png"> 
+              <img id="snow-man" src="static/img/cheddar_town/snowman.png"/>
               <!-- Snow man sequence end -->
         </article>
 
-    </body>  
+    </body>
 </html>  

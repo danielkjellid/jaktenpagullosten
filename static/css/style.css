@@ -324,6 +324,7 @@ Speech
 */
 .textbubble {
     padding: 5px;
+    padding-bottom: 15px;
     opacity: 0;
     background-color: #FFA51E;
     border: 3px solid #2D2832;

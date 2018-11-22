@@ -4,15 +4,15 @@
         <title></title>
         <link rel="stylesheet" type="text/css" href="static/css/goudavalley.css">
     </head>
-	
+
     <body>
         <article class="goudavalley-container">
           <img id="goudavalley-background" src="static/img/goudavalley.jpg">
-          
+
           <header class="goudavalley-nav-container">
 			  <div class="goudavalley-nav-buttons">
-				  <button id="backward"><span class="glyphicon glyphicon-arrow-left"></span> Go back</button>
-				  <button id="forward">Proceed <span class="glyphicon glyphicon-arrow-right"></span></button>
+                   <input type="button" value="Go Back" id="backward"/>
+                    <a href="index-4.html"><input type="button" value="Proceed" id="forward"/></a>
 			  </div>
 			  <div class="goudavalley-nav-progress">
 				  <img src="static/img/ost.png">
@@ -27,28 +27,28 @@
                   <p>The cheese bits might be hidden under the different elements. Hover over them to search for the remaining cheese bits!</p>
               </div>
             </header>
-          
+
             <main>
                 <!-- Sheep sequence -->
                 <img id="goudavalley-sheep" src="static/img/gouda_valley/png-sheep-cartoon-big-image-png-2400.png">
-                <div class="goudavalley-speech-sheep-mouse" id="goudavalley-speech-sheep-mouse">
-                    <img src="static/img/bluecheesecity/speechbubble-left.png">
-                    <p>Hmm, no cheese bits here!</p>
+                <div id="sheep-text-bubble">
+                    <div id="sheep-direction"></div>
+                    <p>Hmm, no cheese bits in this sheeps wool!</p>
                 </div>
                 <!-- Sheep sequence end -->
 
                 <!-- Tractor sequence -->
                 <img id="goudavalley-tractor" src="static/img/gouda_valley/1224784818918522095yman_Little_Green_Tractor.svg.hi.png">
                 <!-- Tractor sequence end -->
-                
+
                 <!-- Golden Cheese sequence-->
                 <input type="checkbox" id="cheese-btnStart">
                 <label class="cheese-btn" for="cheese-btnStart">
                 <img class="goudavalley-golden-cheese" src="static/img/ost.png">
                 </label>
-                
+
                 <!-- Golden Cheese sequence end -->
-                
+
                 <!-- Rock sequence -->
                 <input type="checkbox" id="btnStart">
                 <label for="btnStart">
@@ -59,7 +59,7 @@
                     </div>
                 </label>
                 <!-- Rock sequence end-->
-                
+
             </main>
         </article>
     </body>

@@ -18,7 +18,7 @@
 
         <header class="main-nav-container">
             <div class="main-nav-progress">
-                <img class="main-nav-progress-Found" src="static/img/ost.png">
+                <img class="main-nav-progress-notFound" src="static/img/ost.png">
                 <span>+</span>
                 <img class="main-nav-progress-notFound" src="static/img/ost.png">
                 <span>+</span>
@@ -30,31 +30,30 @@
                 <p>Golden cheese bits are hidden in different cities around Planet Cheese. You need to help Ralphy find them! But be careful, there might be some dangers lurken around the corner!</p>
             </div>
         </header>
-        <main>
-            <div id="metro-third" class="metro-style">
+        <main>¨
+            <div id="metro-first" class="metro-style">
                 <img id="img-metro" src="static/img/metro.png">
 
                 <img id="img-mouse" src="static/img/mouse3.gif">
+                <div class="bubble textbubble">
+                    <!-- onClick audio attempt -- _really_ bad  -->
+                    <audio controls id="hidden1">
+                        <source src="static/sounds/train_whistle_small.mp3" type="audio/mp3">
+                    </audio>
+                    <audio controls id="hidden2">
+                        <source src="static/sounds/train_whistle_small.mp3" type="audio/mp3">
+                    </audio>
+                    <audio controls id="hidden3">
+                        <source src="static/sounds/train_whistle_small.mp3" type="audio/mp3">
+                    </audio>
+                    <audio controls id="hidden4">
+                        <source src="static/sounds/train_whistle_small.mp3" type="audio/mp3">
+                    </audio>
+                    <div class="direction"></div>
+                    <p>Thanks for the help against that pesky squirrel, friend! I finally have all my cheese bits again!<br><br>One thing before we leave this planet though..<br><br>Lets make their whole cheese planet go rotten!<br><br>Inject poision with the button!</p>
+                </div>
             </div>
-
-            <span class="bluecheesecity-sign">
-                <img src="static/img/bluecheesecity-sign.png">
-            </span>
-
-            <span class="cheddartown-sign">
-                <img src="static/img/cheddartown-sign.png">
-            </span>
-
-            <span class="goudavalley-sign">
-                <img src="static/img/goudavalley-sign.png">
-            </span>
-            <span class="goudavalley-sign-link">
-                <a href="goudavalley.html"><img src="static/img/goudavalley-sign.png"></a>
-            </span>
-
-            <span class="parmaville-sign">
-                <img src="static/img/parmaville-sign.png">
-            </span>
+            <a href="index-final-2.html"><img class="main-danger-button" src="static/img/danger_button.png"></a>
         </main>
     </article>
 </body>
